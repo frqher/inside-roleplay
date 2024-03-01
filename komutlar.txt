@@ -1,0 +1,44 @@
+Komutlar
+```
+/duty -- admin görevini açar
+/techpause -- oyunculara 10 dakika sonra planlı bakım olacağına dair bir uyarı atıyor
+/adom boyut fiyat -- bu sanırım interior oluşturuyor ( çalışmıyor sanırım )
+/checkplayer UID/İsim -- bu admin panelini açıyor
+/apanel -- aktif yetkilileri gösteren bir panel
+/cc -- sohbeti temizler
+/mute (ID/İsim) (miktar) (dakika/saat/gün) (sebep) -- mute atıyor
+/warn (ID/İsim) (sebep) -- uyarı veriyor
+/kick (ID/İsim) (sebep) -- kick atıyor
+/ban (ID/İsim) (miktar) (gün/ay/yıl) (sebep) -- ban atıyor
+/tpl (ID/İsim) (miktar) (gün/ay/yıl) (sebep) --  ehliyetine el koyuyor
+/resetMail (UID) (mail) -- hesabın mailini değiştiriyor
+/tp (ID/İsim) -- ışınlanma komutu
+/tphere (ID/İsim) -- oyuncuyu kendine ışınlama komudu
+/tpv (Araç ID) -- araca ışınlanma
+/tpvhere (Araç ID) -- aracı kendine ışınlanma
+/tvg (Araç ID) -- aracı park yerine ( garaja ışınlama ) ( yani yok etme gibi diyebiliriz, silmiyor ama ortadan kaldırıyor )
+/report (ID/İsim) (sebep) -- kişiyi şikayet etme
+/areport -- bu raporu kabul ediyor
+/reports -- yetkililerin rapor istatistiklerini gösteriyor
+/admins -- aktif yetkilileri gösteriyor
+/heal (ID/İsim) -- oyuncuyu iyileştirir
+/fuel -- bulunduğunuz araca 10 litre benzin ekliyor
+/jp -- admine jetpack veriyor
+/inv -- görünmez oluyorsun
+/int ( id ) -- interiorunu değiştiriyor
+/dim ( id ) -- dimensionunu değiştiriyor
+/spec (ID/İsim) -- oyuncuyu izler
+/cv (400-610 yani mta araç idleri) -- bu araç oluşturuyor ama interior ve dim özel olmalı yani dünyada oluşturamıyortsun
+/dcv -- özel int ve dimde oluşturduğun araçları siler
+/a ... -- bu admin chate yazı yazma örnek /a selamun aleyküm
+/info ... -- bu sunucuya duyuru atma komutu örnek /info dc gelin!
+/sevent -- bu etkinlik oluşturuyor /sevent (tür) -- komutu argümansız girince kullanımı anlatıyor
+/gp -- getpos
+/setslots -- bu slot ayarlıyor sanırım
+/setpasswd -- bu sunucunun şifreyi değiştiriyor
+/scene -- bu event ile alakalı sahne açıp kapatma ne işe yaradığını çözemedim
+/ctp (slot) -- bu istenilen slotta ışınlanma noktası oluşturuyor örnek veriyorum benim oyun adım alocyem /ctp 10 komutunu kullanırsam 10 slotluk bir tp noktası oluşturuyor 10 kişi /tpa alocyem diyerek oluşturduğum pozisyona ışınlanıyor
+/tpa (isim) -- bunu üstte anlattım
+/dtp -- ışınlanma yerini siliyor
+/reconnect -- bu yeniden bağlanma
+```
