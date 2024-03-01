@@ -1,0 +1,10 @@
+<meta>
+	<info author="panda" type="script" name="TR_starter" version="0.1.0" />
+
+	<script src="c.lua" type="client" cache="true"/>
+	<script src="s.lua" type="server" />
+
+    <file src="files/images/goggles.png" type="client" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

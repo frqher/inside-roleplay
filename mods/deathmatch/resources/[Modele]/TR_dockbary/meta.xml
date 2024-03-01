@@ -1,0 +1,5 @@
+<meta>
+	<script src="podmianki.lua" type="client" cache="false" />
+
+	<file src="dockbar.txd" />
+</meta>

@@ -1,0 +1,71 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_jobs" />
+
+	<script src="c.lua" type="client" cache="false" />
+	<script src="panel.lua" type="client" cache="false" />
+	<script src="numbers.lua" type="client" cache="false" />
+	<script src="animations.lua" type="client" cache="false" />
+
+	<script src="settings.lua" type="server" />
+
+	<script src="requests.lua" type="server" />
+	<script src="stretcher.lua" type="server" />
+	<script src="mechanic.lua" type="server" />
+	<script src="payments.lua" type="server"/>
+	<script src="s.lua" type="server" />
+
+	<script src="systems/licence.lua" type="client" cache="false" />
+	<script src="systems/ladder.lua" type="client" cache="false" />
+	<script src="systems/dashcam.lua" type="client" cache="false" />
+	<script src="systems/cuffs.lua" type="client" cache="false" />
+	<script src="systems/objects.lua" type="client" cache="false" />
+	<script src="systems/ticket.lua" type="client" cache="false" />
+	<script src="systems/firehose.lua" type="client" cache="false" />
+	<script src="systems/cushion.lua" type="client" cache="false" />
+	<script src="systems/events.lua" type="client" cache="false" />
+	<script src="systems/vehicleMap.lua" type="client" cache="false" />
+	<script src="systems/handSpeedCam.lua" type="client" cache="false" />
+	<script src="systems/towtruck.lua" type="client" cache="false" />
+	<script src="systems/gates.lua" type="server"/>
+	<script src="systems/s.lua" type="server"/>
+
+	<script src="vehicles.lua" type="server" />
+
+    <file src="files/images/remove.png" type="client" />
+    <file src="files/images/ladder.png" type="client" />
+    <file src="files/images/licences/licence.png" type="client" />
+
+    <file src="files/images/1228.png" type="client" />
+    <file src="files/images/1238.png" type="client" />
+    <file src="files/images/2899.png" type="client" />
+    <file src="files/images/3526.png" type="client" />
+    <file src="files/images/1856.png" type="client" />
+
+	<!-- SAFD -->
+    <file src="files/images/1428.png" type="client" />
+    <file src="files/images/1437.png" type="client" />
+    <file src="files/images/1650.png" type="client" />
+    <file src="files/images/2995.png" type="client" />
+    <file src="files/images/2996.png" type="client" />
+    <file src="files/images/2997.png" type="client" />
+    <file src="files/images/2999.png" type="client" />
+    <file src="files/images/3000.png" type="client" />
+
+    <file src="files/animations/dealer.ifp" type="client" />
+
+	<export function="setERSGoogles" type="client" />
+
+	<export function="plrTakeFireHose" type="client" />
+	<export function="plrTakeoutFireHose" type="client" />
+
+	<export function="changeDashcam" type="client" />
+	<export function="controlFireLadder" type="client" />
+	<export function="createFractionPanel" type="client" />
+
+	<export function="openTicketWindow" type="client" />
+
+	<export function="getFractionVehicles" type="server" />
+	<export function="addFractionCustomRequest" type="server" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

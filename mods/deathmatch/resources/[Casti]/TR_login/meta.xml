@@ -1,0 +1,43 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_login" />
+	<download_priority_group>-9999</download_priority_group>
+
+	<script src="c.lua" type="client" cache="false" />
+	<script src="spawn.lua" type="client" cache="false" />
+	<script src="s.lua" type="server" />
+
+	<file src="files/sound/login.mp3" type="client" />
+
+	<file src="files/images/logo.png" type="client" />
+	<file src="files/images/bg.jpg" type="client" />
+
+	<file src="files/images/banBg.png" type="client" />
+	<file src="files/images/nickSelect.png" type="client" />
+
+	<file src="files/images/person.png" type="client" />
+	<file src="files/images/key.png" type="client" />
+	<file src="files/images/email.png" type="client" />
+	<file src="files/images/code.png" type="client" />
+
+	<file src="files/images/sad.png" type="client" />
+
+	<file src="files/images/search.png" type="client" />
+	<file src="files/images/accept.png" type="client" />
+	<file src="files/images/decline.png" type="client" />
+
+	<file src="files/images/news/border.png" type="client" />
+	<file src="files/images/news/border_light.png" type="client" />
+	<file src="files/images/news/line.png" type="client" />
+	<file src="files/images/news/square.png" type="client" />
+
+	<file src="files/images/news/1.png" type="client" />
+	<file src="files/images/news/2.png" type="client" />
+	<file src="files/images/news/3.png" type="client" />
+	<file src="files/images/news/4.png" type="client" />
+
+	<export function="getRules" type="client" />
+	<export function="isSpawnSelectEnabled" type="client" />
+	<export function="updatePlayerOrganization" type="server" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

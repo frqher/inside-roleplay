@@ -1,0 +1,23 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_objectManager" />
+
+	<script src="hose_c.lua" type="client" />
+	<script src="texturing_c.lua" type="client" />
+	<script src="hose.lua" type="server" />
+	<script src="objects.lua" type="server" />
+	<script src="quit.lua" type="server" />
+
+	<file src="files/images/fuel.png" type="client" />
+	<file src="files/images/fire.png" type="client" />
+
+	<export function="createHose" type="client" />
+	<export function="removeHose" type="client" />
+	<export function="setHoseSmooth" type="client" />
+
+	<export function="attachObjectToBone" type="server" />
+	<export function="attachObjectToPlayer" type="server" />
+
+	<export function="removeObject" type="server" />
+
+  <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

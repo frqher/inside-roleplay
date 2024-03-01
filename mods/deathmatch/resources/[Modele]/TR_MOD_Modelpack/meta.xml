@@ -1,0 +1,65 @@
+<meta>
+    <script src="replace.lua" type="client" />
+
+    <file src="pumpkin.txd" />
+    <file src="pumpkin.dff" />
+    <file src="pumpkin.col" />
+
+    <file src="ramp.txd" />
+    <file src="ramp.dff" />
+    <file src="ramp.col" />
+
+    <file src="welder.txd" />
+    <file src="welder.dff" />
+    <file src="welder.col" />
+
+    <file src="dev_tool.txd" />
+    <file src="dev_tool.dff" />
+    <file src="dev_tool.col" />
+
+    <file src="dev_tool2.txd" />
+    <file src="dev_tool2.dff" />
+    <file src="dev_tool2.col" />
+
+    <file src="dev_tool3.txd" />
+    <file src="dev_tool3.dff" />
+    <file src="dev_tool3.col" />
+
+    <file src="tire.txd" />
+    <file src="tire.dff" />
+    <file src="tire.col" />
+
+    <file src="tire2.txd" />
+    <file src="tire2.dff" />
+    <file src="tire2.col" />
+
+    <file src="tools.txd" />
+    <file src="tools.dff" />
+    <file src="tools.col" />
+
+    <file src="kruton9000.txd" />
+    <file src="kruton9000.dff" />
+    <file src="kruton9000.col" />
+
+    <file src="choinka.txd" />
+    <file src="choinka.dff" />
+    <file src="choinka.col" />
+
+    <file src="prezenty.txd" />
+    <file src="prezenty.dff" />
+    <file src="prezenty.col" />
+
+    <file src="bench1.dff" />
+    <file src="bench1.col" />
+
+    <file src="chlights.txd" />
+    <file src="chlights.dff" />
+    <file src="chlights.col" />
+
+    <file src="snowmen.txd" />
+    <file src="snowmen.dff" />
+    <file src="snowmen.col" />
+
+
+
+</meta>

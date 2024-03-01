@@ -1,0 +1,5 @@
+<meta>
+    <file src="pomnik.txd" />
+    <file src="pomnik.dff" />
+    <script src="script.lua" type="client" />
+</meta>

@@ -1,0 +1,6 @@
+txd = engineLoadTXD ("pomnik.txd")
+engineImportTXD (txd, 10378 )
+-- col = engineLoadCOL ("BannerTR.col")
+-- engineReplaceCOL (col, 10378 )
+dff = engineLoadDFF ("pomnik.dff")
+engineReplaceModel (dff, 10378 )

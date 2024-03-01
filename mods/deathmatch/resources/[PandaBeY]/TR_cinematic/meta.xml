@@ -1,0 +1,9 @@
+<meta>
+	<info author="Xantris" name="Cinematic camera" description="Create cinematic camera to create epic videos." type="script" version="1.0.0" />
+	<script src="c.lua" type="client" />
+
+    <file src="files/images/camera.png" />
+    <file src="files/images/eye.png" />
+    <file src="files/images/curve.png" />
+    <file src="files/images/move.png" />
+</meta>

@@ -1,0 +1,46 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_noti" />
+
+	<script src="c.lua" type="client"/>
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/gps.png" type="client" />
+	<file src="files/images/info.png" type="client" />
+	<file src="files/images/error.png" type="client" />
+	<file src="files/images/success.png" type="client" />
+	<file src="files/images/password.png" type="client" />
+	<file src="files/images/animate.png" type="client" />
+	<file src="files/images/handshake.png" type="client" />
+	<file src="files/images/bike.png" type="client" />
+	<file src="files/images/system.png" type="client" />
+	<file src="files/images/heart.png" type="client" />
+	<file src="files/images/trade.png" type="client" />
+	<file src="files/images/penalty.png" type="client" />
+	<file src="files/images/repair.png" type="client" />
+	<file src="files/images/money.png" type="client" />
+	<file src="files/images/licence.png" type="client" />
+	<file src="files/images/job.png" type="client" />
+	<file src="files/images/noNetwork.png" type="client" />
+	<file src="files/images/parrot.png" type="client" />
+	<file src="files/images/gift.png" type="client" />
+	<file src="files/images/boat.png" type="client" />
+	<file src="files/images/carwash.png" type="client" />
+
+
+	<file src="files/sounds/noti.mp3" type="client" />
+	<file src="files/sounds/error.mp3" type="client" />
+
+	<export function="create" type="client" />
+	<export function="destroy" type="client" />
+	<export function="setText" type="client" />
+	<export function="setColor" type="client" />
+
+	<export function="setIconColor" type="client" />
+	<export function="setBarAnimation" type="client" />
+
+	<export function="create" type="server" />
+	<export function="destroy" type="server" />
+	<export function="setText" type="server" />
+	<export function="setColor" type="server" />
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

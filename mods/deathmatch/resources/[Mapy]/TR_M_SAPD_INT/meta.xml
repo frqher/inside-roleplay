@@ -1,0 +1,24 @@
+<meta>
+    <info type="map" version="1.0.0"></info>
+    <min_mta_version client="1.5.7"></min_mta_version>
+    <map src="TR_M_Mapa_SAPD.map" dimension="6"></map>
+    <settings>
+        <setting name="#maxplayers" value="[ 128 ]"></setting>
+        <setting name="#useLODs" value="[ false ]"></setting>
+        <setting name="#gamespeed" value="[ 1 ]"></setting>
+        <setting name="#minplayers" value="[ 0 ]"></setting>
+        <setting name="#gravity" value="[ 0.0080000004 ]"></setting>
+        <setting name="#waveheight" value="[ 0 ]"></setting>
+        <setting name="#locked_time" value="[ true ]"></setting>
+        <setting name="#weather" value="[ 12 ]"></setting>
+        <setting name="#time" value="12:0"></setting>
+    </settings>
+
+    <file src="board.png" type="client"/>
+    <file src="Charcoal.ttf" type="client"/>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+    <script src="safeGlass_c.lua" type="client" validate="false"></script>
+    <script src="shader_c.lua" type="client" validate="false"></script>
+    <script src="range_s.lua" type="server" validate="false"></script>
+</meta>

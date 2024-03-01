@@ -1,0 +1,37 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_vehicleSignals" version="0.1.0" />
+
+	<script src="c.lua" type="client" />
+
+	<file src="files/images/siren.png" type="client" />
+	<file src="files/images/siren_lights.png" type="client" />
+	<file src="files/images/lights.png" type="client" />
+	<file src="files/images/lightsBar.png" type="client" />
+
+	<file src="files/shaders/replace.fx" type="client" />
+
+	<file src="files/sounds/police/1.wav" type="client" />
+	<file src="files/sounds/police/2.wav" type="client" />
+	<file src="files/sounds/police/3.wav" type="client" />
+	<file src="files/sounds/police/horn.wav" type="client" />
+
+	<file src="files/sounds/swat/1.wav" type="client" />
+	<file src="files/sounds/swat/2.wav" type="client" />
+
+	<file src="files/sounds/policebike/1.wav" type="client" />
+	<file src="files/sounds/policebike/2.wav" type="client" />
+
+	<file src="files/sounds/fire/1.wav" type="client" />
+	<file src="files/sounds/fire/2.wav" type="client" />
+	<file src="files/sounds/fire/3.wav" type="client" />
+	<file src="files/sounds/fire/horn.wav" type="client" />
+
+	<file src="files/sounds/sleigh/sleigh.wav" type="client" />
+
+	<file src="files/sounds/ambulance/1.wav" type="client" />
+	<file src="files/sounds/ambulance/2.wav" type="client" />
+	<file src="files/sounds/ambulance/3.wav" type="client" />
+	<file src="files/sounds/ambulance/horn.wav" type="client" />
+
+	<export function="isGuiOpened" type="client" />
+</meta>

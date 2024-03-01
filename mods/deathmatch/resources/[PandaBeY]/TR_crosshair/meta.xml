@@ -1,0 +1,8 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_crosshair" />
+	<script src="c.lua" type="client"/>
+
+    <file src="files/poradnik.pdf" type="client" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

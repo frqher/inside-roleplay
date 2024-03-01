@@ -1,0 +1,563 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_models" />
+
+	<script src="settings.lua" type="shared" cache="false"/>
+	<script src="c.lua" type="client" cache="false"/>
+	<script src="s.lua" type="server" />
+
+    <file src="models/vehicles/firetruk.icol" />
+	<file src="models/vehicles/firetruk.idff" />
+    <file src="models/vehicles/firela.icol" />
+	<file src="models/vehicles/firela.idff" />
+    <file src="models/vehicles/cysterna.icol" />
+	<file src="models/vehicles/cysterna.idff" />
+
+	<file src="models/vehicles/barracks.icol" />
+	<file src="models/vehicles/barracks.idff" />
+	<file src="models/vehicles/patriot.icol" />
+	<file src="models/vehicles/patriot.idff" />
+	<file src="models/vehicles/rumpo.icol" />
+	<file src="models/vehicles/rumpo.idff" />
+
+    <file src="models/vehicles/shamal.icol" />
+	<file src="models/vehicles/shamal.idff" />
+
+    <file src="models/vehicles/copcarla.icol" />
+	<file src="models/vehicles/copcarla.idff" />
+    <file src="models/vehicles/copcarru.icol" />
+	<file src="models/vehicles/copcarru.idff" />
+    <file src="models/vehicles/copbike.icol" />
+	<file src="models/vehicles/copbike.idff" />
+    <file src="models/vehicles/swatvan.icol" />
+	<file src="models/vehicles/swatvan.idff" />
+    <file src="models/vehicles/enforcer.icol" />
+	<file src="models/vehicles/enforcer.idff" />
+
+	<file src="models/vehicles/ambulan.icol" />
+	<file src="models/vehicles/ambulan.idff" />
+
+	<file src="models/vehicles/burrito.icol" />
+	<file src="models/vehicles/burrito.idff" />
+
+	<file src="models/vehicles/fcr900.icol" />
+	<file src="models/vehicles/fcr900.idff" />
+	<file src="models/vehicles/manana.icol" />
+	<file src="models/vehicles/manana.idff" />
+	<file src="models/vehicles/bobcat.icol" />
+	<file src="models/vehicles/bobcat.idff" />
+	<file src="models/vehicles/perennial.icol" />
+	<file src="models/vehicles/perennial.idff" />
+	<file src="models/vehicles/clover.icol" />
+	<file src="models/vehicles/clover.idff" />
+	<file src="models/vehicles/moonbeam.icol" />
+	<file src="models/vehicles/moonbeam.idff" />
+	<file src="models/vehicles/picador.icol" />
+	<file src="models/vehicles/picador.idff" />
+	<file src="models/vehicles/sadler.icol" />
+	<file src="models/vehicles/sadler.idff" />
+	<file src="models/vehicles/tampa.icol" />
+	<file src="models/vehicles/tampa.idff" />
+	<file src="models/vehicles/vincent.icol" />
+	<file src="models/vehicles/vincent.idff" />
+
+	<file src="models/vehicles/alpha.icol" />
+	<file src="models/vehicles/alpha.idff" />
+	<file src="models/vehicles/blistac.icol" />
+	<file src="models/vehicles/blistac.idff" />
+	<file src="models/vehicles/comet.icol" />
+	<file src="models/vehicles/comet.idff" />
+	<file src="models/vehicles/flash.icol" />
+	<file src="models/vehicles/flash.idff" />
+	<file src="models/vehicles/sultan.icol" />
+	<file src="models/vehicles/sultan.idff" />
+	<file src="models/vehicles/sultansapd.icol" />
+	<file src="models/vehicles/sultansapd.idff" />
+	<file src="models/vehicles/buffalosapd.icol" />
+	<file src="models/vehicles/buffalosapd.idff" />
+
+	<file src="models/vehicles/admiral.icol" />
+	<file src="models/vehicles/admiral.idff" />
+	<file src="models/vehicles/blade.icol" />
+	<file src="models/vehicles/blade.idff" />
+	<file src="models/vehicles/glendale.icol" />
+	<file src="models/vehicles/glendale.idff" />
+	<file src="models/vehicles/majestic.icol" />
+	<file src="models/vehicles/majestic.idff" />
+	<file src="models/vehicles/oceanic.icol" />
+	<file src="models/vehicles/oceanic.idff" />
+	<file src="models/vehicles/primo.icol" />
+	<file src="models/vehicles/primo.idff" />
+	<file src="models/vehicles/tahoma.icol" />
+	<file src="models/vehicles/tahoma.idff" />
+	<file src="models/vehicles/washing.icol" />
+	<file src="models/vehicles/washing.idff" />
+	<file src="models/vehicles/willard.icol" />
+	<file src="models/vehicles/willard.idff" />
+
+	<file src="models/vehicles/buccaneer.icol" />
+	<file src="models/vehicles/buccaneer.idff" />
+	<file src="models/vehicles/emperor.icol" />
+	<file src="models/vehicles/emperor.idff" />
+	<file src="models/vehicles/greenwood.icol" />
+	<file src="models/vehicles/greenwood.idff" />
+	<file src="models/vehicles/intruder.icol" />
+	<file src="models/vehicles/intruder.idff" />
+	<file src="models/vehicles/stallion.icol" />
+	<file src="models/vehicles/stallion.idff" />
+	<file src="models/vehicles/sunrise.icol" />
+	<file src="models/vehicles/sunrise.idff" />
+	<file src="models/vehicles/flatbed.icol" />
+	<file src="models/vehicles/flatbed.idff" />
+	<file src="models/vehicles/tractor.icol" />
+	<file src="models/vehicles/tractor.idff" />
+	<file src="models/vehicles/TruckERS.icol" />
+	<file src="models/vehicles/TruckERS.idff" />
+	<file src="models/vehicles/utility.idff" />
+	<file src="models/vehicles/berkley.idff" />
+	<file src="models/vehicles/sentinelsapd.idff" />
+	<file src="models/vehicles/sentinelsapd.icol" />
+	<file src="models/vehicles/euros.idff" />
+	<file src="models/vehicles/euros.icol" />
+
+    <file src="models/buildings/taxiLS.idff" />
+
+    <file src="models/buildings/snpdmshfnc3_las.icol" />
+
+    <file src="models/buildings/nwspltbild1_las2.icol" />
+	<file src="models/buildings/nwspltbild2_las2.icol" />
+	<file src="models/buildings/nwspltbild1_las2.idff" />
+	<file src="models/buildings/nwspltbild1_las2.itxd" />
+
+	<file src="models/buildings/plot1_sfs.icol" />
+	<file src="models/buildings/plot1_sfs.idff" />
+	<file src="models/buildings/plot1_sfs.itxd" />
+
+	<file src="models/buildings/mechanicLV.icol" />
+	<file src="models/buildings/mechanicLV.idff" />
+	<file src="models/buildings/mechanicLV.itxd" />
+
+	<file src="models/buildings/parkingSAPDLV.icol" />
+	<file src="models/buildings/parkingSAPDLV.idff" />
+	<file src="models/buildings/parkingSAPDLV.itxd" />
+
+	<file src="models/buildings/koszarySAPDLV.icol" />
+	<file src="models/buildings/koszarySAPDLV.idff" />
+	<file src="models/buildings/koszarySAPDLV.itxd" />
+
+	<file src="models/buildings/easterBasinMechanic.icol" />
+	<file src="models/buildings/easterBasinMechanic.idff" />
+	<file src="models/buildings/easterBasinMechanic.itxd" />
+
+	<file src="models/buildings/sfhospitalcrosswalk.icol" />
+	<file src="models/buildings/sfhospitalcrosswalk.idff" />
+	<file src="models/buildings/sfhospitalcrosswalk.itxd" />
+
+	<file src="models/buildings/sfhospital2.icol" />
+	<file src="models/buildings/sfhospital2.idff" />
+	<file src="models/buildings/sfhospital2.itxd" />
+
+	<file src="models/buildings/sfhospital.icol" />
+	<file src="models/buildings/sfhospital.idff" />
+	<file src="models/buildings/sfhospital.itxd" />
+
+	<file src="models/buildings/ce_brewery.icol" />
+	<file src="models/buildings/ce_brewery.idff" />
+	<file src="models/buildings/ce_brewery.itxd" />
+
+	<file src="models/buildings/8037.icol" />
+	<file src="models/buildings/8037.idff" />
+	<file src="models/buildings/8037.itxd" />
+
+	<file src="models/buildings/cyecunteground01.icol" />
+	<file src="models/buildings/cyecunteground01.idff" />
+	<file src="models/buildings/cyecunteground01.itxd" />
+
+	<file src="models/buildings/station_idle.icol" />
+	<file src="models/buildings/station_idle.idff" />
+	<file src="models/buildings/station_idle.itxd" />
+	<file src="models/buildings/station_idle_ground.icol" />
+
+	<file src="models/buildings/lib_street17.icol" />
+	<file src="models/buildings/lib_street17.idff" />
+	<file src="models/buildings/lib_street17.itxd" />
+
+	<file src="models/buildings/vehicle_showroom_LS.icol" />
+	<file src="models/buildings/vehicle_showroom_LS.idff" />
+	<file src="models/buildings/vehicle_showroom_LS.itxd" />
+	<file src="models/buildings/vehicle_showroom_LS_ground.icol" />
+
+	<file src="models/buildings/roads04_lan.idff" />
+	<file src="models/buildings/roads04_lan.icol" />
+
+	<file src="models/buildings/office.idff" />
+	<file src="models/buildings/office.icol" />
+	<file src="models/buildings/office.itxd" />
+
+	<file src="models/buildings/mechanicMarket.idff" />
+	<file src="models/buildings/mechanicMarket.icol" />
+	<file src="models/buildings/mechanicMarket.itxd" />
+
+	<file src="models/buildings/medicInterior.idff" />
+	<file src="models/buildings/medicInterior.icol" />
+	<file src="models/buildings/medicInterior.itxd" />
+
+	<file src="models/buildings/IntSAFD.idff" />
+	<file src="models/buildings/IntSAFD.icol" />
+	<file src="models/buildings/IntSAFD.itxd" />
+
+	<file src="models/buildings/sapd_ls_interior.idff" />
+	<file src="models/buildings/sapd_ls_interior.icol" />
+	<file src="models/buildings/sapd_ls_interior.itxd" />
+
+	<file src="models/buildings/bbobank.idff" />
+	<file src="models/buildings/bbobank.icol" />
+	<file src="models/buildings/bbobank.itxd" />
+
+	<file src="models/buildings/garage.idff" />
+	<file src="models/buildings/garage.icol" />
+	<file src="models/buildings/garage.itxd" />
+
+	<file src="models/buildings/laeexaminerbuild1.idff" />
+	<file src="models/buildings/laeexaminerbuild1.icol" />
+	<file src="models/buildings/laeexaminerbuild1.itxd" />
+	<file src="models/buildings/laeroad36.icol" />
+	<file src="models/buildings/laeroad36.itxd" />
+	<file src="models/buildings/laeroad38.icol" />
+	<file src="models/buildings/laeroad38.itxd" />
+
+
+	<file src="models/buildings/gaz23_law.icol" />
+	<file src="models/buildings/gaz25_law.icol" />
+	<file src="models/buildings/gaz25_law.idff" />
+	<file src="models/buildings/gaz25_law.itxd" />
+
+	<file src="models/buildings/snpedtedc_las.icol" />
+	<file src="models/buildings/nwwarhus.icol" />
+
+	<file src="models/objects/int3int_boxing30.itxd" />
+
+	<file src="models/objects/hos_trolley.idff" />
+	<file src="models/objects/hos_trolley_dow.icol" />
+	<file src="models/objects/hos_trolley_dow.itxd" />
+	<file src="models/objects/hos_trolley_up.icol" />
+	<file src="models/objects/hos_trolley_up.itxd" />
+
+
+	<file src="models/objects/wheel_lock.icol" />
+	<file src="models/objects/wheel_lock.idff" />
+
+	<!-- <file src="models/objects/insideLogo.icol" />
+	<file src="models/objects/insideLogo.idff" /> -->
+
+	<file src="models/objects/insideNews.icol" />
+	<file src="models/objects/insideNews.idff" />
+	<file src="models/objects/insideNews.itxd" />
+
+	<file src="models/objects/fuelValve.icol" />
+	<file src="models/objects/fuelValve.idff" />
+	<file src="models/objects/fuelValve.itxd" />
+
+	<file src="models/objects/safdLVGate.icol" />
+	<file src="models/objects/safdLVGate.idff" />
+	<file src="models/objects/safdLVGate.itxd" />
+
+	<file src="models/objects/sfHospitalGate.icol" />
+	<file src="models/objects/sfHospitalGate.idff" />
+	<file src="models/objects/sfHospitalGate.itxd" />
+
+	<file src="models/objects/cocaineTable.icol" />
+	<file src="models/objects/cocaineTable.idff" />
+	<file src="models/objects/cocaineTable.itxd" />
+
+	<file src="models/objects/weaponTable.icol" />
+	<file src="models/objects/weaponTable.idff" />
+	<file src="models/objects/weaponTable.itxd" />
+
+	<file src="models/objects/freightcrane1.itxd" />
+	<file src="models/objects/fractionCenterFlag.idff" />
+
+	<file src="models/objects/deskaSAFD.icol" />
+	<file src="models/objects/deskaSAFD.idff" />
+	<file src="models/objects/deskaSAFD.itxd" />
+	<file src="models/objects/namiotSAFD.icol" />
+	<file src="models/objects/namiotSAFD.idff" />
+	<file src="models/objects/namiotSAFD.itxd" />
+	<file src="models/objects/parawanSAFD.icol" />
+	<file src="models/objects/parawanSAFD.idff" />
+	<file src="models/objects/parawanSAFD.itxd" />
+	<file src="models/objects/potSAFD.icol" />
+	<file src="models/objects/potSAFD.idff" />
+	<file src="models/objects/potSAFD.itxd" />
+	<file src="models/objects/r1.icol" />
+	<file src="models/objects/r1.idff" />
+	<file src="models/objects/r1.itxd" />
+
+
+	<file src="models/objects/pole.icol" />
+	<file src="models/objects/pole.idff" />
+	<file src="models/objects/pole.itxd" />
+	<file src="models/objects/gas_sign.icol" />
+	<file src="models/objects/gas_sign.idff" />
+	<file src="models/objects/gas_sign.itxd" />
+	<file src="models/objects/distributor.icol" />
+	<file src="models/objects/distributor.idff" />
+	<file src="models/objects/distributor.itxd" />
+	<file src="models/objects/gas_pistol.icol" />
+	<file src="models/objects/gas_pistol.idff" />
+	<file src="models/objects/atm.icol" />
+	<file src="models/objects/atm.idff" />
+	<file src="models/objects/atm.itxd" />
+	<file src="models/objects/vehicle_sign.icol" />
+	<file src="models/objects/vehicle_sign.idff" />
+	<file src="models/objects/vehicle_sign.itxd" />
+	<file src="models/objects/ladderCol.icol" />
+	<file src="models/objects/ladderCol.idff" />
+	<file src="models/objects/ladderCol.itxd" />
+
+	<file src="models/objects/firegate.idff" />
+	<file src="models/objects/firegate.icol" />
+	<file src="models/objects/firegate.itxd" />
+
+
+	<file src="models/objects/fishingrod.icol" />
+	<file src="models/objects/fishingrod.idff" />
+
+	<file src="models/objects/rcflagx.idff" />
+	<file src="models/objects/rcflagy.idff" />
+
+	<file src="models/objects/computer.idff" />
+
+	<file src="models/objects/build.idff" />
+	<file src="models/objects/floor.itxd" />
+	<file src="models/objects/floor.icol" />
+	<file src="models/objects/wall.icol" />
+	<file src="models/objects/wall.itxd" />
+	<file src="models/objects/wall_door.icol" />
+	<file src="models/objects/wall_door.itxd" />
+	<file src="models/objects/floor_b.itxd" />
+	<file src="models/objects/floor_b.icol" />
+	<file src="models/objects/wall_b.icol" />
+	<file src="models/objects/wall_b.itxd" />
+	<file src="models/objects/wall_door_b.icol" />
+	<file src="models/objects/wall_door_b.itxd" />
+
+	<file src="models/objects/gasmask01.icol" />
+	<file src="models/objects/gasmask01.idff" />
+
+	<file src="models/objects/nto_b_l.icol" />
+	<file src="models/objects/nto_b_l.idff" />
+
+	<file src="models/objects/carter_trampoline.icol" />
+	<file src="models/objects/carter_trampoline.idff" />
+	<file src="models/objects/carter_trampoline.itxd" />
+
+	<file src="models/weapons/silenced.icol" />
+	<file src="models/weapons/silenced.idff" />
+	<file src="models/weapons/fire_ex.icol" />
+	<file src="models/weapons/fire_ex.idff" />
+
+	<file src="models/wheels/wheel.idff" />
+	<file src="models/wheels/1025.icol" />
+	<file src="models/wheels/1073.icol" />
+	<file src="models/wheels/1074.icol" />
+	<file src="models/wheels/1075.icol" />
+	<file src="models/wheels/1076.icol" />
+	<file src="models/wheels/1077.icol" />
+	<file src="models/wheels/1078.icol" />
+	<file src="models/wheels/1079.icol" />
+	<file src="models/wheels/1080.icol" />
+	<file src="models/wheels/1081.icol" />
+	<file src="models/wheels/1082.icol" />
+	<file src="models/wheels/1083.icol" />
+	<file src="models/wheels/1084.icol" />
+	<file src="models/wheels/1085.icol" />
+	<file src="models/wheels/1097.icol" />
+
+	<file src="models/roads/6118.idff" />
+	<file src="models/roads/6118.icol" />
+	<file src="models/roads/6118.itxd" />
+
+
+	<file src="models/skins/1.icol" />
+	<file src="models/skins/1.idff" />
+	<file src="models/skins/2.icol" />
+	<file src="models/skins/2.idff" />
+	<file src="models/skins/10.icol" />
+	<file src="models/skins/10.idff" />
+	<file src="models/skins/35.icol" />
+	<file src="models/skins/35.idff" />
+	<file src="models/skins/36.icol" />
+	<file src="models/skins/36.idff" />
+	<file src="models/skins/37.icol" />
+	<file src="models/skins/37.idff" />
+	<file src="models/skins/38.icol" />
+	<file src="models/skins/38.idff" />
+	<file src="models/skins/39.icol" />
+	<file src="models/skins/39.idff" />
+	<file src="models/skins/43.icol" />
+	<file src="models/skins/43.idff" />
+	<file src="models/skins/49.icol" />
+	<file src="models/skins/49.idff" />
+	<file src="models/skins/53.icol" />
+	<file src="models/skins/53.idff" />
+	<file src="models/skins/61.icol" />
+	<file src="models/skins/61.idff" />
+	<file src="models/skins/62.icol" />
+	<file src="models/skins/62.idff" />
+	<file src="models/skins/77.icol" />
+	<file src="models/skins/77.idff" />
+	<file src="models/skins/79.icol" />
+	<file src="models/skins/79.idff" />
+	<file src="models/skins/82.icol" />
+	<file src="models/skins/82.idff" />
+	<file src="models/skins/83.icol" />
+	<file src="models/skins/83.idff" />
+	<file src="models/skins/84.icol" />
+	<file src="models/skins/84.idff" />
+	<file src="models/skins/88.icol" />
+	<file src="models/skins/88.idff" />
+	<file src="models/skins/89.icol" />
+	<file src="models/skins/89.idff" />
+	<file src="models/skins/94.icol" />
+	<file src="models/skins/94.idff" />
+	<file src="models/skins/129.icol" />
+	<file src="models/skins/129.idff" />
+	<file src="models/skins/134.icol" />
+	<file src="models/skins/134.idff" />
+	<file src="models/skins/135.icol" />
+	<file src="models/skins/135.idff" />
+	<file src="models/skins/136.icol" />
+	<file src="models/skins/136.idff" />
+	<file src="models/skins/144.icol" />
+	<file src="models/skins/144.idff" />
+	<file src="models/skins/146.icol" />
+	<file src="models/skins/146.idff" />
+	<file src="models/skins/153.icol" />
+	<file src="models/skins/153.idff" />
+	<file src="models/skins/156.icol" />
+	<file src="models/skins/156.idff" />
+	<file src="models/skins/176.icol" />
+	<file src="models/skins/176.idff" />
+	<file src="models/skins/305.icol" />
+	<file src="models/skins/305.idff" />
+
+	<file src="models/skins/310.icol" />
+	<file src="models/skins/310.idff" />
+	<file src="models/skins/311.icol" />
+	<file src="models/skins/311.idff" />
+	<file src="models/skins/312.icol" />
+	<file src="models/skins/312.idff" />
+
+	<!-- Job skins -->
+	<file src="models/skins/298.icol" />
+	<file src="models/skins/298.idff" />
+	<file src="models/skins/304.icol" />
+	<file src="models/skins/304.idff" />
+
+	<!-- Pirate -->
+	<file src="models/skins/203.icol" />
+	<file src="models/skins/203.idff" />
+
+	<!-- Santa -->
+	<file src="models/skins/308.icol" />
+	<file src="models/skins/308.idff" />
+	<file src="models/skins/307.icol" />
+	<file src="models/skins/307.idff" />
+
+	<!-- Fraction Skins -->
+	<file src="models/skins/277.icol" />
+	<file src="models/skins/277.idff" />
+	<file src="models/skins/278.icol" />
+	<file src="models/skins/278.idff" />
+	<file src="models/skins/279.icol" />
+	<file src="models/skins/279.idff" />
+	<file src="models/skins/137.icol" />
+	<file src="models/skins/137.idff" />
+	<file src="models/skins/290.icol" />
+	<file src="models/skins/290.idff" />
+	<file src="models/skins/291.icol" />
+	<file src="models/skins/291.idff" />
+	<file src="models/skins/292.icol" />
+	<file src="models/skins/292.idff" />
+	<file src="models/skins/296.icol" />
+	<file src="models/skins/296.idff" />
+	<file src="models/skins/286.icol" />
+	<file src="models/skins/286.idff" />
+	<file src="models/skins/280.icol" />
+	<file src="models/skins/280.idff" />
+	<file src="models/skins/281.icol" />
+	<file src="models/skins/281.idff" />
+	<file src="models/skins/282.icol" />
+	<file src="models/skins/282.idff" />
+	<file src="models/skins/285.icol" />
+	<file src="models/skins/285.idff" />
+	<file src="models/skins/274.icol" />
+	<file src="models/skins/274.idff" />
+	<file src="models/skins/275.icol" />
+	<file src="models/skins/275.idff" />
+	<file src="models/skins/266.icol" />
+	<file src="models/skins/266.idff" />
+	<file src="models/skins/267.icol" />
+	<file src="models/skins/267.idff" />
+	<file src="models/skins/265.icol" />
+	<file src="models/skins/265.idff" />
+	<file src="models/skins/302.icol" />
+	<file src="models/skins/302.idff" />
+	<file src="models/skins/303.icol" />
+	<file src="models/skins/303.idff" />
+	<file src="models/skins/246.icol" />
+	<file src="models/skins/246.idff" />
+	<file src="models/skins/245.icol" />
+	<file src="models/skins/245.idff" />
+	<file src="models/skins/71.icol" />
+	<file src="models/skins/71.idff" />
+	<file src="models/skins/287.icol" />
+	<file src="models/skins/287.idff" />
+	<file src="models/skins/288.icol" />
+	<file src="models/skins/288.idff" />
+	<file src="models/skins/238.icol" />
+	<file src="models/skins/238.idff" />
+	<!-- <file src="models/skins/280.icol" /> -->
+	<!-- <file src="models/skins/280.idff" /> -->
+	<!-- <file src="models/skins/282.icol" /> -->
+	<!-- <file src="models/skins/282.idff" /> -->
+	<file src="models/skins/283.icol" />
+	<file src="models/skins/283.idff" />
+	<file src="models/skins/284.icol" />
+	<file src="models/skins/284.idff" />
+	<file src="models/skins/301.icol" />
+	<file src="models/skins/301.idff" />
+	<file src="models/skins/257.icol" />
+	<file src="models/skins/257.idff" />
+	<file src="models/skins/256.icol" />
+	<file src="models/skins/256.idff" />
+	<file src="models/skins/145.icol" />
+	<file src="models/skins/145.idff" />
+	<file src="models/skins/177.icol" />
+	<file src="models/skins/177.idff" />
+	<file src="models/skins/190.icol" />
+	<file src="models/skins/190.idff" />
+	<file src="models/skins/196.icol" />
+	<file src="models/skins/196.idff" />
+	<file src="models/skins/293.icol" />
+	<file src="models/skins/293.idff" />
+
+
+
+	<file src="models/signs/nop.idff" />
+	<file src="models/signs/nop.icol" />
+	<file src="models/signs/nop.itxd" />
+	<file src="models/signs/parking.idff" />
+	<file src="models/signs/parking.icol" />
+	<file src="models/signs/parking.itxd" />
+	<file src="models/signs/stop.idff" />
+	<file src="models/signs/stop.icol" />
+	<file src="models/signs/stop.itxd" />
+	<file src="models/signs/yield.idff" />
+	<file src="models/signs/yield.icol" />
+	<file src="models/signs/yield.itxd" />
+
+	<export function="loadModels" type="client" />
+
+  <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

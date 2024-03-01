@@ -1,0 +1,17 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_jail" />
+
+    <script src="settings.lua" type="shared" cache="false"/>
+    <script src="police.lua" type="client" cache="false"/>
+    <script src="c.lua" type="client" cache="false"/>
+	<script src="s.lua" type="server"/>
+
+	<file src="files/images/jail.png" type="client"/>
+
+	<export function="openPrisonTimer" type="client" />
+	<export function="isPlayerInPrizon" type="client" />
+
+	<export function="getFreePrizonPosition" type="server" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

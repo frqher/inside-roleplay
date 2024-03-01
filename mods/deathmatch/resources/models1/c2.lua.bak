@@ -1,0 +1,1 @@
+function decodeString(encrypt,data,key)	iprint(encrypt,key)end

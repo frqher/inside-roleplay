@@ -1,0 +1,10 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_plates" />
+
+	<script src="c.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/sa.png" type="client" />
+
+  <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

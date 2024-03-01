@@ -1,0 +1,21 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_gym" />
+	<script src="settings.lua" type="client"/>
+	<script src="c.lua" type="client"/>
+
+	<script src="exercises/treadmill.lua" type="client"/>
+	<script src="exercises/benchpress.lua" type="client"/>
+	<script src="exercises/bike.lua" type="client"/>
+
+	<script src="s.lua" type="server" />
+
+
+	<export function="buyTicket" type="client" />
+	<export function="canUseGym" type="client" />
+
+	<export function="startBikeWorkout" type="client" />
+	<export function="startTreadmillWorkout" type="client" />
+	<export function="startBenchPressWorkout" type="client" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

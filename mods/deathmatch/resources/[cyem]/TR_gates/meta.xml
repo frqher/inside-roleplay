@@ -1,0 +1,12 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_gates" version="0.1.0" />
+
+	<script src="settings.lua" type="shared" />
+	<script src="c.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+	<export function="getGatesModels" type="client" />
+
+	<export function="switchGate" type="server" />
+	<export function="createGate" type="server" />
+</meta>

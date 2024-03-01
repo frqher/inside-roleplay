@@ -1,0 +1,102 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_shaders" />
+
+	<script src="c_helper.lua" type="client" />
+	<script src="c_rtpool.lua" type="client" />
+	<script src="c_water.lua" type="client" />
+	<script src="c_sky.lua" type="client" />
+	<script src="c_palette.lua" type="client" />
+	<script src="c_detail.lua" type="client" />
+	<script src="c_vehicles.lua" type="client" />
+	<script src="c_rain.lua" type="client" />
+	<script src="c_effects.lua" type="client" />
+	<script src="settings.lua" type="client"/>
+
+	<file src="files/images/cube_env256.dds" />
+	<file src="files/images/smallnoise3d.dds" />
+
+	<file src="files/images/icons/beer.png" />
+	<file src="files/images/icons/marijuana.png" />
+
+	<file src="files/shaders/mta-helper.fx" />
+	<file src="files/shaders/water.fx" />
+	<file src="files/shaders/shader_dynamicSky2tropos.fx" type="client" />
+	<file src="files/shaders/shader_dynamicSky2stratos.fx" type="client" />
+	<file src="files/shaders/shader_dynamicSky2up.fx" type="client" />
+	<file src="files/shaders/shader_dynamicSky2bottom.fx" type="client" />
+	<file src="files/shaders/shader_dynamicSky2down.fx" type="client" />
+	<file src="files/shaders/shader_clear.fx" type="client" />
+	<file src="files/shaders/chromatic.fx" type="client" />
+	<file src="files/shaders/palette.fx" type="client" />
+	<file src="files/shaders/detail.fx" type="client" />
+	<file src="files/shaders/detail_dr.fx" type="client" />
+	<file src="files/shaders/detail_dr_n.fx" type="client" />
+	<file src="files/shaders/car_glass.fx" type="client" />
+	<file src="files/shaders/car_glass_layer.fx" type="client" />
+	<file src="files/shaders/car_paint.fx" type="client" />
+	<file src="files/shaders/car_paint_layer.fx" type="client" />
+	<file src="files/shaders/replace.fx" type="client" />
+	<file src="files/shaders/esotropiaH.fx" type="client" />
+	<file src="files/shaders/esotropiaV.fx" type="client" />
+	<file src="files/shaders/colors.fx" type="client" />
+	<file src="files/shaders/wobble.fx" type="client" />
+	<file src="files/shaders/shake.fx" type="client" />
+
+	<file src="files/images/enbpalette.bmp" type="client" />
+	<file src="files/images/skybox.dds" type="client" />
+	<file src="files/images/clouds.dds" type="client" />
+	<file src="files/images/clouds_normal.jpg" type="client" />
+	<file src="files/images/moon/0.png" type="client" />
+	<file src="files/images/moon/1.png" type="client" />
+	<file src="files/images/moon/10.png" type="client" />
+	<file src="files/images/moon/11.png" type="client" />
+	<file src="files/images/moon/12.png" type="client" />
+	<file src="files/images/moon/13.png" type="client" />
+	<file src="files/images/moon/14.png" type="client" />
+	<file src="files/images/moon/15.png" type="client" />
+	<file src="files/images/moon/16.png" type="client" />
+	<file src="files/images/moon/17.png" type="client" />
+	<file src="files/images/moon/18.png" type="client" />
+	<file src="files/images/moon/19.png" type="client" />
+	<file src="files/images/moon/2.png" type="client" />
+	<file src="files/images/moon/20.png" type="client" />
+	<file src="files/images/moon/3.png" type="client" />
+	<file src="files/images/moon/4.png" type="client" />
+	<file src="files/images/moon/5.png" type="client" />
+	<file src="files/images/moon/6.png" type="client" />
+	<file src="files/images/moon/7.png" type="client" />
+	<file src="files/images/moon/8.png" type="client" />
+	<file src="files/images/moon/9.png" type="client" />
+	<file src="files/images/transparent.png" type="client" />
+	<file src="files/images/color.png" type="client" />
+
+	<file src="files/dff/skybox_model.dff" type="client" />
+
+	<file src="files/txd/skybox_model.txd" type="client" />
+
+
+	<file src="files/images/details/detail04.png" type="client" />
+	<file src="files/images/details/detail22.png" type="client" />
+	<file src="files/images/details/detail29.png" type="client" />
+	<file src="files/images/details/detail35T.png" type="client" />
+	<file src="files/images/details/detail55.png" type="client" />
+	<file src="files/images/details/detail58.png" type="client" />
+	<file src="files/images/details/detail63.png" type="client" />
+	<file src="files/images/details/detail68.png" type="client" />
+	<file src="files/images/details/dirty.png" type="client" />
+
+	<export function="setWaterTexture" type="client" />
+	<export function="setDynamicSky" type="client" />
+	<export function="setPalette" type="client" />
+	<export function="setTextures" type="client" />
+	<export function="setVehicleReflexes" type="client" />
+	<export function="setRainTexture" type="client" />
+	<export function="setScreenEsotropia" type="client" />
+
+	<export function="setMarijuanaEffect" type="client" />
+	<export function="setXanaxEffect" type="client" />
+	<export function="setHeroinEffect" type="client" />
+	<export function="setCrackEffect" type="client" />
+
+    <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

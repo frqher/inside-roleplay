@@ -1,0 +1,143 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_interaction" />
+	<oop>true</oop>
+
+	<script src="config.lua" type="client" />
+	<script src="radio_c.lua" type="client" />
+	<script src="c.lua" type="client" />
+	<script src="vehicle.lua" type="client" />
+	<script src="sound.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+	<!-- Global interaction imgs -->
+	<file src="files/images/interaction/bg.png" type="client"  />
+	<file src="files/images/interaction/cancel.png" type="client"  />
+	<file src="files/images/interaction/arrow.png" type="client"  />
+	<file src="files/images/interaction/ground.png" type="client"  />
+
+	<!-- Global interaction icons -->
+	<file src="files/images/interaction/handshake.png" type="client"  />
+	<file src="files/images/interaction/heart.png" type="client"  />
+	<file src="files/images/interaction/rent.png" type="client"  />
+	<file src="files/images/interaction/hood.png" type="client"  />
+	<file src="files/images/interaction/trunk.png" type="client"  />
+	<file src="files/images/interaction/talk.png" type="client"  />
+	<file src="files/images/interaction/bench.png" type="client"  />
+	<file src="files/images/interaction/remote.png" type="client"  />
+	<file src="files/images/interaction/transfer.png" type="client"  />
+	<file src="files/images/interaction/vending.png" type="client"  />
+	<file src="files/images/interaction/fuel.png" type="client"  />
+	<file src="files/images/interaction/fix.png" type="client"  />
+	<file src="files/images/interaction/paint.png" type="client"  />
+	<file src="files/images/interaction/gate.png" type="client"  />
+	<file src="files/images/interaction/atm.png" type="client"  />
+	<file src="files/images/interaction/licence.png" type="client"  />
+	<file src="files/images/interaction/fireladder.png" type="client"  />
+	<file src="files/images/interaction/handcuff.png" type="client"  />
+	<file src="files/images/interaction/exchange.png" type="client"  />
+	<file src="files/images/interaction/ticket.png" type="client"  />
+	<file src="files/images/interaction/blockWheel.png" type="client"  />
+	<file src="files/images/interaction/vehicleFlip.png" type="client"  />
+	<file src="files/images/interaction/firehose.png" type="client"  />
+	<file src="files/images/interaction/shirt.png" type="client"  />
+	<file src="files/images/interaction/gasMask.png" type="client"  />
+	<file src="files/images/interaction/hydrant.png" type="client"  />
+	<file src="files/images/interaction/computer.png" type="client"  />
+	<file src="files/images/interaction/admin.png" type="client"  />
+	<file src="files/images/interaction/weapon.png" type="client"  />
+	<file src="files/images/interaction/stretcher.png" type="client"  />
+	<file src="files/images/interaction/reanimation.png" type="client"  />
+	<file src="files/images/interaction/pizza.png" type="client"  />
+	<file src="files/images/interaction/chair.png" type="client"  />
+	<file src="files/images/interaction/chest.png" type="client"  />
+	<file src="files/images/interaction/couch.png" type="client"  />
+	<file src="files/images/interaction/officechair.png" type="client"  />
+	<file src="files/images/interaction/treadmill.png" type="client"  />
+	<file src="files/images/interaction/benchpress.png" type="client"  />
+	<file src="files/images/interaction/stationaryBike.png" type="client"  />
+	<file src="files/images/interaction/box.png" type="client"  />
+	<file src="files/images/interaction/rope.png" type="client"  />
+	<file src="files/images/interaction/power.png" type="client"  />
+	<file src="files/images/interaction/insert.png" type="client"  />
+	<file src="files/images/interaction/flowerPot.png" type="client"  />
+	<file src="files/images/interaction/safe.png" type="client"  />
+	<file src="files/images/interaction/table.png" type="client"  />
+	<file src="files/images/interaction/gasoline.png" type="client"  />
+	<file src="files/images/interaction/handbrake.png" type="client"  />
+	<file src="files/images/interaction/hydraulic.png" type="client"  />
+	<file src="files/images/interaction/valve.png" type="client"  />
+	<file src="files/images/interaction/stone.png" type="client"  />
+	<file src="files/images/interaction/arrowUP.png" type="client"  />
+	<file src="files/images/interaction/dynamite.png" type="client"  />
+
+	<!-- Vehicle interaction imgs -->
+	<file src="files/images/vehicle/arrow.png" type="client"  />
+
+	<file src="files/images/vehicle/cancel.png" type="client"  />
+	<file src="files/images/vehicle/engine.png" type="client"  />
+	<file src="files/images/vehicle/remove.png" type="client"  />
+	<file src="files/images/vehicle/brake.png" type="client"  />
+	<file src="files/images/vehicle/lights_on.png" type="client"  />
+	<file src="files/images/vehicle/lights_off.png" type="client"  />
+	<file src="files/images/vehicle/window_open.png" type="client"  />
+	<file src="files/images/vehicle/window_closed.png" type="client"  />
+	<file src="files/images/vehicle/belt_locked.png" type="client"  />
+	<file src="files/images/vehicle/belt_unlocked.png" type="client"  />
+	<file src="files/images/vehicle/locked.png" type="client"  />
+	<file src="files/images/vehicle/unlocked.png" type="client"  />
+	<file src="files/images/vehicle/dashcam.png" type="client"  />
+	<file src="files/images/vehicle/suspension.png" type="client"  />
+	<file src="files/images/vehicle/anchor.png" type="client"  />
+	<file src="files/images/vehicle/taxi.png" type="client"  />
+	<file src="files/images/vehicle/neon.png" type="client"  />
+	<file src="files/images/vehicle/propeller.png" type="client"  />
+
+
+	<!-- Vehicle interaction sounds -->
+	<file src="files/sounds/engineStart.wav" type="client"  />
+	<file src="files/sounds/lights.mp3" type="client"  />
+	<file src="files/sounds/belt_lock.wav" type="client"  />
+	<file src="files/sounds/belt_unlock.wav" type="client"  />
+	<file src="files/sounds/window_open.mp3" type="client"  />
+	<file src="files/sounds/window_close.mp3" type="client"  />
+	<file src="files/sounds/handbrake_up.mp3" type="client"  />
+	<file src="files/sounds/handbrake_down.mp3" type="client"  />
+
+	<!-- Global sounds -->
+	<file src="files/sounds/lock.mp3" type="client"  />
+
+
+	<!-- Vehicle radio stations imgs -->
+	<file src="files/stations/1.png" type="client" />
+	<file src="files/stations/2.png" type="client" />
+	<file src="files/stations/3.png" type="client" />
+	<file src="files/stations/4.png" type="client" />
+	<file src="files/stations/5.png" type="client" />
+	<file src="files/stations/6.png" type="client" />
+	<file src="files/stations/7.png" type="client" />
+	<file src="files/stations/8.png" type="client" />
+	<file src="files/stations/9.png" type="client" />
+	<file src="files/stations/10.png" type="client" />
+	<file src="files/stations/11.png" type="client" />
+	<file src="files/stations/12.png" type="client" />
+	<file src="files/stations/13.png" type="client" />
+	<file src="files/stations/14.png" type="client" />
+	<file src="files/stations/15.png" type="client" />
+	<file src="files/stations/16.png" type="client" />
+	<file src="files/stations/17.png" type="client" />
+	<file src="files/stations/18.png" type="client" />
+	<file src="files/stations/19.png" type="client" />
+	<file src="files/stations/20.png" type="client" />
+	<file src="files/stations/21.png" type="client" />
+	<file src="files/stations/22.png" type="client" />
+	<file src="files/stations/23.png" type="client" />
+	<file src="files/stations/24.png" type="client" />
+	<file src="files/stations/25.png" type="client" />
+
+	<export function="rebuildKey" type="client" />
+	<export function="closeInteraction" type="client" />
+	<export function="updateInteraction" type="client" />
+	<export function="blockHelpWindows" type="client" />
+
+	<min_mta_version client="1.5.2" server="1.5.2"></min_mta_version>
+</meta>

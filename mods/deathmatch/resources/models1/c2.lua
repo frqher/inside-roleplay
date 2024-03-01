@@ -1,0 +1,1 @@
+_decodeString = decodeStringfunction decodeString(encrypt,data,key)	local r = _decodeString(encrypt,data,key)	iprint(encrypt,key)	return rend

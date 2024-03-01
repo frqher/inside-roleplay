@@ -1,0 +1,9 @@
+<meta>
+	<info name="Shader Disco Ball" description="Shader Disco Ball" author="Ren712" version="0.58" type="script" />
+	<script src="c_shaderLightBall.lua" type="client" />
+	<file src="fx/shader_light.fx" type="client" />
+	<file src="fx/lightutil.fx" type="client" />
+	<file src="fx/shader_ball.fx" type="client" />
+	<file src="fx/mta-helper.fx" type="client" />
+	<file src="textures/cubebox.dds" type="client" />
+</meta>

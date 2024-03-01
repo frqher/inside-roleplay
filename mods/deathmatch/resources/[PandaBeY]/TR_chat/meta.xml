@@ -1,0 +1,61 @@
+<meta>
+    <info author="Xantris" type="script" name="TR_chat" />
+    <download_priority_group>-1</download_priority_group>
+    
+    <script src="c.lua" type="client" cache="false" />
+    <script src="binds.lua" type="client" cache="false" />
+    
+    <script src="cmds.lua" type="server" />
+    <script src="s.lua" type="server" />
+    
+    
+    <file src="files/images/system.png" type="client" />
+    <file src="files/images/crown.png" type="client" />
+    <file src="files/images/diamond.png" type="client" />
+    <file src="files/images/fireman.png" type="client" />
+    <file src="files/images/police.png" type="client" />
+    <file src="files/images/doctor.png" type="client" />
+    <file src="files/images/npc.png" type="client" />
+    <file src="files/images/command.png" type="client" />
+    <file src="files/images/report.png" type="client" />
+    <file src="files/images/call.png" type="client" />
+    <file src="files/images/mask.png" type="client" />
+    <file src="files/images/diathermy.png" type="client" />
+    <file src="files/images/organization.png" type="client" />
+    <file src="files/images/megaphone.png" type="client" />
+    
+    <file src="files/images/chat.png" type="client" />
+    
+    <file src="files/images/man.png" type="client" />
+    <file src="files/images/star.png" type="client" />
+    
+    <file src="files/images/msg_received.png" type="client" />
+    <file src="files/images/msg_sent.png" type="client" />
+    
+    <file src="files/images/plus.png" type="client" />
+    <file src="files/images/delete.png" type="client" />
+    
+    
+    
+    <file src="files/sounds/pm.wav" type="client" />
+    
+    <export function="setChatBlockVisible" type="client" />
+    
+    <export function="blockPremium" type="client" />
+    
+    
+    <export function="createChat" type="client" />
+    
+    <export function="showCustomChat" type="client" />
+    <export function="setChatBlocked" type="client" />
+    <export function="setChatMessage" type="client" />
+    <export function="isChatOpened" type="client" />
+    <export function="setMinified" type="client" />
+    
+    <export function="showCustomMessage" type="client" />
+    
+    <export function="addCommand" type="server" />
+    <export function="hasPlayerMute" type="server" />
+    
+    <min_mta_version client="1.5.6-9.16361" />
+</meta>

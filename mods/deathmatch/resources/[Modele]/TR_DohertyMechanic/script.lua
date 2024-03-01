@@ -1,0 +1,6 @@
+txd = engineLoadTXD ("mechanic.txd")
+engineImportTXD (txd, 11326 )
+col = engineLoadCOL ("mechanic.col")
+engineReplaceCOL (col, 11326 )
+dff = engineLoadDFF ("mechanic.dff")
+engineReplaceModel (dff, 11326 )

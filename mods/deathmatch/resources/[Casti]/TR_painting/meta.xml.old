@@ -1,0 +1,18 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_painting" />
+
+	<script src="settings.lua" type="shared" />
+	<script src="c.lua" type="client" />
+	<script src="accept.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/blank.png" type="client" />
+	<file src="files/images/cursor.png" type="client" />
+	<file src="files/images/h.png" type="client" />
+	<file src="files/images/sv.png" type="client" />
+
+	<export function="createPainting" type="client" />
+	<export function="canBePainted" type="client" />
+
+  <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

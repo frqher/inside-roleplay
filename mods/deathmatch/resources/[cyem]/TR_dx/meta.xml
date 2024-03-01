@@ -1,0 +1,99 @@
+<meta>
+    <info author="Xantris" type="script" name="TR_dx" />
+    <download_priority_group>9999</download_priority_group>
+    
+    <script src="c.lua" type="client" cache="false" />
+    <script src="pasting.lua" type="client" cache="false" />
+    <script src="s.lua" type="server" />
+    
+    <script src="elements/button.lua" type="client" cache="false" />
+    <script src="elements/editbox.lua" type="client" cache="false" />
+    <script src="elements/switch.lua" type="client" cache="false" />
+    <script src="elements/checkbox.lua" type="client" cache="false" />
+    <script src="elements/scrollbar.lua" type="client" cache="false" />
+    <script src="elements/response.lua" type="client" cache="false" />
+    <script src="elements/loading.lua" type="client" cache="false" />
+    
+    <file src="files/fonts/default.ttf" type="client" />
+    <file src="files/fonts/myriadBold.ttf" type="client" />
+    <file src="files/fonts/myriadLight.ttf" type="client" />
+    <file src="files/fonts/opensansSemi.ttf" type="client" />
+    <file src="files/fonts/opensansRegular.ttf" type="client" />
+    
+    <file src="files/sound/loading.mp3" type="client" />
+    
+    <file src="files/images/logo.png" type="client" />
+    <file src="files/images/loadings/1.png" type="client" />
+    <file src="files/images/loadings/2.png" type="client" />
+    <file src="files/images/loadings/3.png" type="client" />
+    
+    <file src="files/images/caps.png" type="client" />
+    <file src="files/images/show.png" type="client" />
+    <file src="files/images/hide.png" type="client" />
+    <file src="files/images/checkbox_bg.png" type="client" />
+    <file src="files/images/checkbox_check.png" type="client" />
+    <file src="files/images/switch_circle.png" type="client" />
+    <file src="files/images/loading.png" type="client" />
+    
+    <export function="getFont" type="client" />
+    <export function="getBoldFont" type="client" />
+    
+    <export function="createButton" type="client" />
+    <export function="destroyButton" type="client" />
+    <export function="setButtonText" type="client" />
+    <export function="showButton" type="client" />
+    <export function="hideButton" type="client" />
+    <export function="setButtonVisible" type="client" />
+    
+    <export function="createEdit" type="client" />
+    <export function="destroyEdit" type="client" />
+    <export function="showEdit" type="client" />
+    <export function="hideEdit" type="client" />
+    <export function="setEditVisible" type="client" />
+    <export function="setEditText" type="client" />
+    <export function="setEditLimit" type="client" />
+    <export function="setEditFontSize" type="client" />
+    <export function="isEditEnabled" type="client" />
+    <export function="setEditImage" type="client" />
+    
+    <export function="createCheck" type="client" />
+    <export function="destroyCheck" type="client" />
+    <export function="showCheck" type="client" />
+    <export function="hideCheck" type="client" />
+    <export function="setCheckGroup" type="client" />
+    <export function="setCheckVisible" type="client" />
+    <export function="isCheckSelected" type="client" />
+    <export function="setCheckSelected" type="client" />
+    
+    <export function="createSwitch" type="client" />
+    <export function="destroySwitch" type="client" />
+    <export function="showSwitch" type="client" />
+    <export function="hideSwitch" type="client" />
+    <export function="setSwitchVisible" type="client" />
+    <export function="isSwitchSelected" type="client" />
+    <export function="setSwitchSelected" type="client" />
+    
+    <export function="createScroll" type="client" />
+    <export function="destroyScroll" type="client" />
+    <export function="showScroll" type="client" />
+    <export function="hideScroll" type="client" />
+    <export function="setScrollVisible" type="client" />
+    <export function="setScrollText" type="client" />
+    <export function="setScrollBackground" type="client" />
+    <export function="clearScrollSelection" type="client" />
+    <export function="setScrollSelection" type="client" />
+    
+    <export function="setResponseEnabled" type="client" />
+    <export function="isResponseEnabled" type="client" />
+    
+    <export function="showLoading" type="client" />
+    <export function="hideLoading" type="client" />
+    
+    <export function="setOpenGUI" type="client" />
+    <export function="canOpenGUI" type="client" />
+    
+    <export function="isEscapeOpen" type="client" />
+    <export function="setEscapeOpen" type="client" />
+    
+    <min_mta_version client="1.5.6-9.16361"></min_mta_version>
+</meta>

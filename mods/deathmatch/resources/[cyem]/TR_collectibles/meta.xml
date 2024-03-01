@@ -1,0 +1,11 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_collectibles" />
+    <script src="c_core.lua" type="client" cache="false" validate="true"/>
+
+    <script src="settings.lua" type="server" cache="false" validate="true"/>
+    <script src="s_core.lua" type="server" cache="false" validate="true"/>
+
+    <export function="isNearCollectible" type="client" />
+
+    <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

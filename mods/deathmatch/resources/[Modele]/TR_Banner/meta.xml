@@ -1,0 +1,6 @@
+<meta>
+    <file src="BannerTR.txd" />
+    <file src="BannerTR.dff" />
+    <file src="BannerTR.col" />
+    <script src="script.lua" type="client" />
+</meta>

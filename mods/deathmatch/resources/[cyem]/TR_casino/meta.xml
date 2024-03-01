@@ -1,0 +1,27 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_casino" />
+
+	<script src="settings.lua" type="client"/>
+	<script src="c.lua" type="client"/>
+
+	<script src="games/slot.lua" type="client"/>
+
+	<script src="npcs.lua" type="server"/>
+	<script src="s.lua" type="server"/>
+
+	<file src="files/images/bg.png" type="client" />
+	<file src="files/images/minus.png" type="client" />
+	<file src="files/images/plus.png" type="client" />
+	<file src="files/images/roll.png" type="client" />
+	<file src="files/images/start.png" type="client" />
+	<file src="files/images/chip.png" type="client" />
+	<file src="files/images/prizes.png" type="client" />
+	<file src="files/images/close.png" type="client" />
+
+	<file src="files/sounds/win.ogg" type="client" />
+	<file src="files/sounds/coins.ogg" type="client" />
+	<file src="files/sounds/lose.ogg" type="client" />
+	<file src="files/sounds/machine.mp3" type="client" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

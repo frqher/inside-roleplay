@@ -1,0 +1,18 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_weapons" version="0.1.0" />
+
+	<script src="settings.lua" type="client" />
+	<script src="dm.lua" type="client" />
+	<script src="licence.lua" type="client" />
+	<script src="c.lua" type="client" />
+
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/target.png" type="client" />
+	<file src="files/images/zone.png" type="client" />
+
+	<export function="blockUpdate" type="client" />
+	<export function="updateWeapons" type="client" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

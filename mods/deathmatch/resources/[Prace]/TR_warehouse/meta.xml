@@ -1,0 +1,37 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_warehouse" version="0.1.0" />
+
+	<script src="settings.lua" type="client" />
+	<script src="c.lua" type="client" />
+	<script src="start.lua" type="client" />
+
+	<file src="files/images/mouse.png" />
+	<file src="files/images/mouse_l.png" />
+	<file src="files/images/mouse_r.png" />
+	<file src="files/images/job.png" />
+
+	<file src="files/images/agd.png" />
+	<file src="files/images/books.png" />
+	<file src="files/images/bread.png" />
+	<file src="files/images/candy.png" />
+	<file src="files/images/egg.png" />
+	<file src="files/images/fruits.png" />
+	<file src="files/images/icecream.png" />
+	<file src="files/images/meat.png" />
+	<file src="files/images/medic.png" />
+	<file src="files/images/parts.png" />
+	<file src="files/images/rtv.png" />
+	<file src="files/images/sugar.png" />
+	<file src="files/images/toys.png" />
+	<file src="files/images/water.png" />
+
+	<file src="files/images/upgrades/stability.png" />
+	<file src="files/images/upgrades/running.png" />
+	<file src="files/images/upgrades/truck.png" />
+
+	<export function="getJobDetails" type="client" />
+	<export function="startJob" type="client" />
+	<export function="endJob" type="client" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

@@ -1,0 +1,44 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_weather" />
+	<script src="settings.lua" type="client" />
+	<script src="christmassTree.lua" type="client" />
+	<script src="snow.lua" type="client" />
+	<script src="c.lua" type="client" />
+	<script src="s.lua" type="server"/>
+
+	<file src="files/shaders/hud_mask.fx" type="client"/>
+	<file src="files/shaders/tex_matrix.fx" type="client"/>
+
+	<file src="files/images/bg.png" />
+	<file src="files/images/sun.png" />
+	<file src="files/images/cloud.png" />
+	<file src="files/images/fullCloud.png" />
+	<file src="files/images/lightning.png" />
+	<file src="files/images/rain.png" />
+	<file src="files/images/snow.png" />
+
+	<file src="files/images/flake.png" />
+	<file src="files/images/goldstar.png" />
+
+	<file src="files/images/lights/light1.png" />
+	<file src="files/images/lights/light2.png" />
+	<file src="files/images/lights/light3.png" />
+	<file src="files/images/lights/light4.png" />
+	<file src="files/images/lights/light5.png" />
+	<file src="files/images/lights/light6.png" />
+	<file src="files/images/lights/light7.png" />
+	<file src="files/images/lights/light8.png" />
+	<file src="files/images/lights/light9.png" />
+	<file src="files/images/lights/light10.png" />
+	<file src="files/images/lights/light11.png" />
+	<file src="files/images/lights/light12.png" />
+
+	<export function="setSnowBlocked" type="client" />
+	<export function="setCustomWeather" type="client" />
+	<export function="setRealisticNight" type="client" />
+
+	<export function="updateWeather" type="server" />
+	<export function="getCurrentWeathers" type="server" />
+
+    <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

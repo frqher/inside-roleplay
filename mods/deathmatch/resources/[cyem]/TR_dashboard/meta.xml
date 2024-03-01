@@ -1,0 +1,78 @@
+<meta>
+    <info author="Xantris" type="script" name="TR_dashboard" />
+    <script src="settings.lua" type="client" cache="false"/>
+    <script src="c.lua" type="client" cache="false"/>
+    <script src="s.lua" type="server" />
+    
+    <file src="files/images/man.png" type="client" />
+    <file src="files/images/crown.png" type="client" />
+    <file src="files/images/diamond.png" type="client" />
+    
+    <file src="files/images/player.png" type="client" />
+    <file src="files/images/vehicle.png" type="client" />
+    <file src="files/images/house.png" type="client" />
+    <file src="files/images/penalties.png" type="client" />
+    <file src="files/images/logs.png" type="client" />
+    <file src="files/images/settings.png" type="client" />
+    <file src="files/images/graphic.png" type="client" />
+    <file src="files/images/loader.png" type="client" />
+    <file src="files/images/cards.png" type="client" />
+    <file src="files/images/reference.png" type="client" />
+    <file src="files/images/medal.png" type="client" />
+    <file src="files/images/medalB.png" type="client" />
+    <file src="files/images/friends.png" type="client" />
+    
+    <file src="files/images/bored.png" type="client" />
+    <file src="files/images/happy.png" type="client" />
+    <file src="files/images/sad.png" type="client" />
+    
+    <file src="files/images/kick.png" type="client" />
+    <file src="files/images/license.png" type="client" />
+    <file src="files/images/ban.png" type="client" />
+    <file src="files/images/mute.png" type="client" />
+    <file src="files/images/warn.png" type="client" />
+    <file src="files/images/tear.png" type="client" />
+    
+    <file src="files/images/house_img.png" type="client" />
+    
+    <file src="files/images/login.png" type="client" />
+    <file src="files/images/password.png" type="client" />
+    <file src="files/images/money.png" type="client" />
+    <file src="files/images/email.png" type="client" />
+    
+    <file src="files/images/card_back.png" type="client" />
+    <file src="files/images/card_front.png" type="client" />
+    <file src="files/images/card_frontSymbols.png" type="client" />
+    
+    <file src="files/images/chest.png" type="client" />
+    <file src="files/images/coins.png" type="client" />
+    
+    <file src="files/images/money_prize.png" type="client" />
+    <file src="files/images/beer.png" type="client" />
+    <file src="files/images/drugs.png" type="client" />
+    <file src="files/images/repeat.png" type="client" />
+    
+    <file src="files/images/skills.png" type="client" />
+    <file src="files/images/strenght.png" type="client" />
+    <file src="files/images/lungs.png" type="client" />
+    <file src="files/images/steer.png" type="client" />
+    <file src="files/images/weapon.png" type="client" />
+    <file src="files/images/pills.png" type="client" />
+    <file src="files/images/fat.png" type="client" />
+    <file src="files/images/casino.png" type="client" />
+    <file src="files/images/cheers.png" type="client" />
+    <file src="files/images/smoking.png" type="client" />
+    <file src="files/images/medicine.png" type="client" />
+    
+    <file src="files/images/description.png" type="client" />
+    <file src="files/images/use.png" type="client" />
+    <file src="files/images/trash.png" type="client" />
+    
+    <export function="getSettings" type="client" />
+    <export function="canSeePreview" type="client" />
+    <export function="createDashboard" type="client" />
+    <export function="setDashboardTutorial" type="client" />
+    <export function="setDashboardResponseShader" type="client" />
+    
+    <min_mta_version client="1.5.8-9.20693"></min_mta_version>
+</meta>

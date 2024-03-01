@@ -1,0 +1,16 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_jail" />
+
+    <script src="c.lua" type="client" cache="false"/>
+    <script src="info.lua" type="client" cache="false"/>
+	<script src="s.lua" type="server"/>
+
+	<file src="files/images/calendar.png"/>
+	<file src="files/images/calendar_clock.png"/>
+	<file src="files/images/sad.png"/>
+
+	<export function="giveJobPayment" type="client" />
+	<export function="startCheckingJobPayments" type="client" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

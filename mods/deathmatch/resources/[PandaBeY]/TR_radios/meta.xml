@@ -1,0 +1,9 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_scoreboard" />
+
+	<script src="c.lua" type="client"/>
+
+	<file src="files/sounds/pirate.mp3" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

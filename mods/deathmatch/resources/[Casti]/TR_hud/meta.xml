@@ -1,0 +1,434 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_map" />
+
+	<script src="dm.lua" type="shared" cache="false"/>
+	<script src="settings.lua" type="client" cache="false"/>
+	<script src="utils.lua" type="client" cache="false"/>
+	<script src="indicators.lua" type="client" cache="false"/>
+	<script src="afk.lua" type="client" cache="false"/>
+	<script src="sprint.lua" type="client" cache="false"/>
+	<script src="hud.lua" type="client" cache="false"/>
+	<script src="map.lua" type="client" cache="false"/>
+	<script src="minimap.lua" type="client" cache="false"/>
+	<script src="c.lua" type="client" cache="false"/>
+
+	<script src="s.lua" type="server" cache="false"/>
+
+	<script src="gps/nodes.lua" type="client" cache="false"/>
+	<script src="gps/gps.lua" type="client" />
+
+
+	<file src="files/fonts/digital.ttf" type="client" />
+
+	<!-- GPS Sounds -->
+	<file src="gps/sounds/finish.wav" type="client" />
+	<file src="gps/sounds/recomputing.wav" type="client" />
+	<file src="gps/sounds/turn_left.wav" type="client" />
+	<file src="gps/sounds/turn_right.wav" type="client" />
+	<file src="gps/sounds/then_turn_left.wav" type="client" />
+	<file src="gps/sounds/then_turn_right.wav" type="client" />
+	<file src="gps/sounds/straight.wav" type="client" />
+	<file src="gps/sounds/u_turn.wav" type="client" />
+	<file src="gps/sounds/lost.wav" type="client" />
+	<file src="gps/sounds/noti.mp3" type="client" />
+
+	<!-- GPS Images -->
+	<file src="gps/images/turn_left.png" type="client" />
+	<file src="gps/images/turn_right.png" type="client" />
+	<file src="gps/images/straight.png" type="client" />
+	<file src="gps/images/u_turn.png" type="client" />
+	<file src="gps/images/finish.png" type="client" />
+
+
+
+
+	<!-- Reverse sound -->
+	<file src="files/sounds/reverse.wav" type="client"/>
+	<file src="files/sounds/blinker_on.wav" type="client"/>
+	<file src="files/sounds/blinker_off.wav" type="client"/>
+
+	<!-- Shaders -->
+	<file src="files/shaders/hud_mask.fx" type="client"/>
+	<file src="files/shaders/tex_matrix.fx" type="client"/>
+	<file src="files/shaders/replace.fx" type="client"/>
+
+
+	<!-- Indicators -->
+	<file src="files/images/indicators/indicator.png" type="client" />
+	<file src="files/images/indicators/reverse.png" type="client" />
+
+
+	<!-- Speedometer old -->
+	<file src="files/images/speedo/old/speedo.png" type="client" />
+	<file src="files/images/speedo/old/speedoRed.png" type="client" />
+	<file src="files/images/speedo/old/needle.png" type="client" />
+
+	<file src="files/images/speedo/old/gasoline.png" type="client" />
+	<file src="files/images/speedo/old/mileage.png" type="client" />
+	<file src="files/images/speedo/old/mileage_bg.png" type="client" />
+
+	<file src="files/images/speedo/old/lights_on.png" type="client" />
+	<file src="files/images/speedo/old/lights_off.png" type="client" />
+	<file src="files/images/speedo/old/indicator_on.png" type="client" />
+	<file src="files/images/speedo/old/indicator_off.png" type="client" />
+	<file src="files/images/speedo/old/handbrake_on.png" type="client" />
+	<file src="files/images/speedo/old/handbrake_off.png" type="client" />
+	<file src="files/images/speedo/old/emergency_on.png" type="client" />
+	<file src="files/images/speedo/old/emergency_off.png" type="client" />
+	<file src="files/images/speedo/old/engine_full.png" type="client" />
+	<file src="files/images/speedo/old/engine_med.png" type="client" />
+	<file src="files/images/speedo/old/engine_low.png" type="client" />
+
+	<file src="files/images/speedo/old/fuel/1.png" type="client" />
+	<file src="files/images/speedo/old/fuel/2.png" type="client" />
+	<file src="files/images/speedo/old/fuel/3.png" type="client" />
+	<file src="files/images/speedo/old/fuel/4.png" type="client" />
+	<file src="files/images/speedo/old/fuel/5.png" type="client" />
+	<file src="files/images/speedo/old/fuel/6.png" type="client" />
+	<file src="files/images/speedo/old/fuel/7.png" type="client" />
+	<file src="files/images/speedo/old/fuel/8.png" type="client" />
+	<file src="files/images/speedo/old/fuel/9.png" type="client" />
+	<file src="files/images/speedo/old/fuel/10.png" type="client" />
+	<file src="files/images/speedo/old/fuel/11.png" type="client" />
+	<file src="files/images/speedo/old/fuel/12.png" type="client" />
+
+
+
+	<!-- Speedometer sport -->
+	<file src="files/images/speedo/super/speedo.png" type="client" />
+	<file src="files/images/speedo/super/speedoRed.png" type="client" />
+	<file src="files/images/speedo/super/needle.png" type="client" />
+
+
+	<!-- Speedometer motrobike -->
+	<file src="files/images/speedo/motorbike/speedo.png" type="client" />
+	<file src="files/images/speedo/motorbike/speedoRed.png" type="client" />
+	<file src="files/images/speedo/motorbike/gearLight.png" type="client" />
+	<file src="files/images/speedo/motorbike/fuel.png" type="client" />
+	<file src="files/images/speedo/motorbike/needle.png" type="client" />
+
+
+	<!-- Speedometer boats -->
+	<file src="files/images/speedo/boat/speedoRed.png" type="client" />
+
+	<file src="files/images/speedo/boat/fuel/1.png" type="client" />
+	<file src="files/images/speedo/boat/fuel/2.png" type="client" />
+	<file src="files/images/speedo/boat/fuel/3.png" type="client" />
+	<file src="files/images/speedo/boat/fuel/4.png" type="client" />
+	<file src="files/images/speedo/boat/fuel/5.png" type="client" />
+	<!-- <file src="files/images/speedo/motorbike/speedoRed.png" type="client" />
+	<file src="files/images/speedo/motorbike/gearLight.png" type="client" />
+	<file src="files/images/speedo/motorbike/fuel.png" type="client" />
+	<file src="files/images/speedo/motorbike/needle.png" type="client" /> -->
+
+
+
+	<file src="files/images/speedo/needle.png" type="client" />
+	<file src="files/images/speedo/speedo.png" type="client" />
+	<file src="files/images/speedo/speedoRed.png" type="client" />
+	<file src="files/images/speedo/speedoBoat.png" type="client" />
+	<file src="files/images/speedo/speedoBoatRed.png" type="client" />
+	<file src="files/images/speedo/speedo110.png" type="client" />
+	<file src="files/images/speedo/fuel.png" type="client" />
+	<file src="files/images/speedo/fuelRed.png" type="client" />
+	<file src="files/images/speedo/fuelNeedle.png" type="client" />
+	<file src="files/images/speedo/mileage.png" type="client" />
+
+	<file src="files/images/speedo/engine1.png" type="client" />
+	<file src="files/images/speedo/engine2.png" type="client" />
+	<file src="files/images/speedo/engine3.png" type="client" />
+
+	<file src="files/images/speedo/handbrake.png" type="client" />
+	<file src="files/images/speedo/on_handbrake.png" type="client" />
+
+	<file src="files/images/speedo/lights.png" type="client" />
+	<file src="files/images/speedo/on_lights.png" type="client" />
+
+	<file src="files/images/speedo/control.png" type="client" />
+	<file src="files/images/speedo/on_control.png" type="client" />
+
+	<file src="files/images/speedo/belt.png" type="client" />
+	<file src="files/images/speedo/no_belt.png" type="client" />
+
+	<file src="files/images/speedo/indicatorr.png" type="client" />
+	<file src="files/images/speedo/on_indicatorr.png" type="client" />
+	<file src="files/images/speedo/indicatorl.png" type="client" />
+	<file src="files/images/speedo/on_indicatorl.png" type="client" />
+
+
+	<!-- Weapons -->
+	<file src="files/images/weapons/3.png" type="client" />
+	<file src="files/images/weapons/4.png" type="client" />
+	<file src="files/images/weapons/5.png" type="client" />
+	<file src="files/images/weapons/6.png" type="client" />
+	<file src="files/images/weapons/7.png" type="client" />
+	<file src="files/images/weapons/8.png" type="client" />
+	<file src="files/images/weapons/9.png" type="client" />
+	<file src="files/images/weapons/22.png" type="client" />
+	<file src="files/images/weapons/23.png" type="client" />
+	<file src="files/images/weapons/24.png" type="client" />
+	<file src="files/images/weapons/25.png" type="client" />
+	<file src="files/images/weapons/26.png" type="client" />
+	<file src="files/images/weapons/27.png" type="client" />
+	<file src="files/images/weapons/28.png" type="client" />
+	<file src="files/images/weapons/29.png" type="client" />
+	<file src="files/images/weapons/30.png" type="client" />
+	<file src="files/images/weapons/31.png" type="client" />
+	<file src="files/images/weapons/32.png" type="client" />
+	<file src="files/images/weapons/33.png" type="client" />
+	<file src="files/images/weapons/34.png" type="client" />
+	<file src="files/images/weapons/41.png" type="client" />
+	<file src="files/images/weapons/42.png" type="client" />
+	<file src="files/images/weapons/43.png" type="client" />
+
+	<!-- Player icons -->
+	<file src="files/images/icons/owner.png" type="client" />
+	<file src="files/images/icons/adm.png" type="client" />
+	<file src="files/images/icons/guard.png" type="client" />
+	<file src="files/images/icons/mod.png" type="client" />
+	<file src="files/images/icons/supp.png" type="client" />
+	<file src="files/images/icons/dev.png" type="client" />
+	<file src="files/images/icons/afk.png" type="client" />
+	<file src="files/images/icons/chat.png" type="client" />
+	<file src="files/images/icons/chat_mute.png" type="client" />
+	<file src="files/images/icons/beer.png" type="client" />
+	<file src="files/images/icons/marijuana.png" type="client" />
+	<file src="files/images/icons/armor.png" type="client" />
+	<file src="files/images/icons/unlogged.png" type="client" />
+	<file src="files/images/icons/rp.png" type="client" />
+
+
+	<!-- Hud -->
+	<file src="files/images/hud/bg.png" type="client" />
+
+	<file src="files/images/hud/heart.png" type="client" />
+	<file src="files/images/hud/oxygen.png" type="client" />
+	<file src="files/images/hud/armor.png" type="client" />
+	<file src="files/images/hud/img_bg.png" type="client" />
+	<file src="files/images/hud/clock.png" type="client" />
+	<file src="files/images/hud/bar_bg.png" type="client" />
+	<file src="files/images/hud/chip.png" type="client" />
+	<file src="files/images/hud/separator.png" type="client" />
+
+
+	<!-- Radar -->
+	<file src="files/images/radar/busola.png" type="client"/>
+	<file src="files/images/radar/gps.png" type="client"/>
+	<file src="files/images/radar/target.png" type="client"/>
+	<file src="files/images/radar/teleport.png" type="client"/>
+	<file src="files/images/radar/mask.png" type="client"/>
+
+	<file src="files/images/radar/tile_0_0.dds" type="client"/>
+	<file src="files/images/radar/tile_0_1.dds" type="client"/>
+	<file src="files/images/radar/tile_0_2.dds" type="client"/>
+	<file src="files/images/radar/tile_0_3.dds" type="client"/>
+	<file src="files/images/radar/tile_0_4.dds" type="client"/>
+	<file src="files/images/radar/tile_0_5.dds" type="client"/>
+	<file src="files/images/radar/tile_1_0.dds" type="client"/>
+	<file src="files/images/radar/tile_1_1.dds" type="client"/>
+	<file src="files/images/radar/tile_1_2.dds" type="client"/>
+	<file src="files/images/radar/tile_1_3.dds" type="client"/>
+	<file src="files/images/radar/tile_1_4.dds" type="client"/>
+	<file src="files/images/radar/tile_1_5.dds" type="client"/>
+	<file src="files/images/radar/tile_2_0.dds" type="client"/>
+	<file src="files/images/radar/tile_2_1.dds" type="client"/>
+	<file src="files/images/radar/tile_2_2.dds" type="client"/>
+	<file src="files/images/radar/tile_2_3.dds" type="client"/>
+	<file src="files/images/radar/tile_2_4.dds" type="client"/>
+	<file src="files/images/radar/tile_2_5.dds" type="client"/>
+	<file src="files/images/radar/tile_3_0.dds" type="client"/>
+	<file src="files/images/radar/tile_3_1.dds" type="client"/>
+	<file src="files/images/radar/tile_3_2.dds" type="client"/>
+	<file src="files/images/radar/tile_3_3.dds" type="client"/>
+	<file src="files/images/radar/tile_3_4.dds" type="client"/>
+	<file src="files/images/radar/tile_3_5.dds" type="client"/>
+	<file src="files/images/radar/tile_4_0.dds" type="client"/>
+	<file src="files/images/radar/tile_4_1.dds" type="client"/>
+	<file src="files/images/radar/tile_4_2.dds" type="client"/>
+	<file src="files/images/radar/tile_4_3.dds" type="client"/>
+	<file src="files/images/radar/tile_4_4.dds" type="client"/>
+	<file src="files/images/radar/tile_4_5.dds" type="client"/>
+	<file src="files/images/radar/tile_5_0.dds" type="client"/>
+	<file src="files/images/radar/tile_5_1.dds" type="client"/>
+	<file src="files/images/radar/tile_5_2.dds" type="client"/>
+	<file src="files/images/radar/tile_5_3.dds" type="client"/>
+	<file src="files/images/radar/tile_5_4.dds" type="client"/>
+	<file src="files/images/radar/tile_5_5.dds" type="client"/>
+
+
+	<!-- Radar zones -->
+	<file src="files/images/radar/zones/5_4_1.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_2.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_3.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_4.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_5.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_6.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_7.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_8.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_9.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_10.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_11.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_12.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_13.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_14.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_15.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_16.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_17.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_18.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_19.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_20.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_21.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_22.dds" type="client"/>
+	<file src="files/images/radar/zones/5_5_22.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_23.dds" type="client"/>
+	<file src="files/images/radar/zones/5_5_23.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_24.dds" type="client"/>
+	<file src="files/images/radar/zones/5_5_24.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_25.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_26.dds" type="client"/>
+	<file src="files/images/radar/zones/5_3_26.dds" type="client"/>
+	<file src="files/images/radar/zones/4_4_26.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_27.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_27.dds" type="client"/>
+	<file src="files/images/radar/zones/4_4_27.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_28.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_29.dds" type="client"/>
+	<file src="files/images/radar/zones/4_4_29.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_30.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_31.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_32.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_33.dds" type="client"/>
+	<file src="files/images/radar/zones/4_4_34.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_35.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_36.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_37.dds" type="client"/>
+	<file src="files/images/radar/zones/4_4_37.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_38.dds" type="client"/>
+	<file src="files/images/radar/zones/4_4_39.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_40.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_41.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_42.dds" type="client"/>
+	<file src="files/images/radar/zones/4_4_42.dds" type="client"/>
+	<file src="files/images/radar/zones/4_4_43.dds" type="client"/>
+	<file src="files/images/radar/zones/4_4_44.dds" type="client"/>
+	<file src="files/images/radar/zones/4_5_44.dds" type="client"/>
+	<file src="files/images/radar/zones/4_5_45.dds" type="client"/>
+	<file src="files/images/radar/zones/5_5_46.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_46.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_47.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_48.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_49.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_50.dds" type="client"/>
+	<file src="files/images/radar/zones/5_4_51.dds" type="client"/>
+
+
+	<!-- Blips -->
+	<file src="files/images/blip/bg.png" type="client"></file>
+	<file src="files/images/blip/0.png" type="client"></file>
+	<file src="files/images/blip/1.png" type="client"></file>
+	<file src="files/images/blip/2.png" type="client"></file>
+	<file src="files/images/blip/3.png" type="client"></file>
+	<file src="files/images/blip/4.png" type="client"></file>
+	<file src="files/images/blip/5.png" type="client"></file>
+	<file src="files/images/blip/6.png" type="client"></file>
+	<file src="files/images/blip/7.png" type="client"></file>
+	<file src="files/images/blip/8.png" type="client"></file>
+	<file src="files/images/blip/9.png" type="client"></file>
+	<file src="files/images/blip/10.png" type="client"></file>
+	<file src="files/images/blip/11.png" type="client"></file>
+	<file src="files/images/blip/12.png" type="client"></file>
+	<file src="files/images/blip/13.png" type="client"></file>
+	<file src="files/images/blip/14.png" type="client"></file>
+	<file src="files/images/blip/15.png" type="client"></file>
+	<file src="files/images/blip/16.png" type="client"></file>
+	<file src="files/images/blip/17.png" type="client"></file>
+	<file src="files/images/blip/18.png" type="client"></file>
+	<file src="files/images/blip/19.png" type="client"></file>
+	<file src="files/images/blip/20.png" type="client"></file>
+	<file src="files/images/blip/21.png" type="client"></file>
+	<file src="files/images/blip/22.png" type="client"></file>
+	<file src="files/images/blip/23.png" type="client"></file>
+	<file src="files/images/blip/24.png" type="client"></file>
+	<file src="files/images/blip/25.png" type="client"></file>
+	<file src="files/images/blip/26.png" type="client"></file>
+	<file src="files/images/blip/27.png" type="client"></file>
+	<file src="files/images/blip/28.png" type="client"></file>
+	<file src="files/images/blip/29.png" type="client"></file>
+	<file src="files/images/blip/30.png" type="client"></file>
+	<file src="files/images/blip/31.png" type="client"></file>
+	<file src="files/images/blip/32.png" type="client"></file>
+	<file src="files/images/blip/33.png" type="client"></file>
+	<file src="files/images/blip/34.png" type="client"></file>
+	<file src="files/images/blip/35.png" type="client"></file>
+	<file src="files/images/blip/36.png" type="client"></file>
+	<file src="files/images/blip/37.png" type="client"></file>
+	<file src="files/images/blip/38.png" type="client"></file>
+	<file src="files/images/blip/39.png" type="client"></file>
+	<file src="files/images/blip/40.png" type="client"></file>
+	<file src="files/images/blip/41.png" type="client"></file>
+	<file src="files/images/blip/42.png" type="client"></file>
+	<file src="files/images/blip/43.png" type="client"></file>
+	<file src="files/images/blip/44.png" type="client"></file>
+	<file src="files/images/blip/45.png" type="client"></file>
+	<file src="files/images/blip/46.png" type="client"></file>
+	<file src="files/images/blip/47.png" type="client"></file>
+	<file src="files/images/blip/48.png" type="client"></file>
+	<file src="files/images/blip/49.png" type="client"></file>
+	<file src="files/images/blip/50.png" type="client"></file>
+	<file src="files/images/blip/51.png" type="client"></file>
+	<file src="files/images/blip/52.png" type="client"></file>
+	<file src="files/images/blip/53.png" type="client"></file>
+	<file src="files/images/blip/54.png" type="client"></file>
+	<file src="files/images/blip/55.png" type="client"></file>
+	<file src="files/images/blip/56.png" type="client"></file>
+	<file src="files/images/blip/57.png" type="client"></file>
+	<file src="files/images/blip/58.png" type="client"></file>
+	<file src="files/images/blip/59.png" type="client"></file>
+	<file src="files/images/blip/60.png" type="client"></file>
+	<file src="files/images/blip/61.png" type="client"></file>
+	<file src="files/images/blip/62.png" type="client"></file>
+	<file src="files/images/blip/63.png" type="client"></file>
+	<file src="files/images/blip/64.png" type="client"></file>
+	<file src="files/images/blip/65.png" type="client"></file>
+
+
+	<!-- Export -->
+	<export function="getMapTextures" type="client" />
+
+	<export function="isInDmZone" type="shared" />
+
+	<export function="createGUI" type="client" />
+	<export function="setHudBlocked" type="client" />
+	<export function="setFpsBlocked" type="client" />
+	<export function="setNamesBlocked" type="client" />
+	<export function="setBlipsMapOrder" type="client" />
+	<export function="setWindRoseVisible" type="client" />
+	<export function="setCharacterDescVisible" type="client" />
+
+	<export function="setPlayerDrunk" type="client" />
+	<export function="blockPlayerSprint" type="client" />
+	<export function="setGUITutorial" type="client" />
+
+	<export function="setGpsVoice" type="client" />
+
+	<export function="setHudRaceMode" type="client" />
+	<export function="startRaceTimer" type="client" />
+	<export function="resetRaceTimer" type="client" />
+	<export function="getRaceTime" type="client" />
+	<export function="updateRaceDetails" type="client" />
+
+	<export function="getCasinoCount" type="client" />
+	<export function="updateCasinoCount" type="client" />
+
+	<export function="findBestWay" type="client" />
+	<export function="setHudVisible" type="client" />
+	<export function="updatePlayerHud" type="client" />
+	<export function="getVehicleCapacity" type="client" />
+	<export function="getVehiclePetrolType" type="client" />
+	<export function="setRadarCustomLocation" type="client" />
+	<export function="getVehicleTrunkCapacity" type="client" />
+
+	<export function="playerSpeedometerOpen" type="client" />
+
+	<min_mta_version client="1.5.6" server="1.5.6" />
+</meta>

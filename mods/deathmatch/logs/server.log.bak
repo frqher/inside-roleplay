@@ -1,0 +1,1063 @@
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.9
+==================================================================
+= Server name      : [TR Inside]
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : D:/InsideMTA/mods/deathmatch/logs/server.log
+= Maximum players  : 250
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2022-04-22 13:22:53] Resource 'TR_admin' requests some acl rights. Use the command 'aclrequest list TR_admin'
+[2022-04-22 13:22:53] ERROR: Couldn't find file models/vehicle/safdQuad.idff for resource TR_customModels
+[2022-04-22 13:22:53] Loading of resource 'TR_customModels' failed
+[2022-04-22 13:22:53] Resource 'TR_devTools' requests some acl rights. Use the command 'aclrequest list TR_devTools'
+[2022-04-22 13:22:53] WARNING: Ignoring duplicate client file in resource 'TR_hud': 'files/images/radar/zones/5_4_27.dds'
+[2022-04-22 13:22:54] ERROR: Couldn't find file models/vehicles/cysterna.icol for resource TR_models
+[2022-04-22 13:22:54] Loading of resource 'TR_models' failed
+[2022-04-22 13:22:54] Resource 'TR_orgLogos' requests some acl rights. Use the command 'aclrequest list TR_orgLogos'
+[2022-04-22 13:22:54] Resource 'TR_organizations' requests some acl rights. Use the command 'aclrequest list TR_organizations'
+[2022-04-22 13:22:55] ERROR: Couldn't find meta.xml file for resource '[Mapy]'
+[2022-04-22 13:22:55] Loading of resource '[Mapy]' failed
+[2022-04-22 13:22:55] ERROR: Problem with resource: TR_customModels; Couldn't find file models/vehicle/safdQuad.idff for resource TR_customModels
+[2022-04-22 13:22:55] ERROR: Problem with resource: TR_models; Couldn't find file models/vehicles/cysterna.icol for resource TR_models
+[2022-04-22 13:22:55] ERROR: Problem with resource: [Mapy]; Couldn't find meta.xml file for resource '[Mapy]'
+[2022-04-22 13:22:55] Resources: 227 loaded, 3 failed
+[2022-04-22 13:22:55] Server password set to '111'
+[2022-04-22 13:22:55] Starting resources...
+[2022-04-22 13:22:55] WARNING: TR_mysql <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.2 because of 'dbPrepareString')
+[2022-04-22 13:22:55] WARNING: TR_mysql requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.2 because of 'dbPrepareString')
+[2022-04-22 13:22:55] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:55] INFO: [MYSQL] Connected to the database (insidemta)
+[2022-04-22 13:22:55] Server minclientversion is now 1.5.9-9.21129.0
+[2022-04-22 13:22:55] startResource: Resource 'TR_mysql' started
+[2022-04-22 13:22:55] INFO: [TR_starter] Resource TR_mysql restarted.
+[2022-04-22 13:22:55] WARNING: TR_dx <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.16361 because of 'guiBlur')
+[2022-04-22 13:22:55] WARNING: TR_dx requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.16361 because of 'guiBlur')
+[2022-04-22 13:22:55] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:55] startResource: Resource 'TR_dx' started
+[2022-04-22 13:22:55] INFO: [TR_starter] Resource TR_dx restarted.
+[2022-04-22 13:22:55] startResource: Resource 'TR_npc' started
+[2022-04-22 13:22:55] INFO: [TR_starter] Resource TR_npc restarted.
+[2022-04-22 13:22:55] WARNING: TR_chat <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.16361 because of 'guiFocus')
+[2022-04-22 13:22:55] WARNING: TR_chat requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.16361 because of 'guiFocus')
+[2022-04-22 13:22:55] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:55] startResource: Resource 'TR_chat' started
+[2022-04-22 13:22:55] INFO: [TR_starter] Resource TR_chat restarted.
+[2022-04-22 13:22:55] WARNING: TR_admin/s.lua(Line 399) [Server] isVehicleFrozen is deprecated and may not work in future versions. Please replace with isElementFrozen.
+[2022-04-22 13:22:55] WARNING: TR_admin <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.5-9.13846 because of 'setPedWearingJetpack')
+[2022-04-22 13:22:55] Some files in 'TR_admin' use deprecated functions.
+[2022-04-22 13:22:55] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:55] WARNING: TR_admin requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.5-9.13846 because of 'setPedWearingJetpack')
+[2022-04-22 13:22:55] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:55] startResource: Resource 'TR_admin' started
+[2022-04-22 13:22:55] INFO: [TR_starter] Resource TR_admin restarted.
+[2022-04-22 13:22:55] WARNING: TR_vehicleExchange/info.lua(Line 229) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:22:55] Some files in 'TR_vehicleExchange' use deprecated functions.
+[2022-04-22 13:22:55] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:55] startResource: Resource 'TR_vehicleExchange' started
+[2022-04-22 13:22:55] INFO: [TR_starter] Resource TR_vehicleExchange restarted.
+[2022-04-22 13:22:55] WARNING: TR_vehicles <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.14489 because of 'getVehicleComponentScale')
+[2022-04-22 13:22:55] WARNING: TR_vehicles requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.14489 because of 'getVehicleComponentScale')
+[2022-04-22 13:22:55] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:55] INFO: [TR_vehicles] Brak samochodów.
+[2022-04-22 13:22:55] startResource: Resource 'TR_vehicles' started
+[2022-04-22 13:22:55] INFO: [TR_starter] Resource TR_vehicles restarted.
+[2022-04-22 13:22:55] startResource: Resource 'bone_attach' started
+[2022-04-22 13:22:55] INFO: [TR_starter] Resource bone_attach restarted.
+[2022-04-22 13:22:55] Querying MTA master server... success! (Auto detected IP:159.146.41.83)
+[2022-04-22 13:22:55] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2022-04-22 13:22:55] WARNING: <owner_email_address> not set
+[2022-04-22 13:22:55] Server started and is ready to accept connections!
+[2022-04-22 13:22:55] To stop the server, type 'shutdown' or press Ctrl-C
+[2022-04-22 13:22:55] Type 'help' for a list of commands.
+[2022-04-22 13:22:56] Starting TR_Banner
+[2022-04-22 13:22:56] startResource: Resource 'TR_Banner' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_Banner restarted.
+[2022-04-22 13:22:56] Starting TR_DohertyMechanic
+[2022-04-22 13:22:56] startResource: Resource 'TR_DohertyMechanic' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_DohertyMechanic restarted.
+[2022-04-22 13:22:56] Starting TR_MOD_Modelpack
+[2022-04-22 13:22:56] startResource: Resource 'TR_MOD_Modelpack' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_MOD_Modelpack restarted.
+[2022-04-22 13:22:56] Starting TR_M_AP_SWIATELKA_MIASTO
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_AP_SWIATELKA_MIASTO' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_AP_SWIATELKA_MIASTO restarted.
+[2022-04-22 13:22:56] Starting TR_M_AdminBase
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_AdminBase' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_AdminBase restarted.
+[2022-04-22 13:22:56] Starting TR_M_ArenaZTP
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_ArenaZTP' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_ArenaZTP restarted.
+[2022-04-22 13:22:56] Starting TR_M_BANNERY
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_BANNERY' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_BANNERY restarted.
+[2022-04-22 13:22:56] Starting TR_M_Bank
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_Bank' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_Bank restarted.
+[2022-04-22 13:22:56] Starting TR_M_Banko_SA
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_Banko_SA' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_Banko_SA restarted.
+[2022-04-22 13:22:56] Starting TR_M_Bar_Bridge
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_Bar_Bridge' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_Bar_Bridge restarted.
+[2022-04-22 13:22:56] Starting TR_M_Bar_Liquor
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_Bar_Liquor' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_Bar_Liquor restarted.
+[2022-04-22 13:22:56] Starting TR_M_Bar_Welcome
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_Bar_Welcome' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_Bar_Welcome restarted.
+[2022-04-22 13:22:56] Starting TR_M_Basketball
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_Basketball' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_Basketball restarted.
+[2022-04-22 13:22:56] Starting TR_M_Billboard
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_Billboard' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_Billboard restarted.
+[2022-04-22 13:22:56] Starting TR_M_Biuro_FC
+[2022-04-22 13:22:56] startResource: Resource 'TR_M_Biuro_FC' started
+[2022-04-22 13:22:56] INFO: [TR_starter] Resource TR_M_Biuro_FC restarted.
+[2022-04-22 13:22:57] Starting TR_M_Biznesy-exterior
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Biznesy-exterior' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Biznesy-exterior restarted.
+[2022-04-22 13:22:57] Starting TR_M_Budowa
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Budowa' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Budowa restarted.
+[2022-04-22 13:22:57] Starting TR_M_ChristmesSpawnLS_ext
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_ChristmesSpawnLS_ext' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_ChristmesSpawnLS_ext restarted.
+[2022-04-22 13:22:57] Starting TR_M_CyganDillmore
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_CyganDillmore' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_CyganDillmore restarted.
+[2022-04-22 13:22:57] Starting TR_M_DSinterior
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_DSinterior' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_DSinterior restarted.
+[2022-04-22 13:22:57] Starting TR_M_Dom_Tutorial_INT
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Dom_Tutorial_INT' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Dom_Tutorial_INT restarted.
+[2022-04-22 13:22:57] Starting TR_M_Farma_jablka
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Farma_jablka' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Farma_jablka restarted.
+[2022-04-22 13:22:57] Starting TR_M_Forrest_AP
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Forrest_AP' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Forrest_AP restarted.
+[2022-04-22 13:22:57] Starting TR_M_Gnocchi
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Gnocchi' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Gnocchi restarted.
+[2022-04-22 13:22:57] Starting TR_M_Hydrant
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Hydrant' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Hydrant restarted.
+[2022-04-22 13:22:57] Starting TR_M_INT_GYM_SF
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_INT_GYM_SF' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_INT_GYM_SF restarted.
+[2022-04-22 13:22:57] Starting TR_M_Idleewood_Jefferson
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Idleewood_Jefferson' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Idleewood_Jefferson restarted.
+[2022-04-22 13:22:57] Starting TR_M_IntKonserwator
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_IntKonserwator' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_IntKonserwator restarted.
+[2022-04-22 13:22:57] Starting TR_M_Int_hospitalek
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Int_hospitalek' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Int_hospitalek restarted.
+[2022-04-22 13:22:57] Starting TR_M_JizzyClub
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_JizzyClub' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_JizzyClub restarted.
+[2022-04-22 13:22:57] Starting TR_M_KevinClone
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_KevinClone' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_KevinClone restarted.
+[2022-04-22 13:22:57] Starting TR_M_Kosiarki_Glenpark
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Kosiarki_Glenpark' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Kosiarki_Glenpark restarted.
+[2022-04-22 13:22:57] Starting TR_M_Lotniskolossantosall
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Lotniskolossantosall' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Lotniskolossantosall restarted.
+[2022-04-22 13:22:57] Starting TR_M_Magazyn-int
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Magazyn-int' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Magazyn-int restarted.
+[2022-04-22 13:22:57] Starting TR_M_Magazyn_Parking
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Magazyn_Parking' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Magazyn_Parking restarted.
+[2022-04-22 13:22:57] Starting TR_M_Magazyndoki
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Magazyndoki' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Magazyndoki restarted.
+[2022-04-22 13:22:57] Starting TR_M_Magazynekwdokach
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Magazynekwdokach' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Magazynekwdokach restarted.
+[2022-04-22 13:22:57] Starting TR_M_Magazynier
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Magazynier' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Magazynier restarted.
+[2022-04-22 13:22:57] Starting TR_M_Mapa_SAPD
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Mapa_SAPD' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Mapa_SAPD restarted.
+[2022-04-22 13:22:57] Starting TR_M_Mapka_Szpitala_LS
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Mapka_Szpitala_LS' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Mapka_Szpitala_LS restarted.
+[2022-04-22 13:22:57] Starting TR_M_Mapy_Eventowe
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Mapy_Eventowe' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Mapy_Eventowe restarted.
+[2022-04-22 13:22:57] Starting TR_M_Market_Salon
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Market_Salon' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Market_Salon restarted.
+[2022-04-22 13:22:57] Starting TR_M_Mechanik
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Mechanik' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Mechanik restarted.
+[2022-04-22 13:22:57] Starting TR_M_Mechanik_Doherty
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Mechanik_Doherty' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Mechanik_Doherty restarted.
+[2022-04-22 13:22:57] Starting TR_M_Mechaniksamochodowy3
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Mechaniksamochodowy3' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Mechaniksamochodowy3 restarted.
+[2022-04-22 13:22:57] Starting TR_M_Morskie_Opowiesci
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Morskie_Opowiesci' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Morskie_Opowiesci restarted.
+[2022-04-22 13:22:57] Starting TR_M_Noweosiedle
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Noweosiedle' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Noweosiedle restarted.
+[2022-04-22 13:22:57] Starting TR_M_OchronaINT
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_OchronaINT' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_OchronaINT restarted.
+[2022-04-22 13:22:57] Starting TR_M_PP
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_PP' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_PP restarted.
+[2022-04-22 13:22:57] Starting TR_M_ParkingMechanik
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_ParkingMechanik' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_ParkingMechanik restarted.
+[2022-04-22 13:22:57] Starting TR_M_ParkingSPAWN
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_ParkingSPAWN' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_ParkingSPAWN restarted.
+[2022-04-22 13:22:57] Starting TR_M_Pizza-Idleewod
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Pizza-Idleewod' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Pizza-Idleewod restarted.
+[2022-04-22 13:22:57] Starting TR_M_Pizza_szatnia
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Pizza_szatnia' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Pizza_szatnia restarted.
+[2022-04-22 13:22:57] Starting TR_M_Plaza
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Plaza' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Plaza restarted.
+[2022-04-22 13:22:57] Starting TR_M_PracaMikolaj
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_PracaMikolaj' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_PracaMikolaj restarted.
+[2022-04-22 13:22:57] Starting TR_M_Prawko_INT
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Prawko_INT' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Prawko_INT restarted.
+[2022-04-22 13:22:57] Starting TR_M_Przecho
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Przecho' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Przecho restarted.
+[2022-04-22 13:22:57] Starting TR_M_RadioINT
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_RadioINT' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_RadioINT restarted.
+[2022-04-22 13:22:57] Starting TR_M_RanchShop
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_RanchShop' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_RanchShop restarted.
+[2022-04-22 13:22:57] Starting TR_M_Remizka
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_Remizka' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_Remizka restarted.
+[2022-04-22 13:22:57] Starting TR_M_RemoveCrunk
+[2022-04-22 13:22:57] startResource: Resource 'TR_M_RemoveCrunk' started
+[2022-04-22 13:22:57] INFO: [TR_starter] Resource TR_M_RemoveCrunk restarted.
+[2022-04-22 13:22:58] Starting TR_M_Rybak_PC
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Rybak_PC' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Rybak_PC restarted.
+[2022-04-22 13:22:58] Starting TR_M_SAD
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_SAD' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_SAD restarted.
+[2022-04-22 13:22:58] Starting TR_M_SAPD_ext_oraz_parking
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_SAPD_ext_oraz_parking' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_SAPD_ext_oraz_parking restarted.
+[2022-04-22 13:22:58] Starting TR_M_SalonMarket2m
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_SalonMarket2m' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_SalonMarket2m restarted.
+[2022-04-22 13:22:58] Starting TR_M_Scena
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Scena' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Scena restarted.
+[2022-04-22 13:22:58] Starting TR_M_Shop24
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Shop24' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Shop24 restarted.
+[2022-04-22 13:22:58] Starting TR_M_Sklep_monopolowy
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Sklep_monopolowy' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Sklep_monopolowy restarted.
+[2022-04-22 13:22:58] Starting TR_M_Smieciarki_INT
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Smieciarki_INT' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Smieciarki_INT restarted.
+[2022-04-22 13:22:58] Starting TR_M_SpeedTestLS
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_SpeedTestLS' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_SpeedTestLS restarted.
+[2022-04-22 13:22:58] Starting TR_M_StopienStacja
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_StopienStacja' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_StopienStacja restarted.
+[2022-04-22 13:22:58] Starting TR_M_Szkolenie_Plywania
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Szkolenie_Plywania' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Szkolenie_Plywania restarted.
+[2022-04-22 13:22:58] Starting TR_M_Szrot-2
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Szrot-2' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Szrot-2 restarted.
+[2022-04-22 13:22:58] Starting TR_M_Szrot-3
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Szrot-3' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Szrot-3 restarted.
+[2022-04-22 13:22:58] Starting TR_M_TAKSALKI
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_TAKSALKI' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_TAKSALKI restarted.
+[2022-04-22 13:22:58] Starting TR_M_Taxi
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Taxi' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Taxi restarted.
+[2022-04-22 13:22:58] Starting TR_M_Tuner
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Tuner' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Tuner restarted.
+[2022-04-22 13:22:58] Starting TR_M_TunerVizu
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_TunerVizu' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_TunerVizu restarted.
+[2022-04-22 13:22:58] Starting TR_M_Urzad
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Urzad' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Urzad restarted.
+[2022-04-22 13:22:58] Starting TR_M_Urzad-outside
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Urzad-outside' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Urzad-outside restarted.
+[2022-04-22 13:22:58] Starting TR_M_Urzad_SF
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Urzad_SF' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Urzad_SF restarted.
+[2022-04-22 13:22:58] Starting TR_M_VehicleShowroom_ap
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_VehicleShowroom_ap' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_VehicleShowroom_ap restarted.
+[2022-04-22 13:22:58] Starting TR_M_Yaiyarir_Auto_Parts_interior
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_Yaiyarir_Auto_Parts_interior' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_Yaiyarir_Auto_Parts_interior restarted.
+[2022-04-22 13:22:58] Starting TR_M_cyganpalominocreek_ext
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_cyganpalominocreek_ext' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_cyganpalominocreek_ext restarted.
+[2022-04-22 13:22:58] Starting TR_M_dekoracjaGV_ext
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_dekoracjaGV_ext' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_dekoracjaGV_ext restarted.
+[2022-04-22 13:22:58] Starting TR_M_dillmore_ext
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_dillmore_ext' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_dillmore_ext restarted.
+[2022-04-22 13:22:58] Starting TR_M_ext_willwofieldLS
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_ext_willwofieldLS' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_ext_willwofieldLS restarted.
+[2022-04-22 13:22:58] Starting TR_M_furniture
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_furniture' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_furniture restarted.
+[2022-04-22 13:22:58] Starting TR_M_gielda_ext
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_gielda_ext' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_gielda_ext restarted.
+[2022-04-22 13:22:58] Starting TR_M_glenpark_ext
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_glenpark_ext' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_glenpark_ext restarted.
+[2022-04-22 13:22:58] Starting TR_M_idlewoodHouses
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_idlewoodHouses' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_idlewoodHouses restarted.
+[2022-04-22 13:22:58] Starting TR_M_idllewood
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_idllewood' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_idllewood restarted.
+[2022-04-22 13:22:58] Starting TR_M_int_fire
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_int_fire' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_int_fire restarted.
+[2022-04-22 13:22:58] Starting TR_M_kontenery_ext
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_kontenery_ext' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_kontenery_ext restarted.
+[2022-04-22 13:22:58] Starting TR_M_kosmetyka_jef
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_kosmetyka_jef' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_kosmetyka_jef restarted.
+[2022-04-22 13:22:58] Starting TR_M_mapa-el-corona
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_mapa-el-corona' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_mapa-el-corona restarted.
+[2022-04-22 13:22:58] Starting TR_M_nowyspawn_ext
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_nowyspawn_ext' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_nowyspawn_ext restarted.
+[2022-04-22 13:22:58] Starting TR_M_postoje_ext
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_postoje_ext' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_postoje_ext restarted.
+[2022-04-22 13:22:58] Starting TR_M_pracacysterna
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_pracacysterna' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_pracacysterna restarted.
+[2022-04-22 13:22:58] Starting TR_M_skateark_ext
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_skateark_ext' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_skateark_ext restarted.
+[2022-04-22 13:22:58] Starting TR_M_spawnAP_ext
+[2022-04-22 13:22:58] startResource: Resource 'TR_M_spawnAP_ext' started
+[2022-04-22 13:22:58] INFO: [TR_starter] Resource TR_M_spawnAP_ext restarted.
+[2022-04-22 13:22:58] Starting TR_M_spawnSF_ext
+[2022-04-22 13:22:59] startResource: Resource 'TR_M_spawnSF_ext' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_M_spawnSF_ext restarted.
+[2022-04-22 13:22:59] Starting TR_M_suwnice_ext
+[2022-04-22 13:22:59] startResource: Resource 'TR_M_suwnice_ext' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_M_suwnice_ext restarted.
+[2022-04-22 13:22:59] Starting TR_M_zajezdnia_ext
+[2022-04-22 13:22:59] startResource: Resource 'TR_M_zajezdnia_ext' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_M_zajezdnia_ext restarted.
+[2022-04-22 13:22:59] Starting TR_M_zlomowisko2flintcount
+[2022-04-22 13:22:59] startResource: Resource 'TR_M_zlomowisko2flintcount' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_M_zlomowisko2flintcount restarted.
+[2022-04-22 13:22:59] Starting TR_Prezent
+[2022-04-22 13:22:59] startResource: Resource 'TR_Prezent' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_Prezent restarted.
+[2022-04-22 13:22:59] Starting TR_achievements
+[2022-04-22 13:22:59] startResource: Resource 'TR_achievements' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_achievements restarted.
+[2022-04-22 13:22:59] Starting TR_advertisements
+[2022-04-22 13:22:59] startResource: Resource 'TR_advertisements' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_advertisements restarted.
+[2022-04-22 13:22:59] Starting TR_air
+[2022-04-22 13:22:59] startResource: Resource 'TR_air' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_air restarted.
+[2022-04-22 13:22:59] Starting TR_anims
+[2022-04-22 13:22:59] startResource: Resource 'TR_anims' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_anims restarted.
+[2022-04-22 13:22:59] Starting TR_api
+[2022-04-22 13:22:59] startResource: Resource 'TR_api' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_api restarted.
+[2022-04-22 13:22:59] Starting TR_apples
+[2022-04-22 13:22:59] startResource: Resource 'TR_apples' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_apples restarted.
+[2022-04-22 13:22:59] Starting TR_atm
+[2022-04-22 13:22:59] startResource: Resource 'TR_atm' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_atm restarted.
+[2022-04-22 13:22:59] Starting TR_bench
+[2022-04-22 13:22:59] startResource: Resource 'TR_bench' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_bench restarted.
+[2022-04-22 13:22:59] Starting TR_blips
+[2022-04-22 13:22:59] startResource: Resource 'TR_blips' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_blips restarted.
+[2022-04-22 13:22:59] Starting TR_boombox
+[2022-04-22 13:22:59] startResource: Resource 'TR_boombox' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_boombox restarted.
+[2022-04-22 13:22:59] Starting TR_bus
+[2022-04-22 13:22:59] startResource: Resource 'TR_bus' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_bus restarted.
+[2022-04-22 13:22:59] Starting TR_bw
+[2022-04-22 13:22:59] startResource: Resource 'TR_bw' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_bw restarted.
+[2022-04-22 13:22:59] WARNING: TR_camera/c.lua(Line 67) [Client] getControlState is deprecated and may not work in future versions. Please replace with getPedControlState.
+[2022-04-22 13:22:59] Some files in 'TR_camera' use deprecated functions.
+[2022-04-22 13:22:59] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:59] Starting TR_camera
+[2022-04-22 13:22:59] startResource: Resource 'TR_camera' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_camera restarted.
+[2022-04-22 13:22:59] WARNING: TR_carscrap/s.lua(Line 130) [Server] setVehicleFrozen is deprecated and may not work in future versions. Please replace with setElementFrozen.
+[2022-04-22 13:22:59] Some files in 'TR_carscrap' use deprecated functions.
+[2022-04-22 13:22:59] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:59] Starting TR_carscrap
+[2022-04-22 13:22:59] startResource: Resource 'TR_carscrap' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_carscrap restarted.
+[2022-04-22 13:22:59] Starting TR_casino
+[2022-04-22 13:22:59] startResource: Resource 'TR_casino' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_casino restarted.
+[2022-04-22 13:22:59] Starting TR_cinematic
+[2022-04-22 13:22:59] startResource: Resource 'TR_cinematic' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_cinematic restarted.
+[2022-04-22 13:22:59] Starting TR_collectibles
+[2022-04-22 13:22:59] startResource: Resource 'TR_collectibles' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_collectibles restarted.
+[2022-04-22 13:22:59] Starting TR_collisionZones
+[2022-04-22 13:22:59] startResource: Resource 'TR_collisionZones' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_collisionZones restarted.
+[2022-04-22 13:22:59] Starting TR_computer
+[2022-04-22 13:22:59] startResource: Resource 'TR_computer' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_computer restarted.
+[2022-04-22 13:22:59] Starting TR_containers
+[2022-04-22 13:22:59] startResource: Resource 'TR_containers' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_containers restarted.
+[2022-04-22 13:22:59] Starting TR_core
+[2022-04-22 13:22:59] startResource: Resource 'TR_core' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_core restarted.
+[2022-04-22 13:22:59] Starting TR_courier
+[2022-04-22 13:22:59] startResource: Resource 'TR_courier' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_courier restarted.
+[2022-04-22 13:22:59] Starting TR_crosshair
+[2022-04-22 13:22:59] startResource: Resource 'TR_crosshair' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_crosshair restarted.
+[2022-04-22 13:22:59] WARNING: TR_dashboard/c.lua(Line 3086) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:22:59] WARNING: TR_dashboard <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.8-9.20693 because of 'setVehicleVariant')
+[2022-04-22 13:22:59] Some files in 'TR_dashboard' use deprecated functions.
+[2022-04-22 13:22:59] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:59] WARNING: TR_dashboard requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.8-9.20693 because of 'setVehicleVariant')
+[2022-04-22 13:22:59] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:59] Starting TR_dashboard
+[2022-04-22 13:22:59] startResource: Resource 'TR_dashboard' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_dashboard restarted.
+[2022-04-22 13:22:59] Starting TR_devTools
+[2022-04-22 13:22:59] startResource: Resource 'TR_devTools' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_devTools restarted.
+[2022-04-22 13:22:59] Starting TR_dieselTransport
+[2022-04-22 13:22:59] startResource: Resource 'TR_dieselTransport' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_dieselTransport restarted.
+[2022-04-22 13:22:59] Starting TR_discord
+[2022-04-22 13:22:59] Module 'ml_sockets' not found, please install.
+[2022-04-22 13:22:59] Start up of resource TR_discord cancelled by script
+[2022-04-22 13:22:59] Stopping TR_discord
+[2022-04-22 13:22:59] startResource: Failed to start resource 'TR_discord'
+[2022-04-22 13:22:59] Starting TR_diver
+[2022-04-22 13:22:59] startResource: Resource 'TR_diver' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_diver restarted.
+[2022-04-22 13:22:59] Starting TR_dockbary
+[2022-04-22 13:22:59] startResource: Resource 'TR_dockbary' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_dockbary restarted.
+[2022-04-22 13:22:59] WARNING: TR_driveby/driveby_client.lua(Line 100) [Client] setControlState is deprecated and may not work in future versions. Please replace with setPedControlState.
+[2022-04-22 13:22:59] Some files in 'TR_driveby' use deprecated functions.
+[2022-04-22 13:22:59] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:59] Starting TR_driveby
+[2022-04-22 13:22:59] startResource: Resource 'TR_driveby' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_driveby restarted.
+[2022-04-22 13:22:59] Starting TR_escapeMenu
+[2022-04-22 13:22:59] startResource: Resource 'TR_escapeMenu' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_escapeMenu restarted.
+[2022-04-22 13:22:59] Starting TR_events
+[2022-04-22 13:22:59] startResource: Resource 'TR_events' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_events restarted.
+[2022-04-22 13:22:59] WARNING: TR_fallout/sourceC.lua(Line 113) [Client] setObjectRotation is deprecated and may not work in future versions. Please replace with setElementRotation.
+[2022-04-22 13:22:59] Some files in 'TR_fallout' use deprecated functions.
+[2022-04-22 13:22:59] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:59] Starting TR_fallout
+[2022-04-22 13:22:59] startResource: Resource 'TR_fallout' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_fallout restarted.
+[2022-04-22 13:22:59] Starting TR_features
+[2022-04-22 13:22:59] startResource: Resource 'TR_features' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_features restarted.
+[2022-04-22 13:22:59] WARNING: TR_firstperson/c.lua(Line 191) [Client] getControlState is deprecated and may not work in future versions. Please replace with getPedControlState.
+[2022-04-22 13:22:59] WARNING: TR_firstperson/c.lua(Line 351) [Client] setControlState is deprecated and may not work in future versions. Please replace with setPedControlState.
+[2022-04-22 13:22:59] WARNING: TR_firstperson/c.lua(Line 364) [Client] getPlayerWeapon is deprecated and may not work in future versions. Please replace with getPedWeapon.
+[2022-04-22 13:22:59] WARNING: TR_firstperson/c.lua(Line 385) [Client] isPlayerDead is deprecated and may not work in future versions. Please replace with isPedDead.
+[2022-04-22 13:22:59] Some files in 'TR_firstperson' use deprecated functions.
+[2022-04-22 13:22:59] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:59] Starting TR_firstperson
+[2022-04-22 13:22:59] startResource: Resource 'TR_firstperson' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_firstperson restarted.
+[2022-04-22 13:22:59] WARNING: TR_fishing/c.lua(Line 279) [Client] getPlayerWeapon is deprecated and may not work in future versions. Please replace with getPedWeapon.
+[2022-04-22 13:22:59] Some files in 'TR_fishing' use deprecated functions.
+[2022-04-22 13:22:59] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:59] Starting TR_fishing
+[2022-04-22 13:22:59] startResource: Resource 'TR_fishing' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_fishing restarted.
+[2022-04-22 13:22:59] Starting TR_fishingBoat
+[2022-04-22 13:22:59] startResource: Resource 'TR_fishingBoat' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_fishingBoat restarted.
+[2022-04-22 13:22:59] WARNING: TR_fractions/systems/dashcam.lua(Line 107) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:22:59] WARNING: TR_fractions/systems/handSpeedCam.lua(Line 129) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:22:59] WARNING: TR_fractions/systems/handSpeedCam.lua(Line 257) [Client] getPlayerWeapon is deprecated and may not work in future versions. Please replace with getPedWeapon.
+[2022-04-22 13:22:59] Some files in 'TR_fractions' use deprecated functions.
+[2022-04-22 13:22:59] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:22:59] Starting TR_fractions
+[2022-04-22 13:22:59] startResource: Resource 'TR_fractions' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_fractions restarted.
+[2022-04-22 13:22:59] Starting TR_fuelStation
+[2022-04-22 13:22:59] startResource: Resource 'TR_fuelStation' started
+[2022-04-22 13:22:59] INFO: [TR_starter] Resource TR_fuelStation restarted.
+[2022-04-22 13:23:00] Starting TR_gangs
+[2022-04-22 13:23:00] startResource: Resource 'TR_gangs' started
+[2022-04-22 13:23:00] INFO: [TR_starter] Resource TR_gangs restarted.
+[2022-04-22 13:23:00] WARNING: TR_garage/s.lua(Line 165) [Server] setVehicleFrozen is deprecated and may not work in future versions. Please replace with setElementFrozen.
+[2022-04-22 13:23:00] Some files in 'TR_garage' use deprecated functions.
+[2022-04-22 13:23:00] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:00] Starting TR_garage
+[2022-04-22 13:23:00] startResource: Resource 'TR_garage' started
+[2022-04-22 13:23:00] INFO: [TR_starter] Resource TR_garage restarted.
+[2022-04-22 13:23:00] Starting TR_gates
+[2022-04-22 13:23:00] startResource: Resource 'TR_gates' started
+[2022-04-22 13:23:00] INFO: [TR_starter] Resource TR_gates restarted.
+[2022-04-22 13:23:00] Starting TR_ghostMode
+[2022-04-22 13:23:00] startResource: Resource 'TR_ghostMode' started
+[2022-04-22 13:23:00] INFO: [TR_starter] Resource TR_ghostMode restarted.
+[2022-04-22 13:23:00] Starting TR_govJobs
+[2022-04-22 13:23:00] startResource: Resource 'TR_govJobs' started
+[2022-04-22 13:23:00] INFO: [TR_starter] Resource TR_govJobs restarted.
+[2022-04-22 13:23:00] Starting TR_gym
+[2022-04-22 13:23:00] startResource: Resource 'TR_gym' started
+[2022-04-22 13:23:00] INFO: [TR_starter] Resource TR_gym restarted.
+[2022-04-22 13:23:00] Starting TR_help
+[2022-04-22 13:23:00] startResource: Resource 'TR_help' started
+[2022-04-22 13:23:00] INFO: [TR_starter] Resource TR_help restarted.
+[2022-04-22 13:23:00] Starting TR_highwayGates
+[2022-04-22 13:23:00] startResource: Resource 'TR_highwayGates' started
+[2022-04-22 13:23:00] INFO: [TR_starter] Resource TR_highwayGates restarted.
+[2022-04-22 13:23:00] Starting TR_houses
+[2022-04-22 13:23:00] INFO: [TR_houses] Nie znaleziono żadnego domu.
+[2022-04-22 13:23:00] startResource: Resource 'TR_houses' started
+[2022-04-22 13:23:00] INFO: [TR_starter] Resource TR_houses restarted.
+[2022-04-22 13:23:00] WARNING: TR_hud/utils.lua(Line 105) [Client] getPlayerArmor is deprecated and may not work in future versions. Please replace with getPedArmor.
+[2022-04-22 13:23:00] WARNING: TR_hud/hud.lua(Line 486) [Client] isVehicleFrozen is deprecated and may not work in future versions. Please replace with isElementFrozen.
+[2022-04-22 13:23:00] Please wait...
+[2022-04-22 13:23:01] Some files in 'TR_hud' use deprecated functions.
+[2022-04-22 13:23:01] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:01] Starting TR_hud
+[2022-04-22 13:23:02] startResource: Resource 'TR_hud' started
+[2022-04-22 13:23:02] INFO: [TR_starter] Resource TR_hud restarted.
+[2022-04-22 13:23:02] Starting TR_images
+[2022-04-22 13:23:02] startResource: Resource 'TR_images' started
+[2022-04-22 13:23:02] INFO: [TR_starter] Resource TR_images restarted.
+[2022-04-22 13:23:02] Starting TR_insideNews
+[2022-04-22 13:23:02] startResource: Resource 'TR_insideNews' started
+[2022-04-22 13:23:02] INFO: [TR_starter] Resource TR_insideNews restarted.
+[2022-04-22 13:23:02] WARNING: TR_interaction/c.lua(Line 1873) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:23:02] WARNING: TR_interaction/s.lua(Line 73) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2022-04-22 13:23:02] Some files in 'TR_interaction' use deprecated functions.
+[2022-04-22 13:23:02] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:02] Starting TR_interaction
+[2022-04-22 13:23:02] startResource: Resource 'TR_interaction' started
+[2022-04-22 13:23:02] INFO: [TR_starter] Resource TR_interaction restarted.
+[2022-04-22 13:23:02] Starting TR_interiors
+[2022-04-22 13:23:03] startResource: Resource 'TR_interiors' started
+[2022-04-22 13:23:03] INFO: [TR_starter] Resource TR_interiors restarted.
+[2022-04-22 13:23:04] Starting TR_interiorsBuilder
+[2022-04-22 13:23:04] startResource: Resource 'TR_interiorsBuilder' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_interiorsBuilder restarted.
+[2022-04-22 13:23:04] WARNING: TR_items/c.lua(Line 966) [Client] getPlayerArmor is deprecated and may not work in future versions. Please replace with getPedArmor.
+[2022-04-22 13:23:04] WARNING: TR_items/c.lua(Line 2023) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:23:04] Some files in 'TR_items' use deprecated functions.
+[2022-04-22 13:23:04] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:04] Starting TR_items
+[2022-04-22 13:23:04] WARNING: TR_items\s.lua:821: Bad argument @ 'setElementModel' [Expected element at argument 1, got boolean]
+[2022-04-22 13:23:04] ERROR: TR_items\s.lua:822: Bad argument @ 'setElementData' [Expected element at argument 1, got boolean]
+[2022-04-22 13:23:04] startResource: Resource 'TR_items' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_items restarted.
+[2022-04-22 13:23:04] Starting TR_jail
+[2022-04-22 13:23:04] startResource: Resource 'TR_jail' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_jail restarted.
+[2022-04-22 13:23:04] Starting TR_jobPayments
+[2022-04-22 13:23:04] startResource: Resource 'TR_jobPayments' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_jobPayments restarted.
+[2022-04-22 13:23:04] WARNING: TR_jobs/c.lua(Line 1018) [Client] xmlCreateSubNode is deprecated and may not work in future versions. Please replace with xmlCreateChild.
+[2022-04-22 13:23:04] Some files in 'TR_jobs' use deprecated functions.
+[2022-04-22 13:23:04] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:04] Starting TR_jobs
+[2022-04-22 13:23:04] startResource: Resource 'TR_jobs' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_jobs restarted.
+[2022-04-22 13:23:04] Starting TR_landmowers
+[2022-04-22 13:23:04] startResource: Resource 'TR_landmowers' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_landmowers restarted.
+[2022-04-22 13:23:04] Starting TR_licences
+[2022-04-22 13:23:04] startResource: Resource 'TR_licences' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_licences restarted.
+[2022-04-22 13:23:04] Starting TR_login
+[2022-04-22 13:23:04] startResource: Resource 'TR_login' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_login restarted.
+[2022-04-22 13:23:04] Starting TR_markers
+[2022-04-22 13:23:04] startResource: Resource 'TR_markers' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_markers restarted.
+[2022-04-22 13:23:04] Starting TR_mdc
+[2022-04-22 13:23:04] startResource: Resource 'TR_mdc' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_mdc restarted.
+[2022-04-22 13:23:04] Starting TR_mechanic
+[2022-04-22 13:23:04] startResource: Resource 'TR_mechanic' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_mechanic restarted.
+[2022-04-22 13:23:04] Starting TR_mine
+[2022-04-22 13:23:04] startResource: Resource 'TR_mine' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_mine restarted.
+[2022-04-22 13:23:04] Starting TR_mountChiliad
+[2022-04-22 13:23:04] startResource: Resource 'TR_mountChiliad' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_mountChiliad restarted.
+[2022-04-22 13:23:04] Starting TR_multiSeat
+[2022-04-22 13:23:04] startResource: Resource 'TR_multiSeat' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_multiSeat restarted.
+[2022-04-22 13:23:04] Starting TR_noti
+[2022-04-22 13:23:04] startResource: Resource 'TR_noti' started
+[2022-04-22 13:23:04] INFO: [TR_starter] Resource TR_noti restarted.
+[2022-04-22 13:23:05] Starting TR_npcs
+[2022-04-22 13:23:05] startResource: Resource 'TR_npcs' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_npcs restarted.
+[2022-04-22 13:23:05] Starting TR_objectManager
+[2022-04-22 13:23:05] startResource: Resource 'TR_objectManager' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_objectManager restarted.
+[2022-04-22 13:23:05] Starting TR_orgLogo
+[2022-04-22 13:23:05] startResource: Resource 'TR_orgLogo' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_orgLogo restarted.
+[2022-04-22 13:23:05] Starting TR_orgLogos
+[2022-04-22 13:23:05] startResource: Resource 'TR_orgLogos' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_orgLogos restarted.
+[2022-04-22 13:23:05] WARNING: TR_organizations/addVehicle.lua(Line 67) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:23:05] Some files in 'TR_organizations' use deprecated functions.
+[2022-04-22 13:23:05] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:05] Starting TR_organizations
+[2022-04-22 13:23:05] startResource: Resource 'TR_organizations' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_organizations restarted.
+[2022-04-22 13:23:05] WARNING: TR_painting <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.7-9.20642 because of 'setVehicleModelWheelSize')
+[2022-04-22 13:23:05] WARNING: TR_painting requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.7-9.20642 because of 'setVehicleModelWheelSize')
+[2022-04-22 13:23:05] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:05] Starting TR_painting
+[2022-04-22 13:23:05] startResource: Resource 'TR_painting' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_painting restarted.
+[2022-04-22 13:23:05] Starting TR_performance
+[2022-04-22 13:23:05] startResource: Resource 'TR_performance' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_performance restarted.
+[2022-04-22 13:23:05] Starting TR_phone
+[2022-04-22 13:23:05] startResource: Resource 'TR_phone' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_phone restarted.
+[2022-04-22 13:23:05] Starting TR_pizzaboy
+[2022-04-22 13:23:05] startResource: Resource 'TR_pizzaboy' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_pizzaboy restarted.
+[2022-04-22 13:23:05] WARNING: TR_plates/c.lua(Line 73) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:23:05] Some files in 'TR_plates' use deprecated functions.
+[2022-04-22 13:23:05] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:05] Starting TR_plates
+[2022-04-22 13:23:05] startResource: Resource 'TR_plates' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_plates restarted.
+[2022-04-22 13:23:05] WARNING: TR_policeParking/c.lua(Line 177) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:23:05] WARNING: TR_policeParking/takeout.lua(Line 78) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:23:05] WARNING: TR_policeParking/s.lua(Line 29) [Server] setVehicleFrozen is deprecated and may not work in future versions. Please replace with setElementFrozen.
+[2022-04-22 13:23:05] Some files in 'TR_policeParking' use deprecated functions.
+[2022-04-22 13:23:05] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:05] Starting TR_policeParking
+[2022-04-22 13:23:05] startResource: Resource 'TR_policeParking' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_policeParking restarted.
+[2022-04-22 13:23:05] Starting TR_pomnik
+[2022-04-22 13:23:05] startResource: Resource 'TR_pomnik' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_pomnik restarted.
+[2022-04-22 13:23:05] Starting TR_preview
+[2022-04-22 13:23:05] startResource: Resource 'TR_preview' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_preview restarted.
+[2022-04-22 13:23:05] Starting TR_publicVehicles
+[2022-04-22 13:23:05] startResource: Resource 'TR_publicVehicles' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_publicVehicles restarted.
+[2022-04-22 13:23:05] Starting TR_quad
+[2022-04-22 13:23:05] startResource: Resource 'TR_quad' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_quad restarted.
+[2022-04-22 13:23:05] WARNING: TR_races/races/drag.lua(Line 139) [Client] getControlState is deprecated and may not work in future versions. Please replace with getPedControlState.
+[2022-04-22 13:23:05] WARNING: TR_races/c.lua(Line 1206) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:23:05] Some files in 'TR_races' use deprecated functions.
+[2022-04-22 13:23:05] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:05] Starting TR_races
+[2022-04-22 13:23:05] startResource: Resource 'TR_races' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_races restarted.
+[2022-04-22 13:23:05] Starting TR_radios
+[2022-04-22 13:23:05] startResource: Resource 'TR_radios' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_radios restarted.
+[2022-04-22 13:23:05] Starting TR_scoreboard
+[2022-04-22 13:23:05] startResource: Resource 'TR_scoreboard' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_scoreboard restarted.
+[2022-04-22 13:23:05] Starting TR_shaders
+[2022-04-22 13:23:05] startResource: Resource 'TR_shaders' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_shaders restarted.
+[2022-04-22 13:23:05] Starting TR_skinShop
+[2022-04-22 13:23:05] startResource: Resource 'TR_skinShop' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_skinShop restarted.
+[2022-04-22 13:23:05] WARNING: TR_snowPlow <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.7-9.20642 because of 'setVehicleModelWheelSize')
+[2022-04-22 13:23:05] WARNING: TR_snowPlow requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.7-9.20642 because of 'setVehicleModelWheelSize')
+[2022-04-22 13:23:05] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:05] Starting TR_snowPlow
+[2022-04-22 13:23:05] startResource: Resource 'TR_snowPlow' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_snowPlow restarted.
+[2022-04-22 13:23:05] Starting TR_spreaderSAFD
+[2022-04-22 13:23:05] startResource: Resource 'TR_spreaderSAFD' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_spreaderSAFD restarted.
+[2022-04-22 13:23:05] Starting TR_sweepers
+[2022-04-22 13:23:05] startResource: Resource 'TR_sweepers' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_sweepers restarted.
+[2022-04-22 13:23:05] Starting TR_swimSuit
+[2022-04-22 13:23:05] startResource: Resource 'TR_swimSuit' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_swimSuit restarted.
+[2022-04-22 13:23:05] WARNING: TR_taxi/s.lua(Line 131) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2022-04-22 13:23:05] Some files in 'TR_taxi' use deprecated functions.
+[2022-04-22 13:23:05] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:05] Starting TR_taxi
+[2022-04-22 13:23:05] startResource: Resource 'TR_taxi' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_taxi restarted.
+[2022-04-22 13:23:05] Starting TR_tram
+[2022-04-22 13:23:05] startResource: Resource 'TR_tram' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_tram restarted.
+[2022-04-22 13:23:05] WARNING: TR_tuning/s.lua(Line 126) [Server] setVehicleFrozen is deprecated and may not work in future versions. Please replace with setElementFrozen.
+[2022-04-22 13:23:05] Some files in 'TR_tuning' use deprecated functions.
+[2022-04-22 13:23:05] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:05] Starting TR_tuning
+[2022-04-22 13:23:05] startResource: Resource 'TR_tuning' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_tuning restarted.
+[2022-04-22 13:23:05] Starting TR_tutorial
+[2022-04-22 13:23:05] startResource: Resource 'TR_tutorial' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_tutorial restarted.
+[2022-04-22 13:23:05] Starting TR_valentines
+[2022-04-22 13:23:05] startResource: Resource 'TR_valentines' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_valentines restarted.
+[2022-04-22 13:23:05] Starting TR_vehicleDirt
+[2022-04-22 13:23:05] startResource: Resource 'TR_vehicleDirt' started
+[2022-04-22 13:23:05] INFO: [TR_starter] Resource TR_vehicleDirt restarted.
+[2022-04-22 13:23:06] Starting TR_vehicleEngine
+[2022-04-22 13:23:06] startResource: Resource 'TR_vehicleEngine' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_vehicleEngine restarted.
+[2022-04-22 13:23:06] WARNING: TR_vehicleShowroom/c.lua(Line 238) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:23:06] WARNING: TR_vehicleShowroom/signs.lua(Line 202) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2022-04-22 13:23:06] Some files in 'TR_vehicleShowroom' use deprecated functions.
+[2022-04-22 13:23:06] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2022-04-22 13:23:06] Starting TR_vehicleShowroom
+[2022-04-22 13:23:06] startResource: Resource 'TR_vehicleShowroom' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_vehicleShowroom restarted.
+[2022-04-22 13:23:06] Starting TR_vehicleSignals
+[2022-04-22 13:23:06] startResource: Resource 'TR_vehicleSignals' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_vehicleSignals restarted.
+[2022-04-22 13:23:06] Starting TR_voice
+[2022-04-22 13:23:06] startResource: Resource 'TR_voice' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_voice restarted.
+[2022-04-22 13:23:06] Starting TR_warehouse
+[2022-04-22 13:23:06] startResource: Resource 'TR_warehouse' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_warehouse restarted.
+[2022-04-22 13:23:06] Starting TR_watch
+[2022-04-22 13:23:06] startResource: Resource 'TR_watch' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_watch restarted.
+[2022-04-22 13:23:06] Starting TR_weaponSlots
+[2022-04-22 13:23:06] startResource: Resource 'TR_weaponSlots' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_weaponSlots restarted.
+[2022-04-22 13:23:06] Starting TR_weapons
+[2022-04-22 13:23:06] startResource: Resource 'TR_weapons' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_weapons restarted.
+[2022-04-22 13:23:06] Starting TR_weather
+[2022-04-22 13:23:06] startResource: Resource 'TR_weather' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_weather restarted.
+[2022-04-22 13:23:06] Starting TR_weights
+[2022-04-22 13:23:06] startResource: Resource 'TR_weights' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_weights restarted.
+[2022-04-22 13:23:06] Starting TR_womanDay
+[2022-04-22 13:23:06] startResource: Resource 'TR_womanDay' started
+[2022-04-22 13:23:06] INFO: [TR_starter] Resource TR_womanDay restarted.
+[2022-04-22 13:23:06] Stopping TR_multiSeat
+[2022-04-22 13:23:06] Starting TR_multiSeat
+[2022-04-22 13:23:06] TR_multiSeat restarted successfully
+[2022-04-22 13:23:23] * Syntax: upgrade <resource-name> | all
+[2022-04-22 13:23:25] Upgrading all resources...
+[2022-04-22 13:23:26] Upgrading TR_admin:s.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_admin:meta.xml ...........done
+[2022-04-22 13:23:26] Upgrading TR_camera:c.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_carscrap:s.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_chat:meta.xml ...........done
+[2022-04-22 13:23:26] Upgrading TR_dashboard:c.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_dashboard:meta.xml ...........done
+[2022-04-22 13:23:26] Upgrading TR_driveby:driveby_client.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_dx:meta.xml ...........done
+[2022-04-22 13:23:26] Upgrading TR_fallout:sourceC.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_firstperson:c.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_fishing:c.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_fractions:systems/dashcam.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_fractions:systems/handSpeedCam.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_garage:s.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_hud:utils.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_hud:hud.lua ...........done
+[2022-04-22 13:23:26] Please wait...
+[2022-04-22 13:23:26] Upgrading TR_interaction:c.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_interaction:s.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_items:c.lua ...........done
+[2022-04-22 13:23:26] Upgrading TR_jobs:c.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_mysql:meta.xml ...........done
+[2022-04-22 13:23:27] Upgrading TR_organizations:addVehicle.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_painting:meta.xml ...........done
+[2022-04-22 13:23:27] Upgrading TR_plates:c.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_policeParking:c.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_policeParking:takeout.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_policeParking:s.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_races:races/drag.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_races:c.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_snowPlow:meta.xml ...........done
+[2022-04-22 13:23:27] Upgrading TR_taxi:s.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_tuning:s.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_vehicleExchange:info.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_vehicleShowroom:c.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_vehicleShowroom:signs.lua ...........done
+[2022-04-22 13:23:27] Upgrading TR_vehicles:meta.xml ...........done
+[2022-04-22 13:23:27] Upgrade completed. Refreshing all resources...
+[2022-04-22 13:23:27] Resource 'TR_admin' changed while running, reloading and restarting
+[2022-04-22 13:23:27] Stopping TR_admin
+[2022-04-22 13:23:27] Resource 'TR_admin' requests some acl rights. Use the command 'aclrequest list TR_admin'
+[2022-04-22 13:23:27] New resource 'TR_admin' loaded
+[2022-04-22 13:23:27] Resource 'TR_camera' changed while running, reloading and restarting
+[2022-04-22 13:23:27] Stopping TR_camera
+[2022-04-22 13:23:27] New resource 'TR_camera' loaded
+[2022-04-22 13:23:27] Resource 'TR_carscrap' changed while running, reloading and restarting
+[2022-04-22 13:23:27] Stopping TR_carscrap
+[2022-04-22 13:23:27] New resource 'TR_carscrap' loaded
+[2022-04-22 13:23:27] Resource 'TR_chat' changed while running, reloading and restarting
+[2022-04-22 13:23:27] Stopping TR_chat
+[2022-04-22 13:23:27] WARNING: TR_starter\s.lua:68: Attempt to restart a stopped resource
+[2022-04-22 13:23:27] New resource 'TR_chat' loaded
+[2022-04-22 13:23:27] Resource 'TR_customModels' changed, reloading
+[2022-04-22 13:23:27] ERROR: Couldn't find file models/vehicle/safdQuad.idff for resource TR_customModels
+[2022-04-22 13:23:27] Loading of resource 'TR_customModels' failed
+[2022-04-22 13:23:27] Resource 'TR_dashboard' changed while running, reloading and restarting
+[2022-04-22 13:23:27] Stopping TR_dashboard
+[2022-04-22 13:23:27] New resource 'TR_dashboard' loaded
+[2022-04-22 13:23:27] Resource 'TR_driveby' changed while running, reloading and restarting
+[2022-04-22 13:23:27] Stopping TR_driveby
+[2022-04-22 13:23:27] New resource 'TR_driveby' loaded
+[2022-04-22 13:23:27] Resource 'TR_dx' changed while running, reloading and restarting
+[2022-04-22 13:23:27] Stopping TR_dx
+[2022-04-22 13:23:27] New resource 'TR_dx' loaded
+[2022-04-22 13:23:27] Resource 'TR_fallout' changed while running, reloading and restarting
+[2022-04-22 13:23:27] Stopping TR_fallout
+[2022-04-22 13:23:27] New resource 'TR_fallout' loaded
+[2022-04-22 13:23:27] Resource 'TR_firstperson' changed while running, reloading and restarting
+[2022-04-22 13:23:27] Stopping TR_firstperson
+[2022-04-22 13:23:27] New resource 'TR_firstperson' loaded
+[2022-04-22 13:23:27] Resource 'TR_fishing' changed while running, reloading and restarting
+[2022-04-22 13:23:27] Stopping TR_fishing
+[2022-04-22 13:23:28] New resource 'TR_fishing' loaded
+[2022-04-22 13:23:28] Resource 'TR_fractions' changed while running, reloading and restarting
+[2022-04-22 13:23:28] Stopping TR_fractions
+[2022-04-22 13:23:28] New resource 'TR_fractions' loaded
+[2022-04-22 13:23:28] Resource 'TR_garage' changed while running, reloading and restarting
+[2022-04-22 13:23:28] Stopping TR_garage
+[2022-04-22 13:23:28] New resource 'TR_garage' loaded
+[2022-04-22 13:23:28] Resource 'TR_hud' changed while running, reloading and restarting
+[2022-04-22 13:23:28] Stopping TR_hud
+[2022-04-22 13:23:28] WARNING: Ignoring duplicate client file in resource 'TR_hud': 'files/images/radar/zones/5_4_27.dds'
+[2022-04-22 13:23:29] New resource 'TR_hud' loaded
+[2022-04-22 13:23:29] Resource 'TR_interaction' changed while running, reloading and restarting
+[2022-04-22 13:23:29] Stopping TR_interaction
+[2022-04-22 13:23:29] New resource 'TR_interaction' loaded
+[2022-04-22 13:23:29] Resource 'TR_items' changed while running, reloading and restarting
+[2022-04-22 13:23:29] Stopping TR_items
+[2022-04-22 13:23:30] New resource 'TR_items' loaded
+[2022-04-22 13:23:30] Resource 'TR_jobs' changed while running, reloading and restarting
+[2022-04-22 13:23:30] Stopping TR_jobs
+[2022-04-22 13:23:30] New resource 'TR_jobs' loaded
+[2022-04-22 13:23:30] Resource 'TR_models' changed, reloading
+[2022-04-22 13:23:30] ERROR: Couldn't find file models/vehicles/cysterna.icol for resource TR_models
+[2022-04-22 13:23:30] Loading of resource 'TR_models' failed
+[2022-04-22 13:23:30] Resource 'TR_mysql' changed while running, reloading and restarting
+[2022-04-22 13:23:30] Stopping TR_mysql
+[2022-04-22 13:23:30] New resource 'TR_mysql' loaded
+[2022-04-22 13:23:30] Resource 'TR_organizations' changed while running, reloading and restarting
+[2022-04-22 13:23:30] Stopping TR_organizations
+[2022-04-22 13:23:30] Resource 'TR_organizations' requests some acl rights. Use the command 'aclrequest list TR_organizations'
+[2022-04-22 13:23:30] New resource 'TR_organizations' loaded
+[2022-04-22 13:23:30] Resource 'TR_painting' changed while running, reloading and restarting
+[2022-04-22 13:23:30] Stopping TR_painting
+[2022-04-22 13:23:30] New resource 'TR_painting' loaded
+[2022-04-22 13:23:30] Resource 'TR_plates' changed while running, reloading and restarting
+[2022-04-22 13:23:30] Stopping TR_plates
+[2022-04-22 13:23:30] New resource 'TR_plates' loaded
+[2022-04-22 13:23:30] Resource 'TR_policeParking' changed while running, reloading and restarting
+[2022-04-22 13:23:30] Stopping TR_policeParking
+[2022-04-22 13:23:30] New resource 'TR_policeParking' loaded
+[2022-04-22 13:23:30] Resource 'TR_races' changed while running, reloading and restarting
+[2022-04-22 13:23:30] Stopping TR_races
+[2022-04-22 13:23:30] New resource 'TR_races' loaded
+[2022-04-22 13:23:30] Resource 'TR_snowPlow' changed while running, reloading and restarting
+[2022-04-22 13:23:30] Stopping TR_snowPlow
+[2022-04-22 13:23:30] New resource 'TR_snowPlow' loaded
+[2022-04-22 13:23:30] Resource 'TR_taxi' changed while running, reloading and restarting
+[2022-04-22 13:23:30] Stopping TR_taxi
+[2022-04-22 13:23:30] New resource 'TR_taxi' loaded
+[2022-04-22 13:23:30] Resource 'TR_tuning' changed while running, reloading and restarting
+[2022-04-22 13:23:30] Stopping TR_tuning
+[2022-04-22 13:23:30] New resource 'TR_tuning' loaded
+[2022-04-22 13:23:31] Resource 'TR_vehicleExchange' changed while running, reloading and restarting
+[2022-04-22 13:23:31] Stopping TR_vehicleExchange
+[2022-04-22 13:23:31] New resource 'TR_vehicleExchange' loaded
+[2022-04-22 13:23:31] Resource 'TR_vehicleShowroom' changed while running, reloading and restarting
+[2022-04-22 13:23:31] Stopping TR_vehicleShowroom
+[2022-04-22 13:23:31] New resource 'TR_vehicleShowroom' loaded
+[2022-04-22 13:23:31] Resource 'TR_vehicles' changed while running, reloading and restarting
+[2022-04-22 13:23:31] Stopping TR_vehicles
+[2022-04-22 13:23:31] New resource 'TR_vehicles' loaded
+[2022-04-22 13:23:31] ERROR: Problem with resource: TR_customModels; Couldn't find file models/vehicle/safdQuad.idff for resource TR_customModels
+[2022-04-22 13:23:31] ERROR: Problem with resource: TR_models; Couldn't find file models/vehicles/cysterna.icol for resource TR_models
+[2022-04-22 13:23:31] ERROR: Problem with resource: [Mapy]; Couldn't find meta.xml file for resource '[Mapy]'
+[2022-04-22 13:23:31] Resources: 227 loaded, 3 failed
+[2022-04-22 13:23:31] Starting TR_admin
+[2022-04-22 13:23:31] WARNING: TR_starter\s.lua:68: Attempt to restart a stopped resource
+[2022-04-22 13:23:31] ERROR: TR_admin\s.lua:61: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\s.lua:119: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\s.lua:527: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\s.lua:615: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:27: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:66: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:96: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:127: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:162: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:202: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:220: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:277: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:307: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:331: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:355: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:380: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:410: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:439: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:468: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:543: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:568: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:590: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:605: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:620: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:634: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:648: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:661: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:688: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:699: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:722: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:737: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:769: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:823: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:867: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:880: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:912: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] ERROR: TR_admin\commands.lua:920: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] Starting TR_camera
+[2022-04-22 13:23:31] ERROR: TR_camera\s.lua:39: exports: Call to non-running server resource (TR_chat) [string "?"]
+[2022-04-22 13:23:31] Starting TR_carscrap
+[2022-04-22 13:23:31] Starting TR_chat
+[2022-04-22 13:23:31] Starting TR_dashboard
+[2022-04-22 13:23:31] Starting TR_driveby
+[2022-04-22 13:23:31] Starting TR_dx
+[2022-04-22 13:23:31] Starting TR_fallout
+[2022-04-22 13:23:31] Starting TR_firstperson
+[2022-04-22 13:23:31] Starting TR_fishing
+[2022-04-22 13:23:31] Starting TR_fractions
+[2022-04-22 13:23:31] ERROR: TR_fractions\s.lua:3: exports: Call to non-running server resource (TR_mysql) [string "?"]
+[2022-04-22 13:23:31] Starting TR_garage
+[2022-04-22 13:23:31] Please wait...
+[2022-04-22 13:23:32] Starting TR_hud
+[2022-04-22 13:23:32] Starting TR_interaction
+[2022-04-22 13:23:32] Starting TR_items
+[2022-04-22 13:23:32] WARNING: TR_items\s.lua:821: Bad argument @ 'setElementModel' [Expected element at argument 1, got boolean]
+[2022-04-22 13:23:32] ERROR: TR_items\s.lua:822: Bad argument @ 'setElementData' [Expected element at argument 1, got boolean]
+[2022-04-22 13:23:33] Starting TR_jobs
+[2022-04-22 13:23:33] Starting TR_mysql
+[2022-04-22 13:23:33] INFO: [MYSQL] Connected to the database (insidemta)
+[2022-04-22 13:23:33] Starting TR_organizations
+[2022-04-22 13:23:33] Starting TR_painting
+[2022-04-22 13:23:33] Starting TR_plates
+[2022-04-22 13:23:33] Starting TR_policeParking
+[2022-04-22 13:23:33] Starting TR_races
+[2022-04-22 13:23:33] Starting TR_snowPlow
+[2022-04-22 13:23:33] Starting TR_taxi
+[2022-04-22 13:23:33] Starting TR_tuning
+[2022-04-22 13:23:33] Starting TR_vehicleExchange
+[2022-04-22 13:23:33] Starting TR_vehicleShowroom
+[2022-04-22 13:23:33] Starting TR_vehicles
+[2022-04-22 13:23:33] INFO: [TR_vehicles] Brak samochodów.
+[2022-04-22 13:23:33] Stopping TR_phone
+[2022-04-22 13:23:33] Stopping TR_orgLogos
+[2022-04-22 13:23:33] Stopping TR_mdc
+[2022-04-22 13:23:33] Stopping TR_gangs
+[2022-04-22 13:23:33] Stopping TR_events
+[2022-04-22 13:23:33] Stopping TR_core
+[2022-04-22 13:23:33] Stopping TR_collectibles
+[2022-04-22 13:23:33] Stopping TR_achievements
+[2022-04-22 13:23:33] Stopping TR_bw
+[2022-04-22 13:23:33] Stopping TR_boombox
+[2022-04-22 13:23:33] Stopping TR_advertisements
+[2022-04-22 13:23:33] Stopping TR_multiSeat
+[2022-04-22 13:23:33] Starting TR_phone
+[2022-04-22 13:23:33] TR_phone restarted successfully
+[2022-04-22 13:23:33] Starting TR_orgLogos
+[2022-04-22 13:23:33] TR_orgLogos restarted successfully
+[2022-04-22 13:23:33] Starting TR_mdc
+[2022-04-22 13:23:33] TR_mdc restarted successfully
+[2022-04-22 13:23:33] Starting TR_gangs
+[2022-04-22 13:23:33] TR_gangs restarted successfully
+[2022-04-22 13:23:33] Starting TR_events
+[2022-04-22 13:23:33] TR_events restarted successfully
+[2022-04-22 13:23:33] Starting TR_core
+[2022-04-22 13:23:33] TR_core restarted successfully
+[2022-04-22 13:23:33] Starting TR_collectibles
+[2022-04-22 13:23:33] TR_collectibles restarted successfully
+[2022-04-22 13:23:33] Starting TR_achievements
+[2022-04-22 13:23:33] TR_achievements restarted successfully
+[2022-04-22 13:23:33] Starting TR_bw
+[2022-04-22 13:23:33] TR_bw restarted successfully
+[2022-04-22 13:23:33] Starting TR_boombox
+[2022-04-22 13:23:33] TR_boombox restarted successfully
+[2022-04-22 13:23:33] Starting TR_advertisements
+[2022-04-22 13:23:33] TR_advertisements restarted successfully
+[2022-04-22 13:23:33] Starting TR_multiSeat
+[2022-04-22 13:23:33] TR_multiSeat restarted successfully
+[2022-04-22 13:23:40] Server stopped!
+[2022-04-22 13:23:40] Stopping resources........................................................................................................................................................................................
+[2022-04-22 13:23:42] ERROR: TR_chat\cmds.lua:88: exports: Call to non-running server resource (TR_starter) [string "?"]
+[2022-04-22 13:23:42] Closing SQLite3 database

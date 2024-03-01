@@ -1,0 +1,13 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_customModels" />
+	<script src="settings.lua" type="shared"/>
+	<script src="c.lua" type="client"/>
+	<script src="s.lua" type="server"/>
+
+	<file src="models/vehicle/safdQuad.idff" type="client" />
+	<file src="models/vehicle/safdQuad.icol" type="client" />
+	<file src="models/vehicle/safdTow.idff" type="client" />
+	<file src="models/vehicle/safdTow.icol" type="client" />
+
+	<min_mta_version client="1.5.8"></min_mta_version>
+</meta>

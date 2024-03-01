@@ -1,0 +1,25 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_bw" />
+
+	<script src="settings.lua" type="shared" />
+	<script src="c.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+    <file src="files/images/heartbeat.png" type="client" />
+    <file src="files/images/hospital_ls.jpg" type="client" />
+    <file src="files/images/hospital_ls1.jpg" type="client" />
+    <file src="files/images/hospital_sf.jpg" type="client" />
+    <file src="files/images/hospital_sf1.jpg" type="client" />
+    <file src="files/images/hospital_lv.jpg" type="client" />
+    <file src="files/images/hospital_lv1.jpg" type="client" />
+
+    <file src="files/sounds/heartbeat.mp3" type="client" />
+
+    <file src="files/shaders/death.fx" type="client" />
+
+	<export function="openBW" type="client" />
+	<export function="startBW" type="client" />
+	<export function="hasBW" type="client" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

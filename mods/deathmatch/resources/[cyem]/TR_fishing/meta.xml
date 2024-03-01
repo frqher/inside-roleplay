@@ -1,0 +1,16 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_fisherman" />
+
+	<script src="c.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/sea.png" type="client" />
+	<file src="files/images/sea_deep.png" type="client" />
+	<file src="files/images/float.png" type="client" />
+
+	<export function="setFishBait" type="client" />
+	<export function="canChangeBait" type="client" />
+	<export function="isPlayerFishing" type="client" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

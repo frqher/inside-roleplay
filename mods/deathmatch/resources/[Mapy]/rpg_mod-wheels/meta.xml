@@ -1,0 +1,22 @@
+
+<meta>
+  <download_priority_group>2</download_priority_group>
+  <script src="podmianka.lua" type="client"/>
+
+  <file src="wheels/1025.dff" />
+  <file src="wheels/1073.dff" />
+  <file src="wheels/1074.dff" />
+  <file src="wheels/1075.dff" />
+  <file src="wheels/1076.dff" />
+  <file src="wheels/1078.dff" />
+  <file src="wheels/1079.dff" />
+  <file src="wheels/1080.dff" />
+  <file src="wheels/1081.dff" />
+  <file src="wheels/1082.dff" />
+  <file src="wheels/1083.dff" />
+  <file src="wheels/1084.dff" />
+  <file src="wheels/1085.dff" />
+  <file src="wheels/1096.dff" />
+  <file src="wheels/1097.dff" />
+  <file src="wheels/1098.dff" />
+</meta>

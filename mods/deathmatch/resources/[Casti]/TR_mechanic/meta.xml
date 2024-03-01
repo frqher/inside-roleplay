@@ -1,0 +1,22 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_mechanic" />
+
+	<script src="settings.lua" type="shared" />
+	<script src="c.lua" type="client" />
+	<script src="accept.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/engine.png" />
+	<file src="files/images/hood.png" />
+	<file src="files/images/door.png" />
+	<file src="files/images/lights.png" />
+	<file src="files/images/bumper.png" />
+	<file src="files/images/wheel.png" />
+
+	<file src="files/sounds/fix.wav" />
+
+	<export function="canBeFixed" type="client" />
+	<export function="createMechanic" type="client" />
+
+  <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

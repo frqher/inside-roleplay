@@ -1,0 +1,13 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_quad" />
+
+	<script src="c.lua" type="client" />
+	<script src="s.lua" type="server"/>
+
+	<file src="models/quad.dff" />
+	<file src="models/quad.txd" />
+
+	<export function="onWinerEnter" type="server" />
+
+    <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

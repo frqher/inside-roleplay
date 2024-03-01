@@ -1,0 +1,79 @@
+  <meta>
+	<info author="Xantris" type="script" name="TR_jobs" />
+
+	<script src="c.lua" type="client" cache="false" />
+	<script src="s.lua" type="server" />
+
+    <file src="files/fonts/font.ttf" type="client" />
+
+    <file src="files/images/wallpaper_1.png" type="client" />
+    <file src="files/images/wallpaper_2.png" type="client" />
+    <file src="files/images/wallpaper_3.png" type="client" />
+    <file src="files/images/wallpaper_4.png" type="client" />
+    <file src="files/images/wallpaper_5.png" type="client" />
+    <file src="files/images/wallpaper_6.png" type="client" />
+
+    <file src="files/images/bin.png" type="client" />
+    <file src="files/images/folder.png" type="client" />
+    <file src="files/images/folder_person.png" type="client" />
+    <file src="files/images/folder_vehicle.png" type="client" />
+    <file src="files/images/folder_ranks.png" type="client" />
+    <file src="files/images/folder_offices.png" type="client" />
+    <file src="files/images/settings.png" type="client" />
+    <file src="files/images/info.png" type="client" />
+    <file src="files/images/upgrade.png" type="client" />
+    <file src="files/images/earnings.png" type="client" />
+    <file src="files/images/web.png" type="client" />
+    <file src="files/images/darkweb.png" type="client" />
+
+    <file src="files/images/person_info.png" type="client" />
+    <file src="files/images/vehicle_info.png" type="client" />
+    <file src="files/images/ranks_info.png" type="client" />
+    <file src="files/images/offices_info.png" type="client" />
+    <file src="files/images/upgrade_person.png" type="client" />
+    <file src="files/images/upgrade_vehicle.png" type="client" />
+    <file src="files/images/upgrade_money.png" type="client" />
+
+    <file src="files/images/weapon_dark.png" type="client" />
+    <file src="files/images/drugs_dark.png" type="client" />
+
+    <file src="files/images/windows.png" type="client" />
+    <file src="files/images/noti.png" type="client" />
+    <file src="files/images/icons.png" type="client" />
+
+    <file src="files/images/rank.png" type="client" />
+    <file src="files/images/more.png" type="client" />
+    <file src="files/images/selected.png" type="client" />
+    <file src="files/images/add.png" type="client" />
+    <file src="files/images/edit.png" type="client" />
+    <file src="files/images/dollar.png" type="client" />
+
+    <file src="files/images/error.png" type="client" />
+    <file src="files/images/success.png" type="client" />
+
+    <file src="files/images/close.png" type="client" />
+    <file src="files/images/resize_up.png" type="client" />
+    <file src="files/images/resize_down.png" type="client" />
+
+    <file src="files/images/shutdown.png" type="client" />
+    <file src="files/images/minimalize.png" type="client" />
+
+    <file src="files/images/cursor.png" type="client" />
+    <file src="files/images/pointer.png" type="client" />
+
+    <file src="files/images/offices/ebc_outside.png" type="client" />
+    <file src="files/images/offices/ebc_inside.png" type="client" />
+    <file src="files/images/offices/dollan_outside.png" type="client" />
+    <file src="files/images/offices/dollan_inside.png" type="client" />
+    <file src="files/images/offices/mo_outside.png" type="client" />
+    <file src="files/images/offices/mo_inside.png" type="client" />
+
+    <export function="openComputer" type="client" />
+    <export function="canUseComputer" type="client" />
+    <export function="createFractionPanel" type="client" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>
+
+
+

@@ -1,0 +1,17 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_starter" version="0.1.0" />
+
+	<script src="s.lua" type="server" />
+
+	<export function="startResources" type="server" />
+	<export function="stopResources" type="server" />
+	<export function="reloadResources" type="server" />
+
+	<aclrequest>
+		<right name="function.startResource" access="true" />
+		<right name="function.stopResource" access="true" />
+		<right name="function.restartResource" access="true" />
+	</aclrequest>
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

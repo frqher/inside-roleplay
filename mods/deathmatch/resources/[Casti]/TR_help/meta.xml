@@ -1,0 +1,22 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_help" />
+
+	<script src="settings.lua" type="client"/>
+	<script src="c.lua" type="client"/>
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/bg.jpg" type="client"/>
+	<file src="files/images/logo.png" type="client"/>
+	<file src="files/images/info.png" type="client"/>
+	<file src="files/images/rules.png" type="client"/>
+	<file src="files/images/updates.png" type="client"/>
+	<file src="files/images/premium.png" type="client"/>
+	<file src="files/images/tutorial.png" type="client"/>
+	<file src="files/images/crown.png" type="client"/>
+	<file src="files/images/diamond.png" type="client"/>
+	<file src="files/images/man.png" type="client"/>
+	<file src="files/images/check.png" type="client"/>
+	<file src="files/images/cross.png" type="client"/>
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

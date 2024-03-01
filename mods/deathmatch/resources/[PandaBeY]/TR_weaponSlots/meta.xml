@@ -1,0 +1,14 @@
+<meta>
+	<oop>true</oop>
+	<script src="sourceS.lua" type="server" />
+	<script src="sourceC.lua" type="client" />
+
+	<export function="takeWeapon" type="client" />
+	<export function="changeWeapon" type="client" />
+	<export function="setWeaponSlot" type="client" />
+	<export function="getWeaponsTable" type="client" />
+
+	<export function="giveWeapon" type="server" />
+	<export function="takeWeapon" type="server" />
+	<export function="takeAllWeapons" type="server" />
+</meta>

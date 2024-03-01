@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+    <object id="object (pdomes_extras) (1)" breakable="true" interior="3" alpha="255" model="14540" doublesided="false" scale="1" dimension="3" posX="-2687.7" posY="1419.1" posZ="911.79999" rotX="0" rotY="0" rotZ="0" collisions="false"></object>
+    <object id="object (BDups_plant) (1)" breakable="true" interior="3" alpha="255" model="14804" doublesided="true" scale="1" dimension="3" posX="-2675.3" posY="1430.1" posZ="918.29999" rotX="0" rotY="0" rotZ="50"></object>
+    <object id="object (LM_stripplant) (1)" breakable="true" interior="3" alpha="255" model="14834" doublesided="true" scale="1" dimension="3" posX="-2671.3" posY="1425.6" posZ="917.5" rotX="0" rotY="0" rotZ="110"></object>
+    <object id="object (cjgaragedoor) (1)" breakable="true" interior="3" alpha="255" model="17951" doublesided="false" scale="0" dimension="3" posX="-2673.6001" posY="1424.1" posZ="919.59998" rotX="0" rotY="0" rotZ="270"></object>
+</map>

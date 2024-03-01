@@ -1,0 +1,23 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_gangs" />
+
+	<script src="settings.lua" type="shared"/>
+	<script src="c.lua" type="client"/>
+	<script src="systems/graffiti.lua" type="client"/>
+	<script src="systems/corners.lua" type="client"/>
+
+	<script src="systems/docks.lua" type="server"/>
+
+	<script src="s.lua" type="server"/>
+
+	<file src="files/images/noGangGraffiti.png" type="client" />
+	<file src="files/images/bar.png" type="client" />
+
+	<export function="enableCorners" type="client" />
+	<export function="canEnableCorner" type="client" />
+	<export function="useCornerChat" type="client" />
+	<export function="isCornerEnabled" type="client" />
+	<export function="getNearestGraffiti" type="client" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

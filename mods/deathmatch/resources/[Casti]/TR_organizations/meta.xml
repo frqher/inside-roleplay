@@ -1,0 +1,24 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_organizations" />
+
+	<script src="admin.lua" type="client" />
+	<script src="create.lua" type="client" />
+	<script src="addVehicle.lua" type="client" />
+
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/people.png" type="client" />
+	<file src="files/images/rifle.png" type="client" />
+	<file src="files/images/color.png" type="client" />
+	<file src="files/images/marijuana.png" type="client" />
+	<file src="files/images/injection.png" type="client" />
+
+	<export function="getOrganizationID" type="client" />
+	<export function="getOrganizationImage" type="client" />
+
+    <aclrequest>
+		<right name="function.fetchRemote" access="true" />
+	</aclrequest>
+
+    <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

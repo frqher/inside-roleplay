@@ -1,0 +1,42 @@
+<meta>
+	<info author="panda" type="script" name="tuning" version="0.1.0" />
+
+	<script src="settings.lua" type="client" />
+	<script src="c.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/hood.png" type="client" />
+	<file src="files/images/roof.png" type="client" />
+	<file src="files/images/backBumper.png" type="client" />
+	<file src="files/images/frontBumper.png" type="client" />
+	<file src="files/images/exhaust.png" type="client" />
+	<file src="files/images/spoiler.png" type="client" />
+	<file src="files/images/lights.png" type="client" />
+
+	<file src="files/images/rims.png" type="client" />
+	<file src="files/images/exit.png" type="client" />
+	<file src="files/images/speedometer.png" type="client" />
+	<file src="files/images/tiresize.png" type="client" />
+	<file src="files/images/wheeltilt.png" type="client" />
+	<file src="files/images/windowtint.png" type="client" />
+	<file src="files/images/variant.png" type="client" />
+	<file src="files/images/neon.png" type="client" />
+
+
+	<file src="files/images/turbo.png" type="client" />
+	<file src="files/images/transmission.png" type="client" />
+	<file src="files/images/distribution.png" type="client" />
+	<file src="files/images/piston.png" type="client" />
+	<file src="files/images/intercooler.png" type="client" />
+	<file src="files/images/clutch.png" type="client" />
+	<file src="files/images/break.png" type="client" />
+	<file src="files/images/breakpad.png" type="client" />
+	<file src="files/images/suspension.png" type="client" />
+	<file src="files/images/drivetype.png" type="client" />
+	<file src="files/images/steering.png" type="client" />
+	<file src="files/images/injection.png" type="client" />
+
+	<export function="getCustomUpgrades" type="client" />
+
+	<min_mta_version client="1.5.2" server="1.5.2"></min_mta_version>
+</meta>

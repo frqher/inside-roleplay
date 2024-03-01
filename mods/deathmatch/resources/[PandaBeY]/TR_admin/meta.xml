@@ -1,0 +1,58 @@
+<meta>
+    <info author="Xantris" type="script" name="TR_admin" version="0.1.0" />
+    <oop>true</oop>
+    <script src="settings.lua" type="shared" />
+    
+    <script src="adminLogs.lua" type="client" />
+    <script src="adminPanel.lua" type="client" />
+    <script src="c.lua" type="client" />
+    <script src="spec.lua" type="client" />
+    <script src="warn.lua" type="client" />
+    <script src="adminList.lua" type="client" />
+    
+    <script src="s.lua" type="server" />
+    <script src="commands.lua" type="server" />
+    
+    <file src="files/sounds/warn.mp3" />
+    
+    <!-- Admin panel CEF -->
+    <file src="files/html/css/app.css" cache="false" />
+    <file src="files/html/css/bootstrap.min.css" cache="false" />
+    <file src="files/html/css/bootstrap.min.css.map" cache="false" />
+    
+    <file src="files/html/js/vue.js" cache="false" />
+    <file src="files/html/js/bootstrap.bundle.min.js" cache="false" />
+    <file src="files/html/js/bootstrap.bundle.min.js.map" cache="false" />
+    
+    <file src="files/html/fonts/Inter.ttf" cache="false" />
+    
+    <file src="files/html/images/logo.png" cache="false" />
+    
+    <file src="files/html/adminLogs.html" cache="false" />
+    <!--  -->
+    
+    <!-- Admin leader panel -->
+    <file src="files/images/trash.png" cache="false" />
+    <file src="files/images/block.png" cache="false" />
+    <file src="files/images/arrow.png" cache="false" />
+    
+    <!--  -->
+    
+    <export function="isPlayerOnDuty" type="client" />
+    <export function="isPlayerDeveloper" type="client" />
+    <export function="getAdminPermissions" type="client" />
+    
+    <export function="isPlayerOnDuty" type="server" />
+    <export function="hasPlayerPermission" type="server" />
+    
+    <export function="updateLogs" type="server" />
+    <export function="addMysqlInfo" type="server" />
+    <export function="reconnectPlayer" type="server" />
+    
+    <aclrequest>
+        <right name="function.kickPlayer" access="true" />
+        <right name="function.redirectPlayer" access="true" />
+    </aclrequest>
+    
+    <min_mta_version server="1.5.5-9.13846" />
+</meta>

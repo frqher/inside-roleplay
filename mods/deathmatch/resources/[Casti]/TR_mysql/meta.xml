@@ -1,0 +1,13 @@
+<meta>
+    <info author="Xantris" type="script" name="TR_mysql" />
+    
+    <script src="s.lua" type="server" />
+    
+    <export function="querry" type="server" />
+    <export function="querryAsync" type="server" />
+    <export function="querryMultiselect" type="server" />
+    <export function="querryAsyncMultiselect" type="server" />
+    <export function="querryAsyncWithoutResponse" type="server" />
+    
+    <min_mta_version server="1.5.2" />
+</meta>

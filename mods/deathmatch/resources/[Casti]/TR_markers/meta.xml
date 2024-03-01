@@ -1,0 +1,82 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_markers" />
+	<script src="c.lua" type="client"/>
+
+	<!-- Main marker floor -->
+	<file src="files/images/marker.png" type="client" />
+
+	<!-- Marker icons -->
+	<file src="files/images/garage.png" type="client"/>
+	<file src="files/images/house.png" type="client"/>
+	<file src="files/images/cityhall.png" type="client"/>
+	<file src="files/images/beer.png" type="client"/>
+	<file src="files/images/wine.png" type="client"/>
+	<file src="files/images/shop.png" type="client"/>
+	<file src="files/images/clothes.png" type="client"/>
+	<file src="files/images/didier.png" type="client"/>
+	<file src="files/images/prolaps.png" type="client"/>
+	<file src="files/images/zip.png" type="client"/>
+	<file src="files/images/psychologist.png" type="client"/>
+	<file src="files/images/pizza.png" type="client"/>
+	<file src="files/images/burger.png" type="client"/>
+	<file src="files/images/chicken.png" type="client"/>
+	<file src="files/images/seven.png" type="client"/>
+	<file src="files/images/disco.png" type="client"/>
+	<file src="files/images/donut.png" type="client"/>
+	<file src="files/images/bank.png" type="client"/>
+	<file src="files/images/mechanic.png" type="client"/>
+	<file src="files/images/taxi.png" type="client"/>
+	<file src="files/images/police.png" type="client"/>
+	<file src="files/images/medic.png" type="client"/>
+	<file src="files/images/fire.png" type="client"/>
+	<file src="files/images/tv.png" type="client"/>
+	<file src="files/images/licenceTheory.png" type="client"/>
+	<file src="files/images/licencePractise.png" type="client"/>
+	<file src="files/images/noParking.png" type="client"/>
+	<file src="files/images/office.png" type="client"/>
+	<file src="files/images/gun.png" type="client"/>
+	<file src="files/images/exchange.png" type="client"/>
+	<file src="files/images/magazineBox.png" type="client"/>
+	<file src="files/images/truck.png" type="client"/>
+	<file src="files/images/truckTakeOff.png" type="client"/>
+	<file src="files/images/apple.png" type="client"/>
+	<file src="files/images/fractionc.png" type="client"/>
+	<file src="files/images/landmower.png" type="client"/>
+	<file src="files/images/gym.png" type="client"/>
+	<file src="files/images/shootingRange.png" type="client"/>
+	<file src="files/images/piston.png" type="client"/>
+	<file src="files/images/bulb.png" type="client"/>
+	<file src="files/images/gift.png" type="client"/>
+	<file src="files/images/towtruck.png" type="client"/>
+	<file src="files/images/snowplow.png" type="client"/>
+	<file src="files/images/sanddune.png" type="client"/>
+	<file src="files/images/news.png" type="client"/>
+	<file src="files/images/church.png" type="client"/>
+	<file src="files/images/carwash.png" type="client"/>
+	<file src="files/images/tram.png" type="client"/>
+	<file src="files/images/busStop.png" type="client"/>
+	<file src="files/images/casino.png" type="client"/>
+	<file src="files/images/slotMachine.png" type="client"/>
+	<file src="files/images/race.png" type="client"/>
+	<file src="files/images/handcuffs.png" type="client"/>
+	<file src="files/images/boatSteering.png" type="client"/>
+	<file src="files/images/tollRoad.png" type="client"/>
+	<file src="files/images/jail.png" type="client"/>
+	<file src="files/images/courier.png" type="client"/>
+	<file src="files/images/health.png" type="client"/>
+	<file src="files/images/sweeper.png" type="client"/>
+	<file src="files/images/agd.png" type="client"/>
+	<file src="files/images/bus.png" type="client"/>
+	<file src="files/images/map.png" type="client"/>
+	<file src="files/images/plane.png" type="client"/>
+	<file src="files/images/flowers.png" type="client"/>
+	<file src="files/images/diving.png" type="client"/>
+	<file src="files/images/ers.png" type="client"/>
+	<file src="files/images/eagle.png" type="client"/>
+	<file src="files/images/tankTruck.png" type="client"/>
+	<file src="files/images/pickaxe.png" type="client"/>
+
+	<export function="getMarkerDataByIcon" type="client" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

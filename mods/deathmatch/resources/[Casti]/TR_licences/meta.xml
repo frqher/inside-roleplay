@@ -1,0 +1,13 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_licences" />
+	<script src="settings.lua" type="shared"/>
+	<script src="c.lua" type="client"/>
+
+	<script src="exams/theory.lua" type="client"/>
+	<script src="exams/practise.lua" type="client"/>
+	<script src="s.lua" type="server"/>
+
+	<export function="getLicenceData" type="client" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

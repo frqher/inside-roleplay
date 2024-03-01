@@ -1,0 +1,7 @@
+<settings>
+	<setting name="@mysql.database" value="mrp_sql" />
+    <setting name="@mysql.username" value="root" />
+    <setting name="@mysql.password" value="ebu145942" />
+    <setting name="@mysql.hostname" value="localhost" />
+    <setting name="@mysql.port" value="3306" />
+</settings>

@@ -1,0 +1,16 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_mdc" />
+
+	<script src="c.lua" type="client" cache="false" />
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/logo.png" type="client"/>
+	<file src="files/images/tablet.png" type="client"/>
+	<file src="files/images/button.png" type="client"/>
+	<file src="files/images/people.png" type="client"/>
+	<file src="files/images/vehicle.png" type="client"/>
+	<file src="files/images/wanted.png" type="client"/>
+	<file src="files/images/loading.png" type="client"/>
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

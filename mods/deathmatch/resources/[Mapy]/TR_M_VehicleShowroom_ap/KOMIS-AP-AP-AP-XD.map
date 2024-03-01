@@ -1,0 +1,14 @@
+<map edf:definitions="editor_main">
+    <object id="object (des_nt_buntpoles01) (1)" breakable="true" interior="0" alpha="255" model="16448" doublesided="false" scale="1" dimension="0" posX="-2058.8" posY="-2515.8" posZ="34.4" rotX="0" rotY="0" rotZ="141"></object>
+    <object id="object (des_nt_buntpoles01) (2)" breakable="true" interior="0" alpha="255" model="16448" doublesided="false" scale="1" dimension="0" posX="-2060.8" posY="-2516.3999" posZ="34.4" rotX="0" rotY="0" rotZ="320.999"></object>
+    <removeWorldObject id="removeWorldObject (trailer_large2_01) (1)" radius="9.8952436" interior="0" model="3169" lodModel="3339" posX="-2085.5547" posY="-2512.0781" posZ="29.61719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (trailer_large2_01) (2)" radius="9.8952436" interior="0" model="3169" lodModel="3339" posX="-2067.7266" posY="-2496.5" posZ="29.61719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (trailer_large4_01) (1)" radius="9.886817" interior="0" model="3173" lodModel="3342" posX="-2056.7109" posY="-2505.1953" posZ="29.61719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (trailer_large3_01) (1)" radius="10.085197" interior="0" model="3170" lodModel="3341" posX="-2076.5937" posY="-2524.5234" posZ="29.61719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (trailer_large1_01) (1)" radius="10.400908" interior="0" model="3167" lodModel="3340" posX="-2064.0391" posY="-2536.6562" posZ="29.61719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (trailer_large2_01) (3)" radius="9.8952436" interior="0" model="3169" lodModel="3339" posX="-2043.5859" posY="-2520.9219" posZ="29.61719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (trailer_large4_01) (2)" radius="9.886817" interior="0" model="3173" lodModel="3342" posX="-2051.3906" posY="-2545.9844" posZ="29.61719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (trailer_large3_01) (2)" radius="10.085197" interior="0" model="3170" lodModel="3341" posX="-2032.8516" posY="-2537.5" posZ="29.61719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (cs_oldcarjmp) (1)" radius="6.3230371" interior="0" model="18451" lodModel="0" posX="-2082.6328" posY="-2500.2344" posZ="30.08594" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (trailer6_01) (1)" breakable="true" interior="0" alpha="255" model="3172" doublesided="false" scale="1" dimension="0" posX="-2073.6001" posY="-2532.6001" posZ="29.7" rotX="0" rotY="0" rotZ="226.746"></object>
+</map>

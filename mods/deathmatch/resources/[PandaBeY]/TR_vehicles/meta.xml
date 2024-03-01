@@ -1,0 +1,39 @@
+<meta>
+    <info author="Xantris" type="script" name="TR_vehicles" />
+    <min_mta_version client="1.5.6-9.14489"></min_mta_version>
+    
+    <script src="settings.lua" type="shared" />
+    
+    <script src="c.lua" type="client" />
+    <script src="wheelBlock.lua" type="client" />
+    <script src="glasstint.lua" type="client" />
+    <script src="neons.lua" type="client" />
+    <script src="wheels.lua" type="client" />
+    <script src="damage.lua" type="client" />
+    
+    <script src="s.lua" type="server" />
+    
+    <file src="files/images/glass.png" type="client" />
+    <file src="files/images/neon.png" type="client" />
+    <file src="files/images/valentineNeon.png" type="client" />
+    <file src="files/images/wounds.png" type="client" />
+    <file src="files/images/easter.png" type="client" />
+    
+    <file src="files/shaders/mta-helper.fx" type="client" />
+    
+    <export function="isVehicleOwner" type="client" />
+    
+    <export function="updateBlockWheel" type="client" />
+    <export function="getNearestWhellID" type="client" />
+    <export function="getVehicleMaxSpeed" type="client" />
+    <export function="createBenchmarkVehicles" type="client" />
+    <export function="destroyBenchmarkVehicles" type="client" />
+    
+    <export function="saveVehicle" type="server" />
+    <export function="spawnVehicle" type="server" />
+    <export function="canUseVehicle" type="server" />
+    <export function="canVehicleEnter" type="server" />
+    <export function="getVehicleMaxSpeed" type="server" />
+    <export function="updateVehicleTuning" type="server" />
+    <export function="updateVehicleHandling" type="server" />
+</meta>

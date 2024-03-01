@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/app.css">
+    </head>
+
+    <body id="body" style="overflow: hidden;">
+        <main id="app">
+            <div id="notification"></div>
+            <div id="modal" class="d-flex justify-content-center align-items-center">
+                <button v-on:click="closeGUI" class="closeGUI">✖</button>
+                <form action="" class="d-flex flex-column justify-content-center align-items-center">
+                    <h4 class="text-center">Detayları Girin</h4>
+                    <hr style="width: 100%;"/>
+                    <label for="penaltyMessage">Cezanın Verilme Sebebi:</label>
+                    <input v-model="penaltyMessage" type="text" id="penaltyMessage" placeholder="Sebep">
+
+                    <label for="penaltyTime">Ceza Süresi:</label>
+                    <input v-model="penaltyTime" type="number" id="penaltyTime" min="1" placeholder="Ceza Süresi">
+
+                    <label for="penaltyTimeType">Ceza Süresi Türü (saat/gün/ay/yıl):</label>
+                    <input v-model="penaltyTimeType" type="text" id="penaltyTimeType" placeholder="Ceza Süresi Türü (saat/gün/ay/yıl)">
+
+                    <a class="btn btn__navbar btn__dark btn-block align-self-center m-1 active" style="width: 100%;" v-on:click="givePenaltyToPlayer()">Cezayı Uygula</a>
+                    <a class="btn btn__navbar btn__dark btn-block align-self-center m-1 active" style="width: 100%;" v-on:click="closePenalty()">Vazgeç</a>
+                </form>
+            </div>
+            <div class="container">
+                <button v-on:click="closeGUI" class="closeGUI">✖</button>
+                <div v-if="loadedData">
+                    <div class="row mt-5">
+                        <div class="col-md-4">
+                            <ul v-for="paginateElement in paginateElements" class="account__switcher">
+                                <li role="button" v-on:click="selectPaginate(paginateElement.paginateID)" class="account__switch d-flex" v-bind:class="[selectedPagination===paginateElement.paginateID ? 'account__switch__active' : '']">
+                                    {{paginateElement.paginateName}}
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-8" style="overflow: auto; height: 80vh">
+                            <div v-if="selectedPagination===1">
+                                <h1>Oyuncu Bilgileri</h1>
+                                <hr />
+
+                                <h5><span>UID:</span> {{paginateData['userData'].UID}}</h5>
+                                <h5><span>İsim:</span> {{paginateData['userData'].username}}</h5>
+                                <h5><span>Hesap:</span> {{paginateData['userData'].premium}}</h5>
+                                <h5><span>Üzerindeki Para:</span> ${{paginateData['userData'].money}}</h5>
+                                <h5><span>Bankadaki Para:</span> ${{paginateData['userData'].bankmoney || 0}}</h5>
+                                <h5><span>Deneyim:</span> {{paginateData['userData'].jobPoints}}pkt</h5>
+                                <h5><span>E-Posta Adresi:</span> {{paginateData['userData'].email}}</h5>
+                                <h5><span>Çevrimiçi Süre:</span> {{paginateData['userData'].online.toHHMMSS()}}</h5>
+                                <h5><span>Hesap Oluşturma Tarihi:</span> {{paginateData['userData'].created}}</h5>
+                                <h5><span>Son Aktiflik:</span> {{paginateData['userData'].lastOnline}}</h5>
+
+                                <div style="margin-top: 100px;">
+                                    <h3>Admin İşlemleri</h1>
+                                    <hr />
+
+                                    <a class="btn btn__navbar btn__dark btn-block align-self-center m-1 active" v-on:click="openPenaltyInfo('license')">Ehliyetine El Koy</a>
+                                    <a class="btn btn__navbar btn__dark btn-block align-self-center m-1 active" v-on:click="openPenaltyInfo('mute')">Sesini Kapat</a>
+                                    <a v-if="adminPermissions['ban']" class="btn btn__navbar btn__dark btn-block align-self-center m-1 active" v-on:click="openPenaltyInfo('ban')">Oyuncuyu Yasakla</a>
+                                </div>
+                            </div>
+                            <div v-if="selectedPagination===2">
+                                <h1>Oyuncunun Araçları</h1>
+                                <hr />
+
+                                <div style="overflow: auto; height: 80vh">
+                                    <ul v-for="vehicle in paginateData['vehicles']" class="display__list">
+                                        <li>
+                                            <h5><span>Araç ID:</span> {{vehicle.ID}}</h5>
+                                            <h5><span>Araç Modeli:</span> {{vehicle.model}}</h5>
+                                            <h5><span>Konumu:</span> {{vehicle.location}}</h5>
+                                            <h5><span>Son Sürücü:</span> {{vehicle.lastDriver}}</h5>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div v-if="selectedPagination===3">
+                                <h1>Oyuncunun Mülkleri</h1>
+                                <hr />
+
+                                <div style="overflow: auto; height: 80vh">
+                                    <ul v-for="house in paginateData['houses']" class="display__list">
+                                        <li>
+                                            <h5><span>Mülk ID:</span> {{house.ID}}</h5>
+                                            <h5><span>Alım Tarihi:</span> {{house.date}}</h5>
+                                            <h5><span>Konumu:</span> {{house.location}}</h5>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div v-if="selectedPagination===4">
+                                <h1>Oyuncu Organizasyonları</h1>
+                                <hr />
+
+                                <div style="overflow: auto; height: 80vh">
+                                    <ul v-for="organization in paginateData['organizations']" class="display__list">
+                                        <li>
+                                            <h5><span>Organizasyon ID:</span> {{organization.ID}}</h5>
+                                            <h5><span>Orgazinasyon Adı:</span> {{organization.name}}</h5>
+                                            <h5><span>Organizasyon Parası:</span> ${{organization.money}}</h5>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div v-if="selectedPagination===5">
+                                <h1>Oyuncunun Cezaları</h1>
+                                <hr />
+
+                                <div style="overflow: auto; height: 80vh">
+                                    <ul v-for="penalty in paginateData['penalties']" class="display__list">
+                                        <li style="position: relative;">
+                                            <div v-if="penalty.active" style="position: absolute; right: 0; top: 0;" class="d-flex flex-column justify-content-center">
+                                                <div style="margin: 0 auto;">
+                                                    <svg style="enable-background:new 0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="32" height="32" x="0" y="0" viewBox="0 0 507.2 507.2" xml:space="preserve"><g>
+                                                        <circle xmlns="http://www.w3.org/2000/svg" cx="253.6" cy="253.6" r="253.6" fill="#32ba7c" data-original="#32ba7c"/>
+                                                        <path xmlns="http://www.w3.org/2000/svg" d="M188.8,368l130.4,130.4c108-28.8,188-127.2,188-244.8c0-2.4,0-4.8,0-7.2L404.8,152L188.8,368z" fill="#0aa06e" data-original="#0aa06e"/>
+                                                        <g xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M260,310.4c11.2,11.2,11.2,30.4,0,41.6l-23.2,23.2c-11.2,11.2-30.4,11.2-41.6,0L93.6,272.8   c-11.2-11.2-11.2-30.4,0-41.6l23.2-23.2c11.2-11.2,30.4-11.2,41.6,0L260,310.4z" fill="#ffffff" data-original="#ffffff"/>
+                                                            <path d="M348.8,133.6c11.2-11.2,30.4-11.2,41.6,0l23.2,23.2c11.2,11.2,11.2,30.4,0,41.6l-176,175.2   c-11.2,11.2-30.4,11.2-41.6,0l-23.2-23.2c-11.2-11.2-11.2-30.4,0-41.6L348.8,133.6z" fill="#ffffff" data-original="#ffffff"/>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                                <p>Aktif</p>
+                                            </div>
+
+                                            <h5><span>Ceza Türü:</span> {{penalty.type}}</h5>
+                                            <h5><span>Ceza Sebebi:</span> {{penalty.reason}}</h5>
+                                            <h5><span>Ceza Süresi:</span> {{penalty.time || "Brak daty"}}</h5>
+
+                                            <div v-if="penalty.timeEnd">
+                                                <h5><span>Ceza Bitiş Süresi:</span> {{penalty.timeEnd}}</h5>
+                                            </div>
+
+                                            <h5><span>Yetkili:</span> {{penalty.admin}}</h5>
+
+                                            <div v-if="!penalty.active">
+                                                <div v-if="penalty.type==='ban' || penalty.type==='mute' || penalty.type==='license'">
+                                                    <h5><span>tarafından atıldı:</span> {{penalty.takenBy || "Przedawnienie"}}</h5>
+                                                </div>
+                                            </div>
+
+                                            <div v-if="penalty.active">
+                                                <div v-if="penalty.type==='ban'">
+                                                    <div v-if="adminPermissions['ban']">
+                                                        <a class="btn btn__navbar btn__dark btn-block align-self-center m-1 active" style="position: absolute; right: 0; bottom: 0;" v-on:click="takeoutPenalty(penalty.ID)">Zdejmij bana</a>
+                                                    </div>
+                                                </div>
+                                                <div v-else-if="penalty.type==='mute'">
+                                                    <a class="btn btn__navbar btn__dark btn-block align-self-center m-1 active" style="position: absolute; right: 0; bottom: 0;" v-on:click="takeoutPenalty(penalty.ID)">Zdejmij wyciszenie</a>
+                                                </div>
+                                                <div v-else-if="penalty.type==='license'">
+                                                    <a class="btn btn__navbar btn__dark btn-block align-self-center m-1 active" style="position: absolute; right: 0; bottom: 0;" v-on:click="takeoutPenalty(penalty.ID)">Oddaj prawo jazdy</a>
+                                                </div>
+                                            </div>
+                                         </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div v-else>
+                    <div class="d-flex justify-content-center align-items-center flex-column" style="height: 85vh; margin-bottom: 30px;">
+                        <div>
+                            <img src="./images/logo.png" alt="Logo" style="display: block; width: 350px;">
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                            <h2 style="margin-left: 20px;">Veriler Yükleniyor...</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/vue.js"></script>
+        <script>
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    selectedPagination: 1,
+                    paginateData: [],
+                    adminPermissions: [],
+                    loadedData: false,
+                    penaltyMessage: "",
+                    penaltyTime: "",
+                    penaltyTimeType: "",
+                    paginateElements: [
+                        {
+                            paginateID: 1,
+                            paginateName: 'Oyuncu Bilgileri',
+                        },
+                        {
+                            paginateID: 2,
+                            paginateName: 'Oyuncunun Araçları',
+                        },
+                        {
+                            paginateID: 3,
+                            paginateName: 'Oyuncunun Mülkleri',
+                        },
+                        {
+                            paginateID: 4,
+                            paginateName: 'Oyuncunun Organizasyonları',
+                        },
+                        {
+                            paginateID: 5,
+                            paginateName: 'Oyuncunun Cezaları',
+                        },
+                    ]
+                },
+                methods: {
+                    selectPaginate: function (paginateID) {
+                        this.selectedPagination = paginateID;
+                    },
+
+                    closeGUI: function (paginateID) {
+                        mta.triggerEvent("closeAdminPlayerPanelInfo")
+                    },
+
+
+                    openPenaltyInfo: function (type) {
+                        this.penaltyType = type
+
+                        this.penaltyMessage = ""
+                        this.penaltyTime = ""
+                        this.penaltyTimeType = ""
+
+                        document.getElementById("penaltyMessage").value = ""
+                        document.getElementById("penaltyTime").value = ""
+                        document.getElementById("penaltyTimeType").value = ""
+                        document.getElementById("modal").style.setProperty("display", "flex", "important")
+                    },
+
+                    closePenalty: function () {
+                        document.getElementById("modal").style.setProperty("display", "none", "important")
+                    },
+
+
+                    givePenaltyToPlayer: function () {
+                        if (!this.penaltyType) {
+                            this.animateInfo("<strong>Error!</strong> Coś poszło nie tak.", "danger")
+                            return
+                        }
+                        if (this.penaltyMessage.isEmpty() || this.penaltyTime.isEmpty() || this.penaltyTimeType.isEmpty()) {
+                            this.animateInfo("<strong>Error!</strong> Wypełnij wszystkie dane aby kontynuować.", "danger")
+                            return
+                        }
+
+                        if (this.penaltyTimeType != "h" && this.penaltyTimeType != "d" && this.penaltyTimeType != "m" && this.penaltyTimeType != "y") {
+                            this.animateInfo("<strong>Error!</strong> Niepoprawny typ czasowy kary.", "danger")
+                            return
+                        }
+
+                        if (parseInt(this.penaltyTime) <= 0) {
+                            this.animateInfo("<strong>Error!</strong> Czas kary nie może być mniejszy od 1.", "danger")
+                            return
+                        }
+
+                        if (this.paginateData['userData'].isAdmin) {
+                            if (!this.adminPermissions['isDev']) {
+                                this.closePenalty()
+                                this.animateInfo("<strong>Error!</strong> Nie możesz nałożyć kary na tego gracza.", "danger")
+                                return
+                            }
+                        }
+
+                        this.closePenalty()
+                        this.animateInfo("<strong>Sukces!</strong> Kara została pomyślnie nałożona na gracza.", "success")
+                        mta.triggerEvent("givePenaltyAdminPlayerPanelInfo", this.paginateData['userData'].UID, this.paginateData['userData'].username, this.penaltyType, penaltyMessage.value, penaltyTime.value, penaltyTimeType.value)
+                    },
+
+                    takeoutPenalty: function (penaltyID) {
+                        for (let index = 0; index < this.paginateData["penalties"].length; index++) {
+                            if (this.paginateData["penalties"][index].ID == penaltyID) {
+                                this.paginateData["penalties"][index].active = null
+                                this.paginateData["penalties"][index].takenBy = this.playerName
+                            }
+                        }
+
+                        this.animateInfo("<strong>Sukces!</strong> Kara została pomyślnie usunięta.", "success")
+                        mta.triggerEvent("takeoutPenaltyAdminPanelInfo", penaltyID)
+                    },
+
+                    animateInfo: function (text, type) {
+                        clearTimeout(this.notiTimer)
+                        document.getElementById("notification").innerHTML = `<div class='alert alert-${type}'>${text}</div>`
+
+                        this.animateAlpha(document.getElementById("notification"), 500, "show")
+                        this.notiTimer = setTimeout(() => {
+                            this.animateAlpha(document.getElementById("notification"), 500, "hide")
+
+                            this.notiTimer = setTimeout(() => {
+                                document.getElementById("notification").innerHTML = ""
+                            }, 500, 1)
+                        }, 4000);
+                    },
+
+                    animateAlpha: function(el, time, type) {
+                        if (type === "show") {
+                            el.style.opacity = 0;
+
+                            var last = +new Date();
+                            var tick = function() {
+                                el.style.opacity = +el.style.opacity + (new Date() - last) / time;
+                                last = +new Date();
+
+                                if (+el.style.opacity < 1) {
+                                    (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+                                }
+                            };
+                            tick();
+
+                        }else{
+                            el.style.opacity = 1;
+                            var last = +new Date();
+                            var tick = function() {
+                                el.style.opacity = +el.style.opacity - (new Date() - last) / time;
+                                last = +new Date();
+
+                                if (+el.style.opacity > 0) {
+                                    (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+                                }
+                            };
+                            tick();
+                        }
+                    },
+
+                    pushDataToPanel: function (data) {
+                        this.paginateData = []
+                        if (data) {
+                            this.paginateData = JSON.parse(data)[0]
+
+                            setTimeout(() => {
+                                this.loadedData = true
+                            }, 1000);
+                        }
+                    },
+
+                    updatePenalties: function (data) {
+                        if (data) {
+                            this.paginateData["penalties"] = JSON.parse(data)[0]
+                        }
+                    },
+
+                    loadAdminName: function (playerName) {
+                        this.playerName = playerName
+                    },
+
+                    loadAdminPermissions: function (data, playerName) {
+                        this.adminPermissions = []
+                        if (data) {
+                            this.adminPermissions = JSON.parse(data)[0]
+                            console.log(this.adminPermissions)
+                        }
+                    }
+                }
+            })
+
+            function pushDataToPanel(data) {
+                app.pushDataToPanel(data)
+            }
+
+            function loadAdminPermissions(data) {
+                app.loadAdminPermissions(data)
+            }
+
+            function loadAdminName(data) {
+                app.loadAdminName(data)
+            }
+
+            function updatePenalties(data) {
+                app.updatePenalties(data)
+            }
+
+            String.prototype.toHHMMSS = function () {
+                var sec_num = parseInt(this, 10);
+                var hours   = Math.floor(sec_num / 3600);
+                var minutes = Math.floor((sec_num - (hours * 3600)) / 60);
+                var seconds = sec_num - (hours * 3600) - (minutes * 60);
+
+                if (hours   < 10) {hours   = "0"+hours;}
+                if (minutes < 10) {minutes = "0"+minutes;}
+                if (seconds < 10) {seconds = "0"+seconds;}
+                return hours+':'+minutes+':'+seconds;
+            }
+
+            String.prototype.isEmpty = function() {
+                return (this.length === 0 || !this.trim());
+            };
+        </script>
+    </body>
+</html>

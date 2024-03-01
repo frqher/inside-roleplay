@@ -1,0 +1,47 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_races" />
+
+	<script src="utils.lua" type="shared" />
+	<script src="settings.lua" type="shared" />
+	<script src="races/drag.lua" type="client" />
+	<script src="races/drift.lua" type="client" />
+	<script src="races/laps.lua" type="client" />
+	<script src="counter.lua" type="client" />
+	<script src="create.lua" type="client" />
+	<script src="c.lua" type="client" />
+	<script src="s.lua" type="server"/>
+
+	<file src="files/images/flag.png" />
+	<file src="files/images/track.png" />
+	<file src="files/images/loading.png" />
+	<file src="files/images/arrow.png" />
+	<file src="files/images/map.png" />
+	<file src="files/images/location.png" />
+	<file src="files/images/drifting.png" />
+	<file src="files/images/route.png" />
+	<file src="files/images/laps.png" />
+	<file src="files/images/drag.png" />
+	<file src="files/images/trophy.png" />
+
+	<file src="files/images/car.png" />
+	<file src="files/images/motorcycle.png" />
+	<file src="files/images/truck.png" />
+
+	<file src="files/images/driftArrow.png" />
+	<file src="files/images/driftBar.png" />
+
+	<file src="files/images/dragBg.png" />
+	<file src="files/images/dragBar.png" />
+	<file src="files/images/dragUpshift.png" />
+	<file src="files/images/dragDownshift.png" />
+
+
+	<file src="files/sounds/ready.mp3" />
+	<file src="files/sounds/start.mp3" />
+
+	<export function="unbindRaceKeys" type="client" />
+
+	<export function="onWinerEnter" type="server" />
+
+    <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

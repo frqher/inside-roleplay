@@ -1,0 +1,4 @@
+<meta>
+    <file src="sec.txd" />
+    <script src="script.lua" type="client" />
+</meta>

@@ -1,0 +1,10 @@
+<meta>
+	<script src = 'server/spreader_server.lua' type = 'server' />
+	<script src = 'client/spreader_client.lua' type = 'client' /> <!-- potem zakoduj i zmien na luac -->
+
+	<file src = 'files/models/rozpieracz.txd' />
+	<file src = 'files/models/rozpieracz.dff' />
+	<file src = 'files/models/rozpieracz.col' />
+
+	<file src = 'files/sounds/spreader.mp3' />
+</meta>

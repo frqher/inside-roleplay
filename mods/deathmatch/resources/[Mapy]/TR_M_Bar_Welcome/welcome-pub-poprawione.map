@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <object id="object (gnhtelgrnd_lvs) (1)" breakable="true" interior="1" alpha="255" model="8661" doublesided="false" scale="0" dimension="1" posX="682.20001" posY="-463.89999" posZ="-26.6" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (gnhtelgrnd_lvs) (2)" breakable="true" interior="1" alpha="255" model="8661" doublesided="true" scale="0" dimension="1" posX="682.20001" posY="-463.89999" posZ="-22.5" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (trukstp01) (1)" breakable="true" interior="1" alpha="255" model="14655" doublesided="true" scale="1" dimension="1" posX="696.40002" posY="-444.70001" posZ="-24.58" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Gen_doorEXT12) (1)" breakable="true" interior="1" alpha="255" model="1533" doublesided="false" scale="1" dimension="1" posX="680.79999" posY="-445.79999" posZ="-26.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (garages1_LAn) (1)" breakable="true" interior="1" alpha="255" model="4199" doublesided="false" scale="0" dimension="1" posX="674.70001" posY="-435.10001" posZ="-24.6" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (garages1_LAn) (2)" breakable="true" interior="1" alpha="255" model="4199" doublesided="false" scale="0" dimension="1" posX="688.29999" posY="-435.10001" posZ="-24.6" rotX="0" rotY="0" rotZ="359.995"></object>
+    <object id="object (garages1_LAn) (3)" breakable="true" interior="1" alpha="255" model="4199" doublesided="false" scale="0" dimension="1" posX="682.90002" posY="-430" posZ="-24.6" rotX="0" rotY="0" rotZ="359.989"></object>
+</map>

@@ -1,0 +1,4 @@
+<meta>
+    <file src="weights.txd" />
+    <script src="script.lua" type="client" />
+</meta>

@@ -1,0 +1,52 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_jobs" />
+
+	<script src="c.lua" type="client" cache="false" />
+	<script src="exit.lua" type="client" cache="false" />
+	<script src="info.lua" type="client" cache="false" />
+	<script src="locker.lua" type="client" cache="false" />
+	<script src="panel.lua" type="client" cache="false" />
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/target.png" type="client"/>
+	<file src="files/images/rank.png" type="client"/>
+	<file src="files/images/info.png" type="client"/>
+	<file src="files/images/upgrade.png" type="client"/>
+	<file src="files/images/payment.png" type="client"/>
+	<file src="files/images/stand.png" type="client"/>
+
+	<file src="files/images/loading.png" type="client"/>
+	<file src="files/images/group.png" type="client"/>
+	<file src="files/images/chat.png" type="client"/>
+	<file src="files/images/person.png" type="client"/>
+	<file src="files/images/crown.png" type="client"/>
+	<file src="files/images/remove.png" type="client"/>
+	<file src="files/images/information.png" type="client"/>
+	<file src="files/images/trophy.png" type="client"/>
+
+	<file src="files/images/cash.png" type="client"/>
+	<file src="files/images/card.png" type="client"/>
+
+	<export function="setPlayerTargetPos" type="client" />
+	<export function="getPlayerTargetPos" type="client" />
+
+	<export function="canStartJob" type="client" />
+	<export function="getPlayerJob" type="client" />
+	<export function="setPlayerJob" type="client" />
+	<export function="closeJobWindow" type="client" />
+	<export function="createJobWindow" type="client" />
+	<export function="responseJobWindow" type="client" />
+	<export function="getLockerOptions" type="client" />
+	<export function="updateLockerInfo" type="client" />
+	<export function="getPlayerJobPaymentType" type="client" />
+
+	<export function="hideInformation" type="client" />
+	<export function="createInformation" type="client" />
+	<export function="removeInformation" type="client" />
+
+	<export function="setPaymentTime" type="client" />
+	<export function="getPaymentCount" type="client" />
+	<export function="resetPaymentTime" type="client" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

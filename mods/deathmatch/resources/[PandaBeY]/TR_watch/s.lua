@@ -1,0 +1,3 @@
+-- addCommandHandler("czas", function(plr, cmd, val)
+--     setMinuteDuration(tonumber(val))
+-- end)

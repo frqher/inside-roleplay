@@ -1,0 +1,25 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_events" />
+
+	<script src="c.lua" type="client" />
+	<script src="events/OXC.lua" type="client" />
+
+	<script src="data.lua" type="server" />
+
+	<script src="events/derby.lua" type="server" />
+	<script src="events/pirate.lua" type="server" />
+	<script src="events/OX.lua" type="server" />
+
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/cone.png" type="client" />
+	<file src="files/images/confetti.png" type="client" />
+	<file src="files/images/bandama.png" type="client" />
+
+	<export function="isEventExists" type="server" />
+	<export function="isPlayerOnEvent" type="server" />
+	<export function="playerLoseEvent" type="server" />
+	<export function="canCreateEvent" type="server" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

@@ -1,0 +1,20 @@
+<map edf:definitions="editor_main">
+    <object id="object (Freightcrane1) (1)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="2600.3" posY="-1074.5" posZ="75.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (2)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="2164.1006" posY="-1801.2002" posZ="19.3" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Freightcrane1) (3)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="2620.8" posY="834.90002" posZ="11.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (4)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="1528.7998" posY="-1019.7998" posZ="29.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (5)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="2391.3999" posY="992.29999" posZ="16.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (6)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="2607.8999" posY="1389.6" posZ="16.7" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (Freightcrane1) (7)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="2787.6001" posY="1981.7" posZ="16.7" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (Freightcrane1) (8)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="1094.9" posY="2317.3" posZ="16.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (9)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="2006.2998" posY="2485.7002" posZ="16.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (10)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="-1916.8" posY="300.20001" posZ="47" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (11)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="-2065.8999" posY="1353.2" posZ="13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (12)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="-2642.1001" posY="1371.9" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (13)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="-2890.2" posY="500.70001" posZ="10.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (14)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="-2778.2" posY="-286.79999" posZ="13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Freightcrane1) (15)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="-2278.8" posY="-126.1" posZ="41.2" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Freightcrane1) (16)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="-1872.5" posY="-1725.1" posZ="27.7" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Freightcrane1) (17)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="-6.2" posY="-376" posZ="11.3" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (Freightcrane1) (18)" breakable="true" interior="0" alpha="255" model="3474" doublesided="true" scale="1" dimension="0" posX="-2097.7002" posY="-2238.0996" posZ="36.5" rotX="0" rotY="0" rotZ="319.999"></object>
+</map>

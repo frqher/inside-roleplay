@@ -1,0 +1,16 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_santaClaus" />
+
+	<script src="c.lua" type="client"/>
+
+	<script src="santa.lua" type="server"/>
+	<script src="s.lua" type="server"/>
+
+	<file src="files/images/money.png" />
+	<file src="files/images/diamond.png" />
+	<file src="files/images/crown.png" />
+	<file src="files/images/garage.png" />
+	<file src="files/images/house.png" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

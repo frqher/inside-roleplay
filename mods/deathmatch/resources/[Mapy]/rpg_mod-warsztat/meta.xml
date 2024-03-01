@@ -1,0 +1,9 @@
+﻿<meta>
+	<info author="MrLord" version="0.1" type="resource"/>
+     
+	<script src="warsztat.lua" type="client" />  -- podmienia obiekty
+	
+	<file src="warsztat.txd" />
+	<file src="warsztat.dff" />
+	<file src="warsztat.col" />
+</meta>

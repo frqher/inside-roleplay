@@ -1,0 +1,10 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_devTools" version="0.1.0" />
+
+	<script src="s.lua" type="server" />
+
+	<aclrequest>
+		<right name="general.ModifyOtherObjects" access="true" />
+		<right name="function.fetchRemote" access="true" />
+	</aclrequest>
+</meta>

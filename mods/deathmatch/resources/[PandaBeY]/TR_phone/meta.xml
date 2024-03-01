@@ -1,0 +1,43 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_phone" version="0.1.0" />
+
+	<script src="settings.lua" type="shared" />
+	<script src="c.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+
+    <file src="files/images/phone.png" type="client" />
+    <file src="files/images/phone_buttons.png" type="client" />
+    <file src="files/images/phone_signal.png" type="client" />
+    <file src="files/images/phone_wallpaper.png" type="client" />
+
+	<file src="files/sounds/calling.mp3" type="client" />
+	<file src="files/sounds/click.mp3" type="client" />
+
+	<file src="files/sounds/ringtones/original.mp3" type="client" />
+	<file src="files/sounds/ringtones/low.mp3" type="client" />
+	<file src="files/sounds/ringtones/lamb.mp3" type="client" />
+	<file src="files/sounds/ringtones/knick_knack.mp3" type="client" />
+	<file src="files/sounds/ringtones/kick.mp3" type="client" />
+	<file src="files/sounds/ringtones/jumping.mp3" type="client" />
+	<file src="files/sounds/ringtones/hurdy_gurdy.mp3" type="client" />
+	<file src="files/sounds/ringtones/frog.mp3" type="client" />
+	<file src="files/sounds/ringtones/city_bird.mp3" type="client" />
+	<file src="files/sounds/ringtones/badinerie.mp3" type="client" />>
+	<file src="files/sounds/ringtones/gta3.mp3" type="client" />>
+	<file src="files/sounds/ringtones/vicecity.mp3" type="client" />>
+
+	<file src="files/fonts/font.ttf" type="client" />
+
+	<export function="switchPhone" type="client" />
+	<export function="autoPhoneByCommand" type="client" />
+
+	<export function="canSpeak" type="client" />
+	<export function="isCustomOpen" type="client" />
+	<export function="setCustomText" type="client" />
+	<export function="openPhoneToPlayer" type="client" />
+
+	<export function="updatePlayerPhone" type="server" />
+
+	<min_mta_version client="1.5.2" server="1.5.2"></min_mta_version>
+</meta>

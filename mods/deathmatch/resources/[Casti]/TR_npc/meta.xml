@@ -1,0 +1,32 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_dialogue" />
+
+	<script src="c.lua" type="client"/>
+	<script src="s.lua" type="server" />
+	<script src="dialogue.lua" type="server" />
+
+	<file src="files/images/end.png" type="client" />
+	<file src="files/images/tshirt.png" type="client" />
+	<file src="files/images/dialogue.png" type="client" />
+	<file src="files/images/garage.png" type="client" />
+	<file src="files/images/shop.png" type="client" />
+	<file src="files/images/bank.png" type="client" />
+	<file src="files/images/car.png" type="client" />
+	<file src="files/images/plate.png" type="client" />
+	<file src="files/images/username.png" type="client" />
+	<file src="files/images/pistol.png" type="client" />
+	<file src="files/images/organization.png" type="client" />
+	<file src="files/images/giftbox.png" type="client" />
+	<file src="files/images/quest.png" type="client" />
+	<file src="files/images/casino.png" type="client" />
+
+	<export function="createNPC" type="server" />
+	<export function="destroyNPC" type="server" />
+	<export function="setNPCDialogue" type="server" />
+
+	<export function="createDialogue" type="server" />
+	<export function="addDialogueText" type="server" />
+	<export function="getDialogueText" type="server" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

@@ -1,0 +1,21 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_warehouse" version="0.1.0" />
+
+	<script src="settings.lua" type="client" />
+	<script src="c.lua" type="client" />
+	<script src="start.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/job.png" />
+	<file src="files/images/sand.png" />
+
+	<file src="files/images/upgrades/tractor.png" />
+	<file src="files/images/upgrades/pickup.png" />
+	<file src="files/images/upgrades/distance.png" />
+
+	<export function="getJobDetails" type="client" />
+	<export function="startJob" type="client" />
+	<export function="endJob" type="client" />
+
+	<min_mta_version client="1.5.7"></min_mta_version>
+</meta>

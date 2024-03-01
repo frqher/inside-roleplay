@@ -1,0 +1,6 @@
+txd = engineLoadTXD ("BannerTR.txd")
+engineImportTXD (txd, 1882 )
+col = engineLoadCOL ("BannerTR.col")
+engineReplaceCOL (col, 1882 )
+dff = engineLoadDFF ("BannerTR.dff")
+engineReplaceModel (dff, 1882 )

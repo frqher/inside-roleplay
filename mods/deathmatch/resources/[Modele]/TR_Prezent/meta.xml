@@ -1,0 +1,5 @@
+<meta>
+    <file src="prezent.txd" />
+    <file src="prezent.dff" />
+    <script src="script.lua" type="client" />
+</meta>

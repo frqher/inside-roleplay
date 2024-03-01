@@ -1,0 +1,155 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_markers" />
+	<script src="settings.lua" type="shared"/>
+	<script src="admin.lua" type="client" cache="false"/>
+	<script src="boombox.lua" type="client" cache="false"/>
+	<script src="c.lua" type="client" cache="false"/>
+	<script src="trading.lua" type="client" cache="false"/>
+	<script src="trunk.lua" type="client" cache="false"/>
+	<script src="eggs.lua" type="client" cache="false"/>
+	<script src="shop.lua" type="client" cache="false"/>
+	<script src="cigarette.lua" type="client" cache="false"/>
+
+	<script src="s.lua" type="server"/>
+
+	<file src="files/images/categories/favourite.png" type="client" />
+	<file src="files/images/categories/food.png" type="client" />
+	<file src="files/images/categories/clothes.png" type="client" />
+	<file src="files/images/categories/keys.png" type="client" />
+	<file src="files/images/categories/weapons.png" type="client" />
+	<file src="files/images/categories/other.png" type="client" />
+
+
+	<file src="files/images/cancel.png" type="client" />
+	<file src="files/images/remove.png" type="client" />
+	<file src="files/images/use.png" type="client" />
+	<file src="files/images/eye.png" type="client" />
+	<file src="files/images/trade.png" type="client" />
+	<file src="files/images/money.png" type="client" />
+	<file src="files/images/arrow.png" type="client" />
+	<file src="files/images/cigarette.png" type="client" />
+	<file src="files/images/joint.png" type="client" />
+	<file src="files/images/rent.png" type="client" />
+	<file src="files/images/loading.png" type="client" />
+	<file src="files/images/merge.png" type="client" />
+	<file src="files/images/split.png" type="client" />
+	<file src="files/images/insert.png" type="client" />
+	<file src="files/images/takeout.png" type="client" />
+	<file src="files/images/egg.png" type="client" />
+	<file src="files/images/transfer.png" type="client" />
+
+	<!-- Info -->
+	<file src="files/images/backpack.png" type="client" />
+	<file src="files/images/weight.png" type="client" />
+
+
+	<file src="files/images/items/unknown.png" type="client" />
+	<file src="files/images/items/clothes.png" type="client" />
+	<file src="files/images/items/carkey.png" type="client" />
+	<file src="files/images/items/housekey.png" type="client" />
+	<file src="files/images/items/licence.png" type="client" />
+	<file src="files/images/items/id.png" type="client" />
+	<file src="files/images/items/creditcard.png" type="client" />
+	<file src="files/images/items/chips.png" type="client" />
+	<file src="files/images/items/bottle.png" type="client" />
+	<file src="files/images/items/can.png" type="client" />
+	<file src="files/images/items/chocolate.png" type="client" />
+	<file src="files/images/items/cupcake.png" type="client" />
+	<file src="files/images/items/didier.png" type="client" />
+	<file src="files/images/items/prolaps.png" type="client" />
+	<file src="files/images/items/zip.png" type="client" />
+	<file src="files/images/items/burger.png" type="client" />
+	<file src="files/images/items/fries.png" type="client" />
+	<file src="files/images/items/hotdog.png" type="client" />
+	<file src="files/images/items/vodka.png" type="client" />
+	<file src="files/images/items/beer.png" type="client" />
+	<file src="files/images/items/cigarettes.png" type="client" />
+	<file src="files/images/items/foodset.png" type="client" />
+	<file src="files/images/items/chickenwings.png" type="client" />
+	<file src="files/images/items/salad.png" type="client" />
+	<file src="files/images/items/pizza.png" type="client" />
+	<file src="files/images/items/pizzaslice.png" type="client" />
+	<file src="files/images/items/donut.png" type="client" />
+	<file src="files/images/items/donuts.png" type="client" />
+	<file src="files/images/items/coffee.png" type="client" />
+	<file src="files/images/items/phone.png" type="client" />
+	<file src="files/images/items/joint.png" type="client" />
+	<file src="files/images/items/mask.png" type="client" />
+	<file src="files/images/items/armor.png" type="client" />
+	<file src="files/images/items/armorplate.png" type="client" />
+	<file src="files/images/items/deserteagle.png" type="client" />
+	<file src="files/images/items/glock.png" type="client" />
+	<file src="files/images/items/shotgun.png" type="client" />
+	<file src="files/images/items/sawedoff.png" type="client" />
+	<file src="files/images/items/mac10.png" type="client" />
+	<file src="files/images/items/tec.png" type="client" />
+	<file src="files/images/items/mp5.png" type="client" />
+	<file src="files/images/items/m4.png" type="client" />
+	<file src="files/images/items/ak47.png" type="client" />
+	<file src="files/images/items/sniper.png" type="client" />
+	<file src="files/images/items/smallsniper.png" type="client" />
+	<file src="files/images/items/6mm.png" type="client" />
+	<file src="files/images/items/11mm.png" type="client" />
+	<file src="files/images/items/12mm.png" type="client" />
+	<file src="files/images/items/baseball.png" type="client" />
+	<file src="files/images/items/baton.png" type="client" />
+	<file src="files/images/items/katana.png" type="client" />
+	<file src="files/images/items/knife.png" type="client" />
+	<file src="files/images/items/fishingrod.png" type="client" />
+	<file src="files/images/items/fishingbait.png" type="client" />
+	<file src="files/images/items/diamond.png" type="client" />
+	<file src="files/images/items/crown.png" type="client" />
+	<file src="files/images/items/gift.png" type="client" />
+	<file src="files/images/items/christmasHat.png" type="client" />
+	<file src="files/images/items/xantris.png" type="client" />
+	<file src="files/images/items/wilku.png" type="client" />
+	<file src="files/images/items/moses.png" type="client" />
+	<file src="files/images/items/vanze.png" type="client" />
+	<file src="files/images/items/sprayCan.png" type="client" />
+	<file src="files/images/items/xanax.png" type="client" />
+	<file src="files/images/items/cocaine.png" type="client" />
+	<file src="files/images/items/heroina.png" type="client" />
+	<file src="files/images/items/marijuana.png" type="client" />
+	<file src="files/images/items/pills.png" type="client" />
+	<file src="files/images/items/paperSheet.png" type="client" />
+	<file src="files/images/items/firstAidKit.png" type="client" />
+	<file src="files/images/items/boombox.png" type="client" />
+	<file src="files/images/items/flowers.png" type="client" />
+	<file src="files/images/items/divingLicence.png" type="client" />
+	<file src="files/images/items/boatLicence.png" type="client" />
+	<file src="files/images/items/chest.png" type="client" />
+	<file src="files/images/items/goldBag.png" type="client" />
+	<file src="files/images/items/cloth.png" type="client" />
+	<file src="files/images/items/woodenLeg.png" type="client" />
+	<file src="files/images/items/easterEgg.png" type="client" />
+	<file src="files/images/items/neon.png" type="client" />
+	<file src="files/images/items/seedBag.png" type="client" />
+	<file src="files/images/items/fertilizer.png" type="client" />
+	<file src="files/images/items/chemicalBottle.png" type="client" />
+	<file src="files/images/items/leaves.png" type="client" />
+	<file src="files/images/items/nuts.png" type="client" />
+	<file src="files/images/items/suppressor.png" type="client" />
+	<file src="files/images/items/attachmentWeapon.png" type="client" />
+	<file src="files/images/items/vegetables.png" type="client" />
+	<file src="files/images/items/fruits.png" type="client" />
+
+
+
+	<export function="openTutorialTrade" type="client" />
+
+	<export function="setBoomboxUsed" type="client" />
+
+	<export function="isPlayerOverloaded" type="client" />
+	<export function="hasPlayerItem" type="client" />
+	<export function="takePlayerItem" type="client" />
+
+	<export function="createShop" type="client" />
+	<export function="updateRodMass" type="client" />
+	<export function="updateFishBait" type="client" />
+
+	<export function="updateItems" type="server" />
+	<export function="updatePlayerMask" type="server" />
+	<export function="bindPlayerEquipment" type="server" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

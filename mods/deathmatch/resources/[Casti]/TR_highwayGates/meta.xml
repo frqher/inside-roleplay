@@ -1,0 +1,9 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_highwayGates" />
+
+	<script src="settings.lua" type="shared"  />
+	<script src="c.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

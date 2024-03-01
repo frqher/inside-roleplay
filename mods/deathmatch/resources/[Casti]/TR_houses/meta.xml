@@ -1,0 +1,29 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_houses" />
+	<oop>true</oop>
+	<script src="c.lua" type="client"  />
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/settings.png"/>
+	<file src="files/images/enter.png"/>
+	<file src="files/images/enter_block.png"/>
+	<file src="files/images/edit.png"/>
+	<file src="files/images/key.png"/>
+	<file src="files/images/remove.png"/>
+	<file src="files/images/exit.png"/>
+	<file src="files/images/organization.png"/>
+	<file src="files/images/orgAdd.png"/>
+	<file src="files/images/orgRemove.png"/>
+	<file src="files/images/build.png"/>
+
+	<file src="files/images/sold.png"/>
+	<file src="files/images/buy.png"/>
+	<file src="files/images/pay.png"/>
+
+	<file src="files/images/head.png"/>
+	<file src="files/images/logo.png"/>
+
+	<export function="getHouseNameFromSize" type="client" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

@@ -1,0 +1,24 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_fuelStations" />
+	<script src="c.lua" type="client"/>
+	<script src="signs.lua" type="client"/>
+	<script src="s.lua" type="server"/>
+
+	<file src="files/images/hose.png" type="client" />
+	<file src="files/images/logo.png" type="client" />
+	<file src="files/images/info.png" type="client" />
+
+	<file src="files/images/diesel.png" type="client" />
+	<file src="files/images/87.png" type="client" />
+	<file src="files/images/89.png" type="client" />
+	<file src="files/images/ON.png" type="client" />
+
+	<file src="files/fonts/font.ttf" type="client" />
+
+	<file src="files/sounds/fuel.wav" type="client" />
+
+	<export function="hoseFuelEnd" type="client" />
+	<export function="openFuelStation" type="client" />
+
+	<min_mta_version client="1.5.2"></min_mta_version>
+</meta>

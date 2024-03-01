@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (TwrCrane_S_03) (1)" radius="28.892719" interior="0" dimmension="1" model="1391" lodModel="0" posX="1237.1138" posY="-1256.9586" posZ="51.66206" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (TwrCrane_S_04) (1)" radius="29.489376" interior="0" dimmension="1" model="1388" lodModel="0" posX="1237.312" posY="-1257.463" posZ="61.9357" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

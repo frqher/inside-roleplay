@@ -1,0 +1,25 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_core" />
+
+	<script src="payment.lua" type="client"/>
+	<script src="streamer.lua" type="client"/>
+	<script src="uid.lua" type="server"/>
+	<script src="money.lua" type="server"/>
+	<script src="savePlayer.lua" type="server"/>
+
+
+	<file src="files/images/cash.png" type="client" />
+	<file src="files/images/credit.png" type="client" />
+	<file src="files/images/close.png" type="client" />
+
+
+	<export function="isPaymentOpened" type="client" />
+
+	<export function="setID" type="server" />
+	<export function="giveMoneyToPlayer" type="server" />
+	<export function="takeMoneyFromPlayer" type="server" />
+	<export function="giveBankMoneyToPlayer" type="server" />
+	<export function="takeBankMoneyFromPlayer" type="server" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

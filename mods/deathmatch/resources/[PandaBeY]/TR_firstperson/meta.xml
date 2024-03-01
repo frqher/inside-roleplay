@@ -1,0 +1,8 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_features" />
+
+	<script src="c.lua" type="client" />
+
+	<export function="setFirspersonEnabled" type="client" />
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>

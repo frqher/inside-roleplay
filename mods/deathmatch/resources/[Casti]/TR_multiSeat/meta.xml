@@ -1,0 +1,9 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_multiSeat" />
+
+	<script src="settings.lua" type="shared" cache="false"/>
+	<script src="c.lua" type="client" cache="false"/>
+	<script src="s.lua" type="server"/>
+
+  <min_mta_version client="1.5.2"></min_mta_version>
+</meta>

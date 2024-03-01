@@ -1,0 +1,15 @@
+<map edf:definitions="editor_main">
+    <object id="object (gym_bench1) (1)" breakable="true" interior="6" alpha="255" model="2629" doublesided="false" scale="1" dimension="0" posX="766.09998" posY="-49.4" posZ="999.59998" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (gym_treadmill) (1)" breakable="true" interior="6" alpha="255" model="2627" doublesided="false" scale="1" dimension="0" posX="777.29999" posY="-42.7" posZ="999.59998" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (gym_bench1) (2)" breakable="true" interior="6" alpha="255" model="2629" doublesided="false" scale="1" dimension="0" posX="769.40002" posY="-49.4" posZ="999.59998" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (gym_treadmill) (2)" breakable="true" interior="6" alpha="255" model="2627" doublesided="false" scale="1" dimension="0" posX="777.29999" posY="-39.8" posZ="999.59998" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (gym_treadmill) (3)" breakable="true" interior="6" alpha="255" model="2627" doublesided="false" scale="1" dimension="0" posX="777.29999" posY="-34.7" posZ="999.59998" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (gym_treadmill) (4)" breakable="true" interior="6" alpha="255" model="2627" doublesided="false" scale="1" dimension="0" posX="777.29999" posY="-32.4" posZ="999.59998" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (gym_treadmill) (5)" breakable="true" interior="6" alpha="255" model="2627" doublesided="false" scale="1" dimension="0" posX="755.5" posY="-21.6" posZ="999.59998" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (gym_bench1) (3)" breakable="true" interior="6" alpha="255" model="2629" doublesided="false" scale="1" dimension="0" posX="759.70001" posY="-40.5" posZ="999.59998" rotX="0" rotY="0" rotZ="89.995"></object>
+    <object id="object (gym_bench1) (4)" breakable="true" interior="6" alpha="255" model="2629" doublesided="false" scale="1" dimension="0" posX="759.70001" posY="-33.3" posZ="999.59998" rotX="0" rotY="0" rotZ="89.989"></object>
+    <object id="object (gym_treadmill) (7)" breakable="true" interior="6" alpha="255" model="2627" doublesided="false" scale="1" dimension="0" posX="755.5" posY="-18.2" posZ="999.59998" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (gym_bench1) (5)" breakable="true" interior="6" alpha="255" model="2629" doublesided="false" scale="1" dimension="0" posX="770.90002" posY="-45.5" posZ="999.59998" rotX="0" rotY="0" rotZ="359.989"></object>
+    <object id="object (gym_bench1) (6)" breakable="true" interior="6" alpha="255" model="2629" doublesided="false" scale="1" dimension="0" posX="767.59998" posY="-45.4" posZ="999.59998" rotX="0" rotY="0" rotZ="359.989"></object>
+    <object id="object (gym_bench1) (7)" breakable="true" interior="6" alpha="255" model="2629" doublesided="false" scale="1" dimension="0" posX="762.70001" posY="-45.4" posZ="999.59998" rotX="0" rotY="0" rotZ="359.989"></object>
+</map>

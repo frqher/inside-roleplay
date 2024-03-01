@@ -1,0 +1,181 @@
+sx, sy = guiGetScreenSize()
+
+zoom = 1
+local baseX = 1900
+local minZoom = 2
+if sx < baseX then
+  zoom = math.min(minZoom, baseX/sx)
+end
+
+function isMouseInPosition(x, y, width, height)
+	if (not isCursorShowing()) then
+		return false
+	end
+  local cx, cy = getCursorPosition()
+  local cx, cy = (cx*sx), (cy*sy)
+  if (cx >= x and cx <= x + width) and (cy >= y and cy <= y + height) then
+    return true
+  else
+    return false
+  end
+end
+
+guiSetInputMode("no_binds_when_editing")
+guiData = {
+  fonts = {},
+
+  buttonColor = {
+    ["gray"] = {67, 67, 67, 255},
+    ["red"] = {107, 67, 67, 255},
+    ["green"] = {67, 107, 67, 255},
+  },
+
+  checkbox = {
+    bg = dxCreateTexture("files/images/checkbox_bg.png", "argb", true, "clamp"),
+    check = dxCreateTexture("files/images/checkbox_check.png", "argb", true, "clamp"),
+  },
+
+  switch = {
+    circle = dxCreateTexture("files/images/switch_circle.png", "argb", true, "clamp"),
+  },
+
+  response = {
+    spinner = dxCreateTexture("files/images/loading.png", "argb", true, "clamp"),
+  },
+
+  loading = {
+    bg = {
+      logo = dxCreateTexture("files/images/logo.png", "argb", true, "clamp"),
+      [1] = dxCreateTexture("files/images/loadings/1.png", "argb", true, "clamp"),
+      [2] = dxCreateTexture("files/images/loadings/2.png", "argb", true, "clamp"),
+      [3] = dxCreateTexture("files/images/loadings/3.png", "argb", true, "clamp"),
+    },
+    maxImg = 3,
+
+    tips = {
+      "Aby wyrazić swoje odczucia możesz skorzystać z panelu animacji pod przyciskiem F2.",
+      "Wszystkie dane o swoim koncie możesz sprawdzić w dashboardzie, który znajduje się pod przyciskiem F5.",
+      "Jeśli się zgubiłeś możesz otworzyć większą mapę przyciskiem F11.",
+      "Pod przyciskiem E znajduje się panel interakcji, który pozwala na wykonywanie akcji z innym graczem, obiektem czy pojazdem.",
+      "Możesz zadzwonić do znajomego wyciągając telefon przyciskiem END i wpisując jego numer.\nSwój numer możesz sprawdzić w ekwipunku najeżdżając na telefon.",
+      "Naciskając PPM na mapie możesz ustawić GPS do wskazanego punktu.",
+      "Aby dowiedzieć się czegoś o serwerze lub jak zacząć swoją przygodę, skorzystaj z panelu F1.",
+      "Jeśli nie możesz poradzić sobie ze zdaniem prawa jazdy, skorzystaj z odpowiedzi znajdujących się na forum serwera.",
+      "Jeśli nie stać cię na zakup nowego pojazdu odwiedź sprzedawcę na szrocie. On na pewno znajdzie coś na twoją kieszeń.",
+      "Jeśli zauważyłeś nieodpowiednie zachowanie jednego z graczy, możesz to zgłosić korzystając z komendy /report.",
+      "Możesz sprawdzić ilość administratorów na służbie korzystając z komendy /admins.",
+      "Jeśli masz jakąś ciekawą propozycję dotyczącą serwera możesz się nią podzielić na forum.",
+      "Jeśli jesteś nowy na serwerze najlepiej jest zacząć od jakiejś pracy bez wymagań, np. w magazynie.",
+      "Aby szybko się uleczyć udaj się do apteki lub marketu po medykamenty.",
+      "Możesz założyć własną prywatną organizację w urzędzie miasta, oznaczonym różowym znacznikiem na mapie.",
+      "Jeśli boisz się o swoje pieniądze możesz je trzymać na koncie bankowym.",
+      "Ekwipunek z przedmiotami znajduje się pod przyciskiem I (jak inventory).",
+    },
+  },
+  capsOn = false,
+}
+
+function setOpenGUI(state)
+  guiData.open = state
+  toggleControl("next_weapon", not state)
+  toggleControl("previous_weapon", not state)
+end
+
+function canOpenGUI()
+  if isResponseEnabled() then return false end
+  return not guiData.open
+end
+
+function getFontSize(size)
+  return math.max(math.min(math.floor(size/zoom), 150), 5)
+end
+
+function getFont(size, family)
+  -- local size = getFontSize(size)
+  local font = guiData.fonts[string.format("size_%s_%d", family and family or "default", size)]
+  if not font then font = createFont(size, family) end
+  return font
+end
+
+function getBoldFont(size, family)
+  -- local size = getFontSize(size)
+  local font = guiData.fonts[string.format("size_%s_%d_bold", family and family or "default", size)]
+  if not font then font = createBoldFont(size, family) end
+  return font
+end
+
+function createFont(size, family)
+  guiData.fonts[string.format("size_%s_%d", family and family or "default", size)] = dxCreateFont(string.format("files/fonts/%s.ttf", family and family or "default"), size, false, family and "antialiased" or "cleartype_natural")
+  return guiData.fonts[string.format("size_%s_%d", family and family or "default", size)]
+end
+
+function createBoldFont(size, family)
+  guiData.fonts[string.format("size_%s_%d_bold", family and family or "default", size)] = dxCreateFont(string.format("files/fonts/%s.ttf", family and family or "default"), size, true, family and "antialiased" or "cleartype_natural")
+  return guiData.fonts[string.format("size_%s_%d_bold", family and family or "default", size)]
+end
+
+function getButtonColor(color)
+  return guiData.buttonColor[color] and guiData.buttonColor[color] or false
+end
+
+function cursorY()
+  local _, cY = getCursorPosition()
+  return cY * sy
+end
+
+function removeStoppedResourceElements(res)
+  local owner = getResourceName(res)
+
+  for i, v in pairs(createdButtons) do
+    if v:getOwner() == owner then
+      v:destroy()
+    end
+  end
+
+  for i, v in pairs(createdEdits) do
+    if v:getOwner() == owner then
+      v:destroy()
+    end
+  end
+
+  for i, v in pairs(createdChecks) do
+    if v:getOwner() == owner then
+      v:destroy()
+    end
+  end
+
+  for i, v in pairs(createdScrolls) do
+    if v:getOwner() == owner then
+      v:destroy()
+    end
+  end
+
+  for i, v in pairs(createdSwitches) do
+    if v:getOwner() == owner then
+      v:destroy()
+    end
+  end
+end
+addEventHandler("onClientResourceStop", root, removeStoppedResourceElements)
+
+function isEscapeOpen()
+  return guiData.isEscapeOpen
+end
+
+function setEscapeOpen(state)
+  guiData.isEscapeOpen = state
+  return true
+end
+-- local fontTest = {}
+-- for i, v in pairs({"default", "draft", "proof", "antialiased", "cleartype"}) do
+--   fontTest[v] = dxCreateFont("files/fonts/default.ttf", 20, false, v)
+-- end
+
+-- addEventHandler("onClientRender", root, function()
+--   local y = 100
+--   for i, v in pairs(fontTest) do
+--     dxDrawText("Testowy tekst do porównania generalnie wszystkich aspektów - "..i, 400, y, 400, y, tocolor(255, 255, 255, 255), 1, v, "left", "center", false, false, true)
+
+--     y = y + 50
+--   end
+-- end)

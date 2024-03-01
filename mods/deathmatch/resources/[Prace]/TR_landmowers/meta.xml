@@ -1,0 +1,22 @@
+<meta>
+	<info author="Xantris" type="script" name="TR_landmowers" version="0.1.0" />
+
+	<script src="settings.lua" type="client" />
+	<script src="c.lua" type="client" />
+	<script src="start.lua" type="client" />
+	<script src="s.lua" type="server" />
+
+	<file src="files/images/job.png" />
+	<file src="files/images/map.png" />
+	<file src="files/images/mower.png" />
+
+	<file src="files/images/upgrades/grass.png" />
+	<file src="files/images/upgrades/bag.png" />
+	<file src="files/images/upgrades/landmower.png" />
+
+	<export function="startJob" type="client" />
+	<export function="endJob" type="client" />
+	<export function="getJobDetails" type="client" />
+
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>
